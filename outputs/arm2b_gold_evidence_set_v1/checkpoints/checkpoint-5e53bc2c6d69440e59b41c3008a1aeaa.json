@@ -1,0 +1,68 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "baa234a14fd649c6197e182bc730e85884350b1bf3ae1ae07459f82fde07f19e",
+  "full_payload_hash": "5ece30983acb66282b353a0565351012e74debc1944c3b57bd5181290b04571b",
+  "envelope_header_hash": "2d59a3b2a985616237d926a2470fbaef3237f4741caf35c7f3c49e4c849ed859",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_5194_nhess-12-2923-2012",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_5194_nhess-12-2923-2012",
+            "document_sha256": "5e6e1d505b37371af2f58d100cd380e597c1f360b4e966ac56a971f2d4fe7887",
+            "chunk_id": "arm2b-10_5194_nhess-12-2923-2012-I2_drr_hazard_framing-0",
+            "section": null,
+            "page": 10,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "4.1.4 Learning and innovation: how do experiences\nfrom past disasters affect the development and operation\nof the multi-stakeholder platforms?",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_5194_nhess-12-2923-2012",
+            "document_sha256": "5e6e1d505b37371af2f58d100cd380e597c1f360b4e966ac56a971f2d4fe7887",
+            "chunk_id": "arm2b-10_5194_nhess-12-2923-2012-I2_drr_hazard_framing-1",
+            "section": null,
+            "page": 11,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Large scale or high impact disasters which frequently hit Asia and Indonesia created and brought enormous changes to DRR systems for the increased political commitments to the DRR institutions and frameworks. However, the author sees the need for more systematic learning from disaster experiences, a term that is frequently termed single, double and triple loop learning (Argyris and Schoen, 1974). Many studies in DRR express the need for (Jabeen et al., 2010; Goldstein, 2008; Josef, 2007; Voss and Wagner, 2010; Farazmand, 2007) systematic learning from disasters.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The excerpts explicitly discuss past, large-scale, and high-impact disasters and DRR systems, institutions, frameworks, and learning from disasters.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2247,
+        "output_tokens": 133,
+        "total_tokens": 2380,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:48.455615+00:00"
+  }
+}

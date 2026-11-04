@@ -1,0 +1,17 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceSetPromotionManifest",
+  "content_hash": "7e2246ff915977b27445c4710e36d27063372af6b7066a078db0626507f58d97",
+  "full_payload_hash": "4c511dab15462fbecb136ceef193a087075b3104104eb0165e3dab7a6cc88888",
+  "envelope_header_hash": "ff53378e4143831efb4a31ba4a04f6d894055544e83d99c84d43c8a5536e4dee",
+  "payload": {
+    "version_label": "gold_evidence_set_v1",
+    "evidence_set_content_hash": "eb7ac00b2fd1d6456b8bdf2ac58d67f58af01ae65ceaff42bd7c53c2512fc2db",
+    "gold_set_hash": "6fdfaebfd84e7ed33101d1a9b9ba4960367ab6985f1a52e3a13cabc2e396280a",
+    "draft_content_hash": "e0731f81ab69114eacc42afa800319c99d5a7178ad6ac9e41432a0d313cc3beb",
+    "draft_version_label": "gold_evidence_set_claude_draft_v2",
+    "worksheet_path": "C:\\projects\\FT_SCREENING\\outputs\\gold_evidence_set_v1\\gold_evidence_review_worksheet_v1.csv",
+    "worksheet_sha256": "56b80dc78755c076c02f092459e576def962a82b61b41a5b712d55fd8d3fb298",
+    "promoted_at": "2026-08-20T10:57:57.025603+00:00"
+  }
+}

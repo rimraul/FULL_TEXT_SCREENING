@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "8b6784e014d7b58d89afdd2f9a2015924505dbd3a19513915967f60167b7cef0",
+  "full_payload_hash": "88f2b2dd58b19c8045df04f98b80dfe565e2ba1d9522c600ecb59423aa3bf615",
+  "envelope_header_hash": "f08fce64c1c42f1621134fbc08ea196361d60a950d9e1f8a6377448f10e0cf6e",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_19053_uptc_01233769_18772",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_19053_uptc_01233769_18772",
+            "document_sha256": "79014d57ac286f212e3b475fcb5d52a08c11d3b7b94a69b1dd6a96c25cb4a255",
+            "chunk_id": "arm2b-10_19053_uptc_01233769_18772-I3_governance_dimension-1",
+            "section": null,
+            "page": 4,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "En l\u00ednea con lo anterior, la GRD requiere una gobernanza local s\u00f3lida, colaborativa y descentralizada que promueva la articulaci\u00f3n entre comunidades, instituciones y la academia (Barton et al., 2015; Hardoy et al., 2020).",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document directly discusses DRR as requiring local, collaborative, and decentralized governance, including articulation among communities, institutions, and academia. This substantively addresses decentralization and partnerships in a DRR context.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2192,
+        "output_tokens": 230,
+        "total_tokens": 2422,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 113,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:25.849168+00:00"
+  }
+}

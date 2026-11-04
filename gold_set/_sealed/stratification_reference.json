@@ -1,0 +1,105 @@
+{
+  "_do_not_open_before_phase1_freeze": true,
+  "documents": {
+    "10_1080_13549839_2026_2687421": {
+      "stratum": "INCLUDE",
+      "iasia_reason_code": null,
+      "dual_review_subset": false
+    },
+    "10_3389_fenvs_2024_1496813": {
+      "stratum": "INCLUDE",
+      "iasia_reason_code": null,
+      "dual_review_subset": true
+    },
+    "10_1080_17565529_2021_1906203": {
+      "stratum": "INCLUDE",
+      "iasia_reason_code": null,
+      "dual_review_subset": false
+    },
+    "10_5194_nhess-12-2923-2012": {
+      "stratum": "INCLUDE",
+      "iasia_reason_code": null,
+      "dual_review_subset": false
+    },
+    "10_1108_dpm-06-2023-0128": {
+      "stratum": "INCLUDE",
+      "iasia_reason_code": null,
+      "dual_review_subset": false
+    },
+    "10_1007_s11269-016-1491-7": {
+      "stratum": "INCLUDE",
+      "iasia_reason_code": null,
+      "dual_review_subset": false
+    },
+    "10_1080_13669877_2017_1351466": {
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "off_topic_hazard",
+      "dual_review_subset": false
+    },
+    "10_1111_1468-5973_12592": {
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "off_topic_hazard",
+      "dual_review_subset": false
+    },
+    "10_3390_w16111571": {
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "off_topic_hazard",
+      "dual_review_subset": false
+    },
+    "10_1186_s12245-025-01000-4": {
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "off_topic_hazard",
+      "dual_review_subset": true
+    },
+    "10_1177_08854122231199462": {
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "no_governance",
+      "dual_review_subset": false
+    },
+    "10_3390_cli12050067": {
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "no_governance",
+      "dual_review_subset": false
+    },
+    "10_1007_978-3-031-54118-6_8": {
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "insufficient_text",
+      "dual_review_subset": true
+    },
+    "10_1051_bioconf_202519300057": {
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "insufficient_text",
+      "dual_review_subset": false
+    },
+    "10_3390_smartcities7060147": {
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "technical_only",
+      "dual_review_subset": false
+    },
+    "10_3846_ijspm_2010_22": {
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "not_a_review",
+      "dual_review_subset": true
+    },
+    "10_1080_09640568_2019_1641474": {
+      "stratum": "UNCERTAIN",
+      "iasia_reason_code": null,
+      "dual_review_subset": true
+    },
+    "10_1002_eet_1766": {
+      "stratum": "UNCERTAIN",
+      "iasia_reason_code": null,
+      "dual_review_subset": false
+    },
+    "10_5194_nhess-21-1383-2021": {
+      "stratum": "UNCERTAIN",
+      "iasia_reason_code": null,
+      "dual_review_subset": false
+    },
+    "10_19053_uptc_01233769_18772": {
+      "stratum": "UNCERTAIN",
+      "iasia_reason_code": null,
+      "dual_review_subset": false
+    }
+  }
+}

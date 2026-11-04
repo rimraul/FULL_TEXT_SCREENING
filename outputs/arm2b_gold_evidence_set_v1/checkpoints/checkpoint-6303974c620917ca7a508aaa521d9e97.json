@@ -1,0 +1,68 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "1d69991ebd55d4fa71dd0e6a00055ab3a381920ebd28393029e3d701c5498227",
+  "full_payload_hash": "4a946829fd626b4fa8b54291962d7be604d7a07474dff06ea78fa1e2a2f552e3",
+  "envelope_header_hash": "0b1c236dafc38900bf81adb6ee84945ef25e26bb3e9891616e2d9d17abedef40",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3390_smartcities7060147",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_3390_smartcities7060147",
+            "document_sha256": "481c57718364bdea56dae6192e106eaf643d787df40d9443f6432c0faf767e45",
+            "chunk_id": "arm2b-10_3390_smartcities7060147-I2_drr_hazard_framing-0",
+            "section": null,
+            "page": 9,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "This paper explores the transition in disaster management from conventional relieforiented\nstrategies to novel and smart approaches that prioritize DRR and CBS. The primary",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_3390_smartcities7060147",
+            "document_sha256": "481c57718364bdea56dae6192e106eaf643d787df40d9443f6432c0faf767e45",
+            "chunk_id": "arm2b-10_3390_smartcities7060147-I2_drr_hazard_framing-1",
+            "section": null,
+            "page": 10,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "focus lies in methods for engaging the community, emphasizing preparedness for emergencies\nthrough clear communication and locally led activities.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly discusses disaster management and prioritizes disaster risk reduction, with community preparedness for emergencies as a stated focus.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2131,
+        "output_tokens": 287,
+        "total_tokens": 2418,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 162,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:39.441905+00:00"
+  }
+}

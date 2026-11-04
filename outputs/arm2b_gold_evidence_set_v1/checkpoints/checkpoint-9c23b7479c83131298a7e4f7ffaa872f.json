@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "fa26f21a17c4cb84e2fc2ce7685211f9bbef218864ee8279a6607a45abc39695",
+  "full_payload_hash": "f041ce13fc47f207e132720fa2bf1b35d5c171a4dfa53bc21c309136cbbd9c9f",
+  "envelope_header_hash": "2c21aeb7aef5dbdd544125ff448c414b051ff32d03c4ef65a9d741d2cef2f651",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1111_1468-5973_12592",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1111_1468-5973_12592",
+            "document_sha256": "87cf0752c1979de08d8def2c8ab7d345263a9d89da6487c718176dc04c7da060",
+            "chunk_id": "arm2b-10_1111_1468-5973_12592-I1_review_type-0",
+            "section": null,
+            "page": 2,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "This systematic review was prospectively registered in the International\nProspective Register of Systematic Reviews registry under reference\nnumber CRD42022372815. This systematic review was developed\nbased on the Cochrane Collaboration Handbook (Cumpston et al., 2022)\nand is reported following the preferred reporting items for systematic\nreviews and meta?analyses (Supporting Information S1: PRISMA 2020)\nguidelines (Supplementary Appendix A) (Page et al., 2021).",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The excerpt explicitly identifies the document as a prospectively registered systematic review developed under Cochrane guidance and reported using PRISMA 2020.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2135,
+        "output_tokens": 97,
+        "total_tokens": 2232,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:10.427246+00:00"
+  }
+}

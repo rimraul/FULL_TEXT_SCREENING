@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "8bf949785c974984989852184942ba36086aad99d9cf5567cf06d437b7a1ad41",
+  "full_payload_hash": "79eab9f9793d7bd107e27ef7756dcf3f4e221ef45ffb436838dae5da046bbab8",
+  "envelope_header_hash": "03844ed5e1b15bf8d1768a224edd7e024db3bffdc181787ad8610a6b3597382e",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1177_08854122231199462",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1177_08854122231199462",
+            "document_sha256": "592d55a9f57ab8ac166b454403389a37d8e736c246237dd0f5bbfd1ae4a26d7f",
+            "chunk_id": "arm2b-10_1177_08854122231199462-I3_governance_dimension-2",
+            "section": null,
+            "page": 17,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Third, the study's findings reveal the importance of developing decentralized operations for smart disaster resilience. Decentralized systems can enhance public engagement and governance, leading to more efficient and effective responses to disaster events, having significant implications for improving the overall resilience of urban areas and better serving the needs of affected communities. In terms of efficiency, Olshansky, Hopkins. and Johnson (2012) highlighted the necessity of time compression in emergency response and postdisaster recovery, further underscoring the need for efficient, usercentric technologies and systems",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document substantively discusses decentralized operations and their effects on public engagement, governance, disaster response, and urban resilience.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2334,
+        "output_tokens": 157,
+        "total_tokens": 2491,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 60,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:25.212194+00:00"
+  }
+}

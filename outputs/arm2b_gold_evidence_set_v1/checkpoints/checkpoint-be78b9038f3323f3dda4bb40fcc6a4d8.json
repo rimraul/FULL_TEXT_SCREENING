@@ -1,0 +1,83 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "27e21b42e727f1f6eb6da13bd8bc015815d74e259f4c05fc44562f5fe8627bb2",
+  "full_payload_hash": "337b49898624ae6be5592a40828fbd77dfd8a679284b551e2e1f4b5c13385a20",
+  "envelope_header_hash": "726d42cd17d21944d0d6248899eec112a18d52c0f1b14f69bc4bdfd8eb3953a8",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1186_s12245-025-01000-4",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1186_s12245-025-01000-4",
+            "document_sha256": "8a4be582a1a0ebb8c5527fb14aa9dd5b8b93de30b49f3413d261e362ae29c8f9",
+            "chunk_id": "arm2b-10_1186_s12245-025-01000-4-I1_review_type-0",
+            "section": null,
+            "page": 3,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "A comprehensive literature search was conducted across\nnine databases: EBSCO, Cochrane, PsycINFO, Scopus,\nWeb of Science, PubMed, Medline, EconLit, and Google\nScholar.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_1186_s12245-025-01000-4",
+            "document_sha256": "8a4be582a1a0ebb8c5527fb14aa9dd5b8b93de30b49f3413d261e362ae29c8f9",
+            "chunk_id": "arm2b-10_1186_s12245-025-01000-4-I1_review_type-1",
+            "section": null,
+            "page": 3,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "The search strategy was developed through a systematic approach and employed a combination of keywords and Medical Subject Headings (MeSH) terms related to seismic risk reduction programs. A complete example of the search string used for MEDLINE, including Boolean operators and applied filters, is provided in Appendix 1 to enhance transparency and reproducibility.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_1186_s12245-025-01000-4",
+            "document_sha256": "8a4be582a1a0ebb8c5527fb14aa9dd5b8b93de30b49f3413d261e362ae29c8f9",
+            "chunk_id": "arm2b-10_1186_s12245-025-01000-4-I1_review_type-2",
+            "section": null,
+            "page": 3,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "To be eligible for inclusion, studies had to report on hospitals implementing comprehensive or partial seismic risk reduction programs. In this review, \u201ccomprehensive\u201d seismic risk reduction programs were defined as those meeting all three minimum criteria: (1) structural retrofitting measures to improve seismic safety (e.g., base isolation, reinforcement of load-bearing structures); (2) functional preparedness activities, including disaster drills, surge capacity planning, and continuity of operations protocols; and (3) governance and coordination mechanisms that integrate hospital disaster plans with national or regional emergency management systems.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document reports a comprehensive multi-database literature search, a systematic search strategy, and eligibility criteria for included studies, explicitly referring to itself as a review. This supports a literature-synthesis study design.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2327,
+        "output_tokens": 159,
+        "total_tokens": 2486,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:28.556163+00:00"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "75fe205bce4ffdd8d272cce7b87062ba74b75e04b22bc95e07f354228a3e85fe",
+  "full_payload_hash": "a9a611374fb0fce7efca4e22f8935027ac9986e5d25667f554c168ce422c65f5",
+  "envelope_header_hash": "09b2789644c166095a2e52b1e09dbf0e2b472ac1c312c5dde419369988e2effc",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1080_13669877_2017_1351466",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1080_13669877_2017_1351466",
+            "document_sha256": "672e5e913122734960417871de3b1615a8fcdf71d4c7361fbc117555c7bd5be7",
+            "chunk_id": "arm2b-10_1080_13669877_2017_1351466-I3_governance_dimension-0",
+            "section": null,
+            "page": 4,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Besides risk governance and public engagement, similar concepts that are more commonly used by\nresearchers operating from within a specific academic orientation, such as decision-making, participation,\nand deliberation, are included.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_1080_13669877_2017_1351466",
+            "document_sha256": "672e5e913122734960417871de3b1615a8fcdf71d4c7361fbc117555c7bd5be7",
+            "chunk_id": "arm2b-10_1080_13669877_2017_1351466-I3_governance_dimension-1",
+            "section": null,
+            "page": 6,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "More specifically, according to the authors grouped in this cluster, risk governance refers to a body of scholarly ideas that directs attention to complex multi-actor networks and processes dealing with collective decisions on demanding public risks surrounded by complexity, scientific uncertainty, and/or socio-political ambiguity (Renn and Graham 2005; van Asselt and Renn 2011). In addition to this conceptual definition, risk governance can also be understood as a set of normative principles that can inform how collective decision-making in the context of risk can be done responsibly (Renn and Graham 2005; van Asselt and Renn 2011).",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The excerpts substantively discuss risk governance, participation/public engagement, and multi-actor collective decision-making concerning public risks, rather than merely mentioning government actors.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2275,
+        "output_tokens": 183,
+        "total_tokens": 2458,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 47,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:40.169540+00:00"
+  }
+}

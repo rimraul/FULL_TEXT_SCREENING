@@ -1,0 +1,37 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "efc20aa65f0ddbe1fd08c6f925cba90950215f7400a408c54aff89df9738e700",
+  "full_payload_hash": "eda9ea3e0f9f26be2678e08afc692e410df2b21745c6a5ef4dd9c8ee30560e1a",
+  "envelope_header_hash": "4801244500b765615fd31962bcef2945008b37732b666861704eadd69703b18d",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1007_s11269-016-1491-7",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "unclear",
+        "evidence": [],
+        "rationale": "The excerpt reports a Scopus search to supplement expert knowledge, but does not establish that the document is a review-type study synthesizing published literature rather than another study type.",
+        "requires_human_review": true,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2096,
+        "output_tokens": 170,
+        "total_tokens": 2266,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 86,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:28.599506+00:00"
+  }
+}

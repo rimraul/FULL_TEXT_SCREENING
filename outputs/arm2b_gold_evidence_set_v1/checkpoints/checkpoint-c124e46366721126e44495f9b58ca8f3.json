@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "d2f7a9480d315a4e509205b1a8a92c74ec6ecd5e25eff5c6efe7cf509fc0c9b9",
+  "full_payload_hash": "84e73b8dc1088d2cfafede4b9d83f0714c4c00f2f19aeb31304b9520ec23c343",
+  "envelope_header_hash": "fbc86003018cf25d7ec1039370d6e19dae2c686930721e04fed055cfe60938dc",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1080_09640568_2019_1641474",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1080_09640568_2019_1641474",
+            "document_sha256": "179c6835155d6501869ef3949f93478ef884c68fc734ddd426573c4164cea50c",
+            "chunk_id": "arm2b-10_1080_09640568_2019_1641474-I1_review_type-0",
+            "section": null,
+            "page": 5,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "A systematic review differentiates from a conventional review in terms of rigor, repeatability,\nand completeness (Righi, Saurin, and Wachs 2015). In order to meet this criteria,\nwe ensured the methodology was explicit and reproducible by following clearly\nstated objectives with a set of pre-defined eligibility criteria, and a systematic search to\nidentify all potential papers (Liberati et al. 2009).",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly describes following systematic-review methods, including predefined eligibility criteria and a systematic search for relevant papers.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2121,
+        "output_tokens": 120,
+        "total_tokens": 2241,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 23,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:12.255841+00:00"
+  }
+}

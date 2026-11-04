@@ -1,0 +1,68 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "1d3197d3eb2d49a59309445fd29f2fa4c11b6e248bfda24bf5ea8cf47a967c06",
+  "full_payload_hash": "6f81d16ff160d1bb9b8757b65103bd5f449d35b67dc2b59caa37b4d4e06242a3",
+  "envelope_header_hash": "0c5b134107897e55216fc571edb1ba978ee11715072e0b19cfa7b5f4a6f36349",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1051_bioconf_202519300057",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1051_bioconf_202519300057",
+            "document_sha256": "dc02c210b150dfd53b9f6269a6f814e5c207f50f57f1e296fe68cb2185b213cd",
+            "chunk_id": "arm2b-10_1051_bioconf_202519300057-I2_drr_hazard_framing-0",
+            "section": null,
+            "page": 3,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "This study was conducted in January 2025 using leading international databases, namely Scopus, Science Direct, and Emerald, with the keywords (\u201cdisaster preparedness\u201d OR \u201cdisaster risk resilience\u201d OR \u201cdisaster risk reduction\u201d) AND (\u201celementary school\u201d OR \u201cprimary school\u201d) AND (\u201cmodel\u201d OR \u201cframework\u201d OR \u201cprogram\u201d) AND (\u201cstrategy\u201d OR \u201cimplementation\u201d OR \u2018practice\u2019 OR \u201cpolicy\u201d)",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_1051_bioconf_202519300057",
+            "document_sha256": "dc02c210b150dfd53b9f6269a6f814e5c207f50f57f1e296fe68cb2185b213cd",
+            "chunk_id": "arm2b-10_1051_bioconf_202519300057-I2_drr_hazard_framing-1",
+            "section": null,
+            "page": 12,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Based on Table 2 above, the DRR approach strategy in schools includes three aspects, including education, management and collaboration, and contextual, with the following details",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly frames its subject as disaster preparedness, disaster risk resilience, and disaster risk reduction, and discusses DRR strategies in schools.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2202,
+        "output_tokens": 129,
+        "total_tokens": 2331,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:55.353317+00:00"
+  }
+}

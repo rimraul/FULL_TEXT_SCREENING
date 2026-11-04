@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "f115caecc0e8ce46a581c3f5c9085c35fb1a6901a8443d57284db4ffb73ac61a",
+  "full_payload_hash": "405ec1b609f4d5201604e5a67de261a61a190fad89d5c5f5feccb523bf1ee6f6",
+  "envelope_header_hash": "609aa5fb7763834eee9a28e44af5f1b5d0206e1a940fc59e5924325622f58a50",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3390_smartcities7060147",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_3390_smartcities7060147",
+            "document_sha256": "481c57718364bdea56dae6192e106eaf643d787df40d9443f6432c0faf767e45",
+            "chunk_id": "arm2b-10_3390_smartcities7060147-I3_governance_dimension-1",
+            "section": null,
+            "page": 10,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "focus lies in methods for engaging the community, emphasizing preparedness for emergencies\nthrough clear communication and locally led activities.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document\u2019s stated primary focus includes methods for community engagement, clear communication, and locally led preparedness activities in a DRR context, substantively addressing community participation.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2204,
+        "output_tokens": 205,
+        "total_tokens": 2409,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 100,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:42.674358+00:00"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "EvaluationRunManifest",
+  "content_hash": "c8908f1641a725a621c7189dba320fe60113891d254c6e283a15520c865bf47d",
+  "full_payload_hash": "b3fc6dce073bc992e772b329f2915cc45b9be3f21a2f312ea8e24a5a05e31193",
+  "envelope_header_hash": "6fe2c7d792f33aea4c63f718ff34acdd9de7f00bec479fa5aea05863e4004592",
+  "payload": {
+    "arm": "gold_evidence",
+    "gold_set_hash": "6fdfaebfd84e7ed33101d1a9b9ba4960367ab6985f1a52e3a13cabc2e396280a",
+    "execution_fingerprint": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "result_artifact_hash": "349dba726019db58c674c6c4e263354bb22a49dd82ee3ef692f58fe101b8ce76",
+    "config_summary": {
+      "gold_set_hash": "6fdfaebfd84e7ed33101d1a9b9ba4960367ab6985f1a52e3a13cabc2e396280a",
+      "gold_evidence_set_hash": "eb7ac00b2fd1d6456b8bdf2ac58d67f58af01ae65ceaff42bd7c53c2512fc2db",
+      "evidence_projection_hash": "c827b8aa01e11953ed5ff51f3c4744d5f6212c3220361d3125f1cb15102e4163",
+      "evidence_construction_version": "arm2b-human-reviewed-evidence-v1",
+      "provider_identity": "openai",
+      "adjudicator_model": "gpt-5.6-terra",
+      "prompt_template_version": "adjudication-prompt-6",
+      "output_schema_version": "adjudication-schema-2",
+      "model_options": {
+        "max_completion_tokens": 4096,
+        "reasoning_effort": "medium"
+      },
+      "source_identity": {
+        "git_commit": "a2a678069a424891472988abe47f34b7deba51f9",
+        "git_dirty_relevant_files": false,
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2",
+        "adjudication_file_sha256": "8ea96f3593f039ef58e490046f110d2781c2563171cd9f3af8dd480f986faf35",
+        "relevant_source_tree_sha256": "21289968c9904b08181017373508891ce93c887cb7c47e767044a03e210019af",
+        "relevant_source_files": [
+          "src/ft_screening/adjudication.py",
+          "src/ft_screening/components.py",
+          "src/ft_screening/hashing.py"
+        ],
+        "captured_at": "2026-08-20T11:45:29.994306+00:00"
+      },
+      "v1_result_content_hash": "349dba726019db58c674c6c4e263354bb22a49dd82ee3ef692f58fe101b8ce76",
+      "v1_manifest_content_hash": "a85ee48ced8515625e5433d1926d891319f3d6bb139c1dd38960037a3e58dbcc",
+      "checkpoint_execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+      "n_checkpoints_reused": 60,
+      "new_provider_calls": 0,
+      "runner_file_sha256": "27ea1bc823e28681ff29b1d1311484270cc4f139590420c14c877a3d68e4edea",
+      "evaluation_harness_file_sha256": "c779d1d40157c8805c86796982cc63e8e6eb960121acc9f89a5d156fe7236d2e",
+      "wall_time_unavailable_after_checkpoint_resume": true
+    },
+    "recorded_at": "2026-08-20T11:45:29.998306+00:00"
+  }
+}

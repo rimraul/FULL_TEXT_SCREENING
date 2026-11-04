@@ -1,0 +1,197 @@
+{
+  "protocol_version": "gold_set_protocol_v9",
+  "source_corpus": "iasia_test (DRR/disaster-governance scoping review, real downloaded PDFs, DOI-keyed)",
+  "excluded_as_already_used_by_walking_skeleton": [
+    "10_1007_s11069-025-07955-0",
+    "10_1007_s13412-025-01018-3"
+  ],
+  "dual_review_subset": [
+    "10_3389_fenvs_2024_1496813",
+    "10_1186_s12245-025-01000-4",
+    "10_1007_978-3-031-54118-6_8",
+    "10_1080_09640568_2019_1641474",
+    "10_3846_ijspm_2010_22"
+  ],
+  "documents": [
+    {
+      "document_id": "10_1080_13549839_2026_2687421",
+      "stratum": "INCLUDE",
+      "iasia_reason_code": null,
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_1080_13549839_2026_2687421.pdf",
+      "title": "Pathways to resilience: adaptive governance in disaster management systems",
+      "pdf_sha256": "7d3b396f4e686acc1fb5c3e97bb6953ca56a4050552a21bdcb60f4dc5f0b873f",
+      "page_count": 29
+    },
+    {
+      "document_id": "10_3389_fenvs_2024_1496813",
+      "stratum": "INCLUDE",
+      "iasia_reason_code": null,
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_3389_fenvs_2024_1496813.pdf",
+      "title": "How does social capital facilitate community disaster resilience? A systematic review",
+      "pdf_sha256": "ed26b4861587f32a72b4e2a9bc86928636adb6265c434a355c82ce9a91d42460",
+      "page_count": 16
+    },
+    {
+      "document_id": "10_1080_17565529_2021_1906203",
+      "stratum": "INCLUDE",
+      "iasia_reason_code": null,
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_1080_17565529_2021_1906203.pdf",
+      "title": "Governance for urban resilience in popular settlements in developing countries",
+      "pdf_sha256": "52ba6a1832146eacbe510002252a5d26deda466caca43a1f136cc0e0fad903a3",
+      "page_count": 15
+    },
+    {
+      "document_id": "10_5194_nhess-12-2923-2012",
+      "stratum": "INCLUDE",
+      "iasia_reason_code": null,
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_5194_nhess-12-2923-2012.pdf",
+      "title": "Review Article: Adaptive governance and resilience: The role of multi-stakeholder platforms in disaster risk reduction",
+      "pdf_sha256": "5e6e1d505b37371af2f58d100cd380e597c1f360b4e966ac56a971f2d4fe7887",
+      "page_count": 20
+    },
+    {
+      "document_id": "10_1108_dpm-06-2023-0128",
+      "stratum": "INCLUDE",
+      "iasia_reason_code": null,
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_1108_dpm-06-2023-0128.pdf",
+      "title": "The potential for community-driven ecosystem-based disaster risk reduction",
+      "pdf_sha256": "2b62a0c20110fcd3b1b52c735fe848fb82bc22e3fb694c9d039b613af59a52b1",
+      "page_count": 20
+    },
+    {
+      "document_id": "10_1007_s11269-016-1491-7",
+      "stratum": "INCLUDE",
+      "iasia_reason_code": null,
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_1007_s11269-016-1491-7.pdf",
+      "title": "Recurrent Governance Challenges in the Implementation and Alignment of Flood Risk Management",
+      "pdf_sha256": "d5c0f1198b9bc1d9b477ba5fb08a1ba74951735e4529bbdc262f5ef49388f35a",
+      "page_count": 15
+    },
+    {
+      "document_id": "10_1080_13669877_2017_1351466",
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "off_topic_hazard",
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_1080_13669877_2017_1351466.pdf",
+      "title": "A literature review on the relationship between risk governance and public engagement",
+      "pdf_sha256": "672e5e913122734960417871de3b1615a8fcdf71d4c7361fbc117555c7bd5be7",
+      "page_count": 19
+    },
+    {
+      "document_id": "10_1111_1468-5973_12592",
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "off_topic_hazard",
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_1111_1468-5973_12592.pdf",
+      "title": "Preparedness and emergency response strategies for chemical, biological, radiological...",
+      "pdf_sha256": "87cf0752c1979de08d8def2c8ab7d345263a9d89da6487c718176dc04c7da060",
+      "page_count": 20
+    },
+    {
+      "document_id": "10_3390_w16111571",
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "off_topic_hazard",
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_3390_w16111571.pdf",
+      "title": "How Scale Influences the Resilience of Urban Water Systems: A Literature Review",
+      "pdf_sha256": "144a07e138a5169fbbf69cec8c601f72c598a94c2c8132799ed474739f243684",
+      "page_count": 29
+    },
+    {
+      "document_id": "10_1186_s12245-025-01000-4",
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "off_topic_hazard",
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_1186_s12245-025-01000-4.pdf",
+      "title": "Strengthening hospital resilience to earthquakes: a public health review of seismic preparedness",
+      "pdf_sha256": "8a4be582a1a0ebb8c5527fb14aa9dd5b8b93de30b49f3413d261e362ae29c8f9",
+      "page_count": 12
+    },
+    {
+      "document_id": "10_1177_08854122231199462",
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "no_governance",
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_1177_08854122231199462.pdf",
+      "title": "Is a Smart City Framework the Key to Disaster Resilience? A Systematic Review",
+      "pdf_sha256": "592d55a9f57ab8ac166b454403389a37d8e736c246237dd0f5bbfd1ae4a26d7f",
+      "page_count": 17
+    },
+    {
+      "document_id": "10_3390_cli12050067",
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "no_governance",
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_3390_cli12050067.pdf",
+      "title": "Two Decades of Integrated Flood Management: Status, Barriers, and Strategies",
+      "pdf_sha256": "4e3dd85b6951167ebeec56cdb584730d72fab89beac134a0e477121b90b85f11",
+      "page_count": 17
+    },
+    {
+      "document_id": "10_1007_978-3-031-54118-6_8",
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "insufficient_text",
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_1007_978-3-031-54118-6_8.pdf",
+      "title": "Participatory Mapping to Improve Urban Resilience",
+      "pdf_sha256": "628cbf78d4bb46d8a0152e0a469f768fefc4cfe151684e720a062cbadaebb0be",
+      "page_count": 10
+    },
+    {
+      "document_id": "10_1051_bioconf_202519300057",
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "insufficient_text",
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_1051_bioconf_202519300057.pdf",
+      "title": "Strengthening School Disaster Resilience: A Systematic Review of DRR Implementation",
+      "pdf_sha256": "dc02c210b150dfd53b9f6269a6f814e5c207f50f57f1e296fe68cb2185b213cd",
+      "page_count": 18
+    },
+    {
+      "document_id": "10_3390_smartcities7060147",
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "technical_only",
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_3390_smartcities7060147.pdf",
+      "title": "Bridging Community Engagement and Technological Innovation for Creating Smart and Resilient Cities",
+      "pdf_sha256": "481c57718364bdea56dae6192e106eaf643d787df40d9443f6432c0faf767e45",
+      "page_count": 30
+    },
+    {
+      "document_id": "10_3846_ijspm_2010_22",
+      "stratum": "EXCLUDE",
+      "iasia_reason_code": "not_a_review",
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_3846_ijspm_2010_22.pdf",
+      "title": "Developing capacities for disaster risk reduction in the built environment",
+      "pdf_sha256": "2793076079b2b83eab3845b37d7d79c4b098a26bb77dbc6e461b21c35ab890cc",
+      "page_count": 17
+    },
+    {
+      "document_id": "10_1080_09640568_2019_1641474",
+      "stratum": "UNCERTAIN",
+      "iasia_reason_code": null,
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_1080_09640568_2019_1641474.pdf",
+      "title": "Flood resilience: a systematic review",
+      "pdf_sha256": "179c6835155d6501869ef3949f93478ef884c68fc734ddd426573c4164cea50c",
+      "page_count": 27
+    },
+    {
+      "document_id": "10_1002_eet_1766",
+      "stratum": "UNCERTAIN",
+      "iasia_reason_code": null,
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_1002_eet_1766.pdf",
+      "title": "The Roles of Residents in Climate Adaptation: A systematic review",
+      "pdf_sha256": "3d24c987e5d44d2eee8f5a63aac6d825d42645b58b987c3a2c0bf5f118eb1fd2",
+      "page_count": 15
+    },
+    {
+      "document_id": "10_5194_nhess-21-1383-2021",
+      "stratum": "UNCERTAIN",
+      "iasia_reason_code": null,
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_5194_nhess-21-1383-2021.pdf",
+      "title": "Review article: Towards resilient vital infrastructure systems",
+      "pdf_sha256": "51b5dcb78cc7f4c758bad49e70714dca081556784a782bd6a251628f87ac4c7e",
+      "page_count": 25
+    },
+    {
+      "document_id": "10_19053_uptc_01233769_18772",
+      "stratum": "UNCERTAIN",
+      "iasia_reason_code": null,
+      "pdf_path": "C:/projects/iasia_test/outputs/pdfs/10_19053_uptc_01233769_18772.pdf",
+      "title": "Participatory methodologies in community-based disaster risk management",
+      "pdf_sha256": "79014d57ac286f212e3b475fcb5d52a08c11d3b7b94a69b1dd6a96c25cb4a255",
+      "page_count": 21
+    }
+  ]
+}

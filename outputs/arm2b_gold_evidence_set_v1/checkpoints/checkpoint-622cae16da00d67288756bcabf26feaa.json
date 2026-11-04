@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "a8517b73b1fc3393c6e24c0001d2346fb877eb947c9be269981a6569bc89564b",
+  "full_payload_hash": "9a330ae0cd5b29da26bcf4f5ed24eee9603b27084026f89cff2831a1dc73bd21",
+  "envelope_header_hash": "ff8df21728e6eebfd1383aadc48aceb9dc35426a0c8fa53a32865c433978263c",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1002_eet_1766",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1002_eet_1766",
+            "document_sha256": "3d24c987e5d44d2eee8f5a63aac6d825d42645b58b987c3a2c0bf5f118eb1fd2",
+            "chunk_id": "arm2b-10_1002_eet_1766-I2_drr_hazard_framing-0",
+            "section": null,
+            "page": 4,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "The study\u2019s empirical focus is on the adaptation domains of fluvial flooding, pluvial flooding and heatwaves in\nthe Netherlands.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The study explicitly focuses on adaptation to named hazards\u2014fluvial flooding, pluvial flooding, and heatwaves\u2014providing a substantive hazard-framed resilience/adaptation context.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2064,
+        "output_tokens": 166,
+        "total_tokens": 2230,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 57,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:04.047687+00:00"
+  }
+}

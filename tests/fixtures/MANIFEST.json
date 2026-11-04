@@ -1,0 +1,85 @@
+{
+  "fixtures": {
+    "multi_section.pdf": {
+      "expected": {
+        "min_chunks": 4,
+        "sections_include": [
+          "Background",
+          "Methods",
+          "Results",
+          "Discussion"
+        ],
+        "status": "complete",
+        "total_pages": 4
+      },
+      "purpose": "4-page, 4-section document with more text volume; also the source for truncated.pdf.",
+      "sha256": "276f112eeb5607e1306cdd93eae7cc3d8b05b9e4992b60cc71a994d888c8f703",
+      "size_bytes": 2358
+    },
+    "scanned_no_text_layer.pdf": {
+      "expected": {
+        "requires_ocr": true,
+        "total_pages": 1
+      },
+      "purpose": "Image-only page, no text layer -- forces the OCR fallback path.",
+      "sha256": "62bb716f87568bb6d077ba67e3337bd1efe4a25eff51713226c74ab4e59bfe59",
+      "size_bytes": 11877
+    },
+    "simple_two_page.pdf": {
+      "expected": {
+        "min_chunks": 2,
+        "sections_include": [
+          "Introduction",
+          "Conclusion"
+        ],
+        "status": "complete",
+        "total_pages": 2
+      },
+      "purpose": "Baseline 2-page, 2-section plain-text document.",
+      "sha256": "18c28e2457ad420b8ccf65e3b08b607951e12e4c070f2eb65a937e775d841f93",
+      "size_bytes": 1527
+    },
+    "truncated.pdf": {
+      "expected": {
+        "status": "failed"
+      },
+      "purpose": "multi_section.pdf truncated to 1/3 of its bytes -- deterministic corrupt-document fixture.",
+      "sha256": "6e2c6ffd15c327e5ddcdd4ccb1461aff9c111be341dec423817b312a960e3813",
+      "size_bytes": 786
+    },
+    "two_column.pdf": {
+      "expected": {
+        "min_chunks": 1,
+        "status": "complete",
+        "total_pages": 1
+      },
+      "purpose": "Crude two-column layout -- exercises layout-aware (not naive top-to-bottom) reading order.",
+      "sha256": "f197d686cdf9065e3815c55d9faa17ae3983d212c945d67031ccd0587c736909",
+      "size_bytes": 1193
+    },
+    "with_appendix.pdf": {
+      "expected": {
+        "min_chunks": 2,
+        "sections_include": [
+          "Results",
+          "Appendix A: Supplementary Materials"
+        ],
+        "status": "complete",
+        "total_pages": 2
+      },
+      "purpose": "Results section plus a genuinely distinct Appendix/Supplementary Materials section (its own heading and content, not a renamed Discussion).",
+      "sha256": "d4c00dfaabcee3a1a276e3f8fbb7c8fab037e66560bec58c4e26340fb09ac1e1",
+      "size_bytes": 1622
+    },
+    "with_table.pdf": {
+      "expected": {
+        "min_chunks": 1,
+        "status": "complete",
+        "total_pages": 1
+      },
+      "purpose": "A page with a drawn grid table -- exercises table-structure recognition and markdown export.",
+      "sha256": "396c9baa57dc0f6e462bc934014f13d3d5e91e13e74bbc48c326d38f7f2c49da",
+      "size_bytes": 1129
+    }
+  }
+}

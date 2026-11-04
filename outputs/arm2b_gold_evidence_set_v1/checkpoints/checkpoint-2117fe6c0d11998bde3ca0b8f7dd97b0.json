@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "edafe88aa80f9fe057ebc4597a3ded69e1706945f02aa54ba2f0ab1156833793",
+  "full_payload_hash": "3d9159f6b7ac40b7b0b4ba8ecf3c406624cbeac175be8466704f19f25326fe73",
+  "envelope_header_hash": "caff055a7041c66c841432cdc81e218b21b8691d60e2d3e5e04040572a0e4b30",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1051_bioconf_202519300057",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1051_bioconf_202519300057",
+            "document_sha256": "dc02c210b150dfd53b9f6269a6f814e5c207f50f57f1e296fe68cb2185b213cd",
+            "chunk_id": "arm2b-10_1051_bioconf_202519300057-I1_review_type-0",
+            "section": null,
+            "page": 3,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "This study was conducted in January 2025 using leading international databases, namely Scopus, Science Direct, and Emerald, with the keywords (\u201cdisaster preparedness\u201d OR \u201cdisaster risk resilience\u201d OR \u201cdisaster risk reduction\u201d) AND (\u201celementary school\u201d OR \u201cprimary school\u201d) AND (\u201cmodel\u201d OR \u201cframework\u201d OR \u201cprogram\u201d) AND (\u201cstrategy\u201d OR \u201cimplementation\u201d OR \u2018practice\u2019 OR \u201cpolicy\u201d). After entering the keywords into the database, the researcher recorded the total number of articles. The screening stage involved identifying and removing duplicate articles using Zotero software. Screening was conducted based on the title and abstract according to the inclusion criterias.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document describes a database search and screening of articles using defined keywords, duplicate removal, and title/abstract inclusion screening, which directly indicates a literature-review process rather than a single primary empirical study.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2163,
+        "output_tokens": 165,
+        "total_tokens": 2328,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 52,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:53.255794+00:00"
+  }
+}

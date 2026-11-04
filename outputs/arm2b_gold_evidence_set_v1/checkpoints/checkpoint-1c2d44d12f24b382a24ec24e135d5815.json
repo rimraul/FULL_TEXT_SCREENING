@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "fc2e59326fdb0f69826d3231aa12a41411493654d9cb29bd18c4282bbc88072d",
+  "full_payload_hash": "324dbb73321f4279acd5bce3f670fb5c8df01d211515e9ee27ce4a057d97a056",
+  "envelope_header_hash": "78dc3c1c153143d396327feab52d52644f1c5a14dc7a6dc94afe7c5b1e79bed5",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3846_ijspm_2010_22",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_3846_ijspm_2010_22",
+            "document_sha256": "2793076079b2b83eab3845b37d7d79c4b098a26bb77dbc6e461b21c35ab890cc",
+            "chunk_id": "arm2b-10_3846_ijspm_2010_22-I2_drr_hazard_framing-0",
+            "section": null,
+            "page": 3,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "The overview of capacities and capacity\ngaps in the built environment in relation to\ndisaster risk reduction, and related capacity\ngaps in Sri Lanka presented in the paper were\ncomposed through a literature review",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The excerpt explicitly frames the document around disaster risk reduction and capacity gaps in the built environment in Sri Lanka.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2086,
+        "output_tokens": 94,
+        "total_tokens": 2180,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:57.464241+00:00"
+  }
+}

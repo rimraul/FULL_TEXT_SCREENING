@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "b3afd351e79f962c936d4dd356cc195dc8c365f1249488e3bd621035a732d00d",
+  "full_payload_hash": "3859805d1ed262bd3842914be14e6b6b7e04190c19f8aa3cc2c31e48a1f59dd8",
+  "envelope_header_hash": "e8f1955ecea26df1abc7ceaad8bd248753e13a5c1c0e1be8ca54e97550cc4bc4",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1111_1468-5973_12592",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1111_1468-5973_12592",
+            "document_sha256": "87cf0752c1979de08d8def2c8ab7d345263a9d89da6487c718176dc04c7da060",
+            "chunk_id": "arm2b-10_1111_1468-5973_12592-I2_drr_hazard_framing-0",
+            "section": null,
+            "page": 2,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Original qualitative and quantitative primary studies that\naddressed various healthcare system preparedness strategies for\ndeliberate, accidental, and natural CBRN incidents.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly addresses healthcare-system preparedness for deliberate, accidental, and natural CBRN incidents, providing a clear hazard/incident framing relevant to disaster risk reduction.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2072,
+        "output_tokens": 181,
+        "total_tokens": 2253,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 70,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:13.971992+00:00"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "65e758404a97d4aa5a32b9240265fe12c28067f11259544be78d52b12ca12e47",
+  "full_payload_hash": "1501fe66ed5f44d003733340fa1eead37944801a0b1d61e49676b32998c3a724",
+  "envelope_header_hash": "bc3e2c15eac513d239f694aff985ddaf09bc7b3b0f5b4fddf2ed0a261fe58def",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1177_08854122231199462",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1177_08854122231199462",
+            "document_sha256": "592d55a9f57ab8ac166b454403389a37d8e736c246237dd0f5bbfd1ae4a26d7f",
+            "chunk_id": "arm2b-10_1177_08854122231199462-I2_drr_hazard_framing-0",
+            "section": null,
+            "page": 2,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Fourth, we only selected articles focusing on natural",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_1177_08854122231199462",
+            "document_sha256": "592d55a9f57ab8ac166b454403389a37d8e736c246237dd0f5bbfd1ae4a26d7f",
+            "chunk_id": "arm2b-10_1177_08854122231199462-I2_drr_hazard_framing-1",
+            "section": null,
+            "page": 3,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "hazard events caused by natural forces that result in widespread\ndamage, destruction, or loss of life. Examples of natural hazard\nevents include earthquakes, wildfires, landslides, hurricanes,\nfloods, tsunamis, typhoons, and tropical storms. Meanwhile,\nwe excluded papers related to man-made disasters, terrorism,\npandemics, energy, pollution, debris disposal, chronic climate\nrisks, security threats, and cyber-attacks.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly frames its focus around natural hazard events and lists disaster-relevant hazards such as earthquakes, floods, hurricanes, wildfires, and tsunamis.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2186,
+        "output_tokens": 130,
+        "total_tokens": 2316,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:22.753400+00:00"
+  }
+}

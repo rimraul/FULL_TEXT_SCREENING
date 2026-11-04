@@ -1,0 +1,37 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "27b066a8d50de7638b8947dd301057aadf75fcb1e7623fbf45ee8f3c2c278eaf",
+  "full_payload_hash": "66e55b7db4118aef8d708ecbcb9c7350d1e88113549f89ffc574a70193ff2c0e",
+  "envelope_header_hash": "ca4334804a8ec6f67219b84f650b59d5b3d3c119b20e4905a16ab45fd3a168bc",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3846_ijspm_2010_22",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "not_reported",
+        "evidence": [],
+        "rationale": "The excerpt discusses stages of capacity development, but does not establish that this analysis is in a DRR or resilience context.",
+        "requires_human_review": true,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2102,
+        "output_tokens": 143,
+        "total_tokens": 2245,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 68,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:59.736374+00:00"
+  }
+}

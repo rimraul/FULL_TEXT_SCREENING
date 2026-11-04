@@ -1,0 +1,68 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "31b04982615cd8ec260af9048cfa8cdbe4b3cf7d9a00f0c6350315d2e729054f",
+  "full_payload_hash": "5f2a1d041aaf56886a8f0b3f25d10648e841bd38a28ad91cb6a5faa412120a86",
+  "envelope_header_hash": "b67be81a0184e7df33b9cd9fea9ba29ca7c42eac9334bb7f378e4fd503dc64e6",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1080_13549839_2026_2687421",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1080_13549839_2026_2687421",
+            "document_sha256": "7d3b396f4e686acc1fb5c3e97bb6953ca56a4050552a21bdcb60f4dc5f0b873f",
+            "chunk_id": "arm2b-10_1080_13549839_2026_2687421-I2_drr_hazard_framing-0",
+            "section": null,
+            "page": 8,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "The keywords and search phrases utilised in this study were adaptive governance, strategy, disaster resilience, disaster management, natural disasters, governance frameworks, and community resilience.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_1080_13549839_2026_2687421",
+            "document_sha256": "7d3b396f4e686acc1fb5c3e97bb6953ca56a4050552a21bdcb60f4dc5f0b873f",
+            "chunk_id": "arm2b-10_1080_13549839_2026_2687421-I2_drr_hazard_framing-1",
+            "section": null,
+            "page": 16,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "4.2.2. Principles of adaptive governance relevant to disaster resilience",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly frames its subject in terms of disaster resilience, disaster management, and natural disasters, rather than general risk or sustainability alone.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2133,
+        "output_tokens": 133,
+        "total_tokens": 2266,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:49.472035+00:00"
+  }
+}

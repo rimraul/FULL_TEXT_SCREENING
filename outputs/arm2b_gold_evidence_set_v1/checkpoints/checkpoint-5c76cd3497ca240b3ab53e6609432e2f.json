@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "7e676b0c7bea19914d35a84f0cfa19bb25cd6ef6dabca5a5b33d89c0cbbe6461",
+  "full_payload_hash": "ca99795d065ed37a90415410967bdf667ca0280851a8017a435cadfdb06b01c9",
+  "envelope_header_hash": "728a07930d44f0fa2bf825828c838b2c58234b49c117f25d34ca4048a89bea1c",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1111_1468-5973_12592",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1111_1468-5973_12592",
+            "document_sha256": "87cf0752c1979de08d8def2c8ab7d345263a9d89da6487c718176dc04c7da060",
+            "chunk_id": "arm2b-10_1111_1468-5973_12592-I3_governance_dimension-1",
+            "section": null,
+            "page": 13,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "The importance of community engagement in addressing CBRN threats such as bioterrorism is a salient theme emerging from the literature. Incorporating community perspectives into bioterrorism response plans was identified as essential to strengthen these plans (Scharoun et al., 2002). This helps improve the tactical responses and foster a sense of shared responsibility and awareness among the public (Gupta et al., 2021). This was identified as essential in disease prevention and outbreak management (Gupta et al., 2021).",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document substantively discusses community engagement/participation in CBRN preparedness and response, including incorporating community perspectives into bioterrorism response plans and its role in prevention and outbreak management.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2240,
+        "output_tokens": 198,
+        "total_tokens": 2438,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 84,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:16.829518+00:00"
+  }
+}

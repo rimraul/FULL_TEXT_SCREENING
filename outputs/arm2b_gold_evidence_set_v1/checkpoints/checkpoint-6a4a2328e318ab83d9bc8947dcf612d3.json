@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "184405339f60d513c3f7b35856e5df25358591f86d7f0e91ffd47512aa3cd7fd",
+  "full_payload_hash": "d8567876384370477483451e8ee75b3cdfd9a7a7b709d835afea0728514acc8e",
+  "envelope_header_hash": "06f64c35e596e4501455bfb8f912195bf69c808a8bf63198a431715f50abc89d",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1007_s11269-016-1491-7",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1007_s11269-016-1491-7",
+            "document_sha256": "d5c0f1198b9bc1d9b477ba5fb08a1ba74951735e4529bbdc262f5ef49388f35a",
+            "chunk_id": "arm2b-10_1007_s11269-016-1491-7-I2_drr_hazard_framing-0",
+            "section": null,
+            "page": 4,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Since diversification implies that separate FRMSs\nmay get more emphasis we will first discuss the actor-, discourses-, rules- or resources-related\nchallenges that may result if society wants to change its emphasis on flood risk prevention,\nflood defence, mitigation, preparation or recovery.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly discusses flood risk prevention, defence, mitigation, preparation, and recovery, providing a substantive disaster/hazard-risk framing consistent with DRR.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2098,
+        "output_tokens": 104,
+        "total_tokens": 2202,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:30.442329+00:00"
+  }
+}

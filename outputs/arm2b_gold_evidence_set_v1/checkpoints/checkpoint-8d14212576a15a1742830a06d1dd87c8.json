@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "6d722843a4e86a9a69a3798f263d5986a1c2dcfc1a8801ebddefd98e47bebf5a",
+  "full_payload_hash": "49ce371c4d908aa28f9f9e32b6834e0966a3e4de3d0cc7a77d8d0645ff70d76a",
+  "envelope_header_hash": "fec094f08893eb6294dc71043b14350db281625f94b938faaf170be376b1f1f7",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_19053_uptc_01233769_18772",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_19053_uptc_01233769_18772",
+            "document_sha256": "79014d57ac286f212e3b475fcb5d52a08c11d3b7b94a69b1dd6a96c25cb4a255",
+            "chunk_id": "arm2b-10_19053_uptc_01233769_18772-I1_review_type-0",
+            "section": null,
+            "page": 5,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Realizamos una revisi\u00f3n sistem\u00e1tica de la literatura\nsiguiendo los lineamientos de la declaraci\u00f3n PRISMA",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly states that it conducted a systematic literature review following PRISMA guidelines.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2054,
+        "output_tokens": 86,
+        "total_tokens": 2140,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:18.665461+00:00"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "2f01b82dcb6c1b16f5f8b27af962a1ed85ff863c2735fd5d00d9018ef7fbfed3",
+  "full_payload_hash": "78223cb1588496dfca91a7077c2ade7a368a779331b4dbf72f0afc52158335bb",
+  "envelope_header_hash": "9815f4639a8f3920abfe9a7380c8044bf4a41918993c0f30b2e3f329ddf3023a",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1108_dpm-06-2023-0128",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1108_dpm-06-2023-0128",
+            "document_sha256": "2b62a0c20110fcd3b1b52c735fe848fb82bc22e3fb694c9d039b613af59a52b1",
+            "chunk_id": "arm2b-10_1108_dpm-06-2023-0128-I3_governance_dimension-0",
+            "section": null,
+            "page": 4,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "A total of 102 articles from 1970 to 2023, focusing on \u201cpeople\u2019s role in ecosystem-based\nDRR,\u201d were analyzed to understand how community participation can contribute to\nsuccessful ecosystem-based DRR.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_1108_dpm-06-2023-0128",
+            "document_sha256": "2b62a0c20110fcd3b1b52c735fe848fb82bc22e3fb694c9d039b613af59a52b1",
+            "chunk_id": "arm2b-10_1108_dpm-06-2023-0128-I3_governance_dimension-1",
+            "section": null,
+            "page": 11,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Despite the challenges, there are regional strengths that support integrated governance. Among them are increasing research that calls for integrated governance, national and regional policies that facilitate co-governance, local awareness on their right to participate in policy and decision-making and the contribution of NGOs that constantly encourage integrated governance (Chaudhary and Piracha, 2021). An example for policies that support co-governance can be seen in India: in general, legislative power in India is distributed between the central and the state government.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document analyzes community participation in ecosystem-based DRR and discusses integrated/co-governance, participatory policy decision-making, NGO roles, and distribution of legislative power between government levels.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2256,
+        "output_tokens": 226,
+        "total_tokens": 2482,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 86,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:50.250253+00:00"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "8a75293b0263aa9c75c3b5a40a3e78990bf151c72ec76bea053a1d2ac2cef5c2",
+  "full_payload_hash": "37fbb22154a4cc031e8c87ce6572a0a38b42a7731182daac0038b9225ab7a338",
+  "envelope_header_hash": "9080f018b146870f1bf461ad290663c0c907a699a983cfb18168134a42084ab2",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1080_13549839_2026_2687421",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "not_reported",
+        "evidence": [],
+        "rationale": "The excerpts only provide keywords and a section heading on adaptive governance; neither contains substantive analysis of a listed governance dimension in a DRR/resilience context.",
+        "requires_human_review": true,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2156,
+        "output_tokens": 102,
+        "total_tokens": 2258,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 21,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:51.214364+00:00"
+  }
+}

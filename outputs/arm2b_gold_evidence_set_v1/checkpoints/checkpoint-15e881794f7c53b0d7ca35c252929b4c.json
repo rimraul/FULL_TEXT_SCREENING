@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "4f3b10c7e00d97097bca91a5c3c823d4d59afcad9d72140ef933191775b6622c",
+  "full_payload_hash": "e8cd85b07335c89fc7034384339bc357c5a41db6dfcba8b64cda8c4e331c7a35",
+  "envelope_header_hash": "1acfd7a8dafe4f6a89ea947b390dd1b6d94037b42d6faf855c4586fa2ffdec24",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1108_dpm-06-2023-0128",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1108_dpm-06-2023-0128",
+            "document_sha256": "2b62a0c20110fcd3b1b52c735fe848fb82bc22e3fb694c9d039b613af59a52b1",
+            "chunk_id": "arm2b-10_1108_dpm-06-2023-0128-I2_drr_hazard_framing-0",
+            "section": null,
+            "page": 4,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "A total of 102 articles from 1970 to 2023, focusing on \u201cpeople\u2019s role in ecosystem-based\nDRR,\u201d were analyzed to understand how community participation can contribute to\nsuccessful ecosystem-based DRR.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly focuses on ecosystem-based disaster risk reduction (DRR), including community participation in successful DRR.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2087,
+        "output_tokens": 96,
+        "total_tokens": 2183,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:47.012268+00:00"
+  }
+}

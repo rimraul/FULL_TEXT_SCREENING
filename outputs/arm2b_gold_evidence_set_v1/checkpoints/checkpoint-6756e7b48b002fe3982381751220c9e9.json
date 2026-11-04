@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "cead3844d7b05f081f93bdd960d97c0edd1b28b47beb8f048e7ea96a17131521",
+  "full_payload_hash": "fcab688c379f65f420bcb289415e4e8bd8c35c2d9eb2a2673cd6575dea709ff7",
+  "envelope_header_hash": "5e2dd671e9bfab4540c095d6fc1f47761d1d449fc6ec30a8d396a626d18d847f",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3390_w16111571",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_3390_w16111571",
+            "document_sha256": "144a07e138a5169fbbf69cec8c601f72c598a94c2c8132799ed474739f243684",
+            "chunk_id": "arm2b-10_3390_w16111571-I1_review_type-0",
+            "section": null,
+            "page": 4,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Figure 2. Methodology for the review following the PRISMA concept.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The excerpt explicitly identifies the document as a review and references PRISMA-based review methodology, supporting that it is a literature-synthesis study.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2042,
+        "output_tokens": 91,
+        "total_tokens": 2133,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:27.386907+00:00"
+  }
+}

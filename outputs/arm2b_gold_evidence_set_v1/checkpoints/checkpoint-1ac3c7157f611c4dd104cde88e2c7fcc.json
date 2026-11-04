@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "35821262ceb5a508e28dcd15c06d56c70ad8a531e541bc78b57b7d595b52ebbf",
+  "full_payload_hash": "61c921e7389aad16498166e512c23d307c3b97cee1000d07df38ef4ad3ce0652",
+  "envelope_header_hash": "7edebd36b8aea13b8d18821732afad465f677105fad42aecdf53b873965f2542",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3390_cli12050067",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_3390_cli12050067",
+            "document_sha256": "4e3dd85b6951167ebeec56cdb584730d72fab89beac134a0e477121b90b85f11",
+            "chunk_id": "arm2b-10_3390_cli12050067-I1_review_type-1",
+            "section": null,
+            "page": 2,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "The intended contribution of the paper is to provide a comprehensive and contemporary review of IFM and to derive conclusions about the needs to advance the concept, given more than two decades of experience with it. ... The paper reviews the governance needed to foster IFM and its elements and compares them with those for IWRM... The literature reviewed spans the globe, and several examples from the US experience are included... Much of the literature reviewed involves European perspectives.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The paper explicitly describes itself as a comprehensive review and states that it reviews literature spanning the globe, indicating synthesis of existing published literature.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2188,
+        "output_tokens": 140,
+        "total_tokens": 2328,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 45,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:19.168990+00:00"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "73bf7c5576060bfbbac47778450759015a2bb6c80c2da07369744f777c57a7d8",
+  "full_payload_hash": "8d5ce1fa10cdae2008696a0602ed4b0ebd8f15b9d009971ebc328c41fd1773ff",
+  "envelope_header_hash": "29b21c768f0f3315cc9f664174ac99d0cf4da8eaff59b63cd6e9f653a3328b2b",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1007_978-3-031-54118-6_8",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "not_reported",
+        "evidence": [],
+        "rationale": "No evidence excerpts were supplied, so the document's substantive analysis of any listed governance dimension cannot be assessed.",
+        "requires_human_review": true,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2027,
+        "output_tokens": 90,
+        "total_tokens": 2117,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 18,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:41.936534+00:00"
+  }
+}

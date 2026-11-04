@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "401e9b2728b66d677b773274e660e64f82920b23ec683bb0a1ac687e9f1c5669",
+  "full_payload_hash": "3b4ebf62891784f08a37d0b1a89665ff6c244a92a7cc552b01e5e198de333b43",
+  "envelope_header_hash": "99abba0753d2d7b0720a820079cea5d0e731903de5e43bd7fcad9c6ca5674952",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1080_13669877_2017_1351466",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1080_13669877_2017_1351466",
+            "document_sha256": "672e5e913122734960417871de3b1615a8fcdf71d4c7361fbc117555c7bd5be7",
+            "chunk_id": "arm2b-10_1080_13669877_2017_1351466-I1_review_type-0",
+            "section": null,
+            "page": 4,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "The approach adopted is a systematic literature selection process combined with a qualitative thematic\nsynthesis.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly describes a systematic literature selection process and qualitative thematic synthesis, indicating a literature review that synthesizes existing work.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2051,
+        "output_tokens": 94,
+        "total_tokens": 2145,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:35.360030+00:00"
+  }
+}

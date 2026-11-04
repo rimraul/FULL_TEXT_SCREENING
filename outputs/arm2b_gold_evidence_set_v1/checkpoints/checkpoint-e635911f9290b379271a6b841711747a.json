@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "9f0bd825a19353a4d78f9537981ed07814b1cfe9f72657fc4880e638ec9e2064",
+  "full_payload_hash": "22282d87606a8e1f7c49d0432d0da76e2c1256a5c5cb37d3b8343b9ef067997c",
+  "envelope_header_hash": "96b6dfc8179c3ad8833f2f941576c2c3f1561dcf5377b2e2550861053c3b9973",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1080_09640568_2019_1641474",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1080_09640568_2019_1641474",
+            "document_sha256": "179c6835155d6501869ef3949f93478ef884c68fc734ddd426573c4164cea50c",
+            "chunk_id": "arm2b-10_1080_09640568_2019_1641474-I2_drr_hazard_framing-1",
+            "section": null,
+            "page": 10,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Allowing small, manageable floods to enter the system allows adjustment and learning over time, increasing resilience capacity to cope with larger, unpredictable flood events (Liao 2014; Liao, Le, and Nguyen 2016; Adeyeye and Emmitt, 2017). As Liao (2014, 736) states: \u201cresilience to a disturbance is cultivated through learning from and adapting to that very same disturbance over time\u201d. Therefore, learning from these disturbances leads to genuine adaptation to floods and an opportunity for resilience (Nguyen and James 2013; Balsells et al. 2015; Thieken et al. 2014).",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly discusses resilience and adaptation in relation to flood events, including larger unpredictable floods, providing a clear hazard framing.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2262,
+        "output_tokens": 134,
+        "total_tokens": 2396,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 29,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:14.683354+00:00"
+  }
+}

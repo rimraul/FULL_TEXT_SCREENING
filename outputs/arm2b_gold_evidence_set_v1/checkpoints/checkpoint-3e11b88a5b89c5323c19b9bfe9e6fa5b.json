@@ -1,0 +1,68 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "fcc873997621d593a8a2d95558cc93ea168fd72991263f6d6bee3ff107837fcd",
+  "full_payload_hash": "37355c44d38c4bcdd8a558bd77606141e6b5f3a989b4621ae34fd39550fe48ee",
+  "envelope_header_hash": "defd2da9e633a125adc0251d97ffce9f230cf59363e5fdd18155b546809eef42",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_5194_nhess-21-1383-2021",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_5194_nhess-21-1383-2021",
+            "document_sha256": "51b5dcb78cc7f4c758bad49e70714dca081556784a782bd6a251628f87ac4c7e",
+            "chunk_id": "arm2b-10_5194_nhess-21-1383-2021-I1_review_type-0",
+            "section": null,
+            "page": 2,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "To identify key challenges, opportunities, and research questions,\na systematic review of the academic literature was carried\nout.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_5194_nhess-21-1383-2021",
+            "document_sha256": "51b5dcb78cc7f4c758bad49e70714dca081556784a782bd6a251628f87ac4c7e",
+            "chunk_id": "arm2b-10_5194_nhess-21-1383-2021-I1_review_type-1",
+            "section": null,
+            "page": 3,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Elsevier\u2019s Scopus and Google Scholar citation databases were used to identify studies in which the concept of resilience engineering has been explored for the four selected infrastructure systems (i.e., water, energy, transportation, and telecommunication). Given the rapid development of the resilience concept, we limited our search criteria to four specific keywords (i.e., resilience engineering, critical infrastructure, vital infrastructure, and resilient infrastructure) with flexible combinations (e.g., resilience engineering AND vital infrastructure). Application of these criteria resulted in a selection of 160 studies, including books, full articles, and abstracts, in which the resilience of infrastructure systems was studied. Notably, the review was not bounded by a certain period or geography with the exception of our question about measures, developments, and best practices; to answer this question, we limited ourselves to recent literature (2012\u20132019).",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly reports conducting a systematic review of academic literature and describes database searching and selection of 160 published studies.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2268,
+        "output_tokens": 119,
+        "total_tokens": 2387,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:00.073147+00:00"
+  }
+}

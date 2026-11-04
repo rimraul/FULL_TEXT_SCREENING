@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "1c5bcbf50e299cac2ca7fef2fc3f9a166d72a75a25028eac97f7ff7c8423da86",
+  "full_payload_hash": "de08bfab7e6955adf151df8b583c8c0ab800eaeaba337906b1ddc178a4f355e3",
+  "envelope_header_hash": "4b8abef7b1711ed6ef10109229632709490b3f384db547c53e90dedee93902df",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1080_13549839_2026_2687421",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1080_13549839_2026_2687421",
+            "document_sha256": "7d3b396f4e686acc1fb5c3e97bb6953ca56a4050552a21bdcb60f4dc5f0b873f",
+            "chunk_id": "arm2b-10_1080_13549839_2026_2687421-I1_review_type-0",
+            "section": null,
+            "page": 8,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "A systematic review methodology formed the basis of the research through both protocol development and the extensive search for suitable publications. These data are collected on the basis of the Recommended Reporting Items for Systematic Reviews and Meta- analysis (PRISMA).",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The excerpt explicitly states that the research used systematic review methodology, including a publication search and PRISMA-based data collection.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2081,
+        "output_tokens": 94,
+        "total_tokens": 2175,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:47.531272+00:00"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "57159a3b9d326c0dd029334edf90f4cdb0b7bf246d77a6f1fc22b2f2d2ac02ae",
+  "full_payload_hash": "64d1d96add9f065dca0511691e6fce7c5b821c0f10e9bd21881037b408d03dcc",
+  "envelope_header_hash": "a05cb4e28c05b6f0367899b667df60bdf0cda0eda80e8a3f81720acd7a9b0249",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1007_978-3-031-54118-6_8",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1007_978-3-031-54118-6_8",
+            "document_sha256": "628cbf78d4bb46d8a0152e0a469f768fefc4cfe151684e720a062cbadaebb0be",
+            "chunk_id": "arm2b-10_1007_978-3-031-54118-6_8-I1_review_type-0",
+            "section": null,
+            "page": 3,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "This study conducted a systematic literature review to provide an evidence-based answer\nto the before mentioned research questions. The search was performed in April 2023\nfrom some widely accepted citation databases, relying on PRISMA 2020 methodology\n[12].",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly states that it conducted a systematic literature review using citation-database searches and PRISMA 2020 methodology.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2088,
+        "output_tokens": 97,
+        "total_tokens": 2185,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:35.845842+00:00"
+  }
+}

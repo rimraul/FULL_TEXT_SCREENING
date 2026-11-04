@@ -1,0 +1,37 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "3cc7ae858ce026753472de459adc9e929c35fbf435a77f13879a9c9d05773735",
+  "full_payload_hash": "806af6576be414520e08387f130b6fbe1ff7706b65679d72b994bc4268bdcf2e",
+  "envelope_header_hash": "69a67ca20c0904781fd4c025bf26f4a65d669b9765abc6d55a94dba923605e32",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3390_cli12050067",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "not_reported",
+        "evidence": [],
+        "rationale": "The excerpts indicate that the paper discusses flood-risk governance, but they do not directly establish substantive analysis of any specified governance dimension (e.g., institutional capacity, multilevel governance, partnerships, participation, financing, or legal frameworks).",
+        "requires_human_review": true,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2141,
+        "output_tokens": 195,
+        "total_tokens": 2336,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 98,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:25.212078+00:00"
+  }
+}

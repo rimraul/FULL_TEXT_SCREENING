@@ -1,0 +1,37 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "07e80724e62775c5ae74b28d64da08411be9865ecbcfac2b62fa7ef19b3ea843",
+  "full_payload_hash": "7a8e905f1628362b3c76f033536f6c11af7d41ab68691ecefee42fab422b85d7",
+  "envelope_header_hash": "d17079f7d3ac00c32740fd7f596a62696335067108cdfc98339c8cb9e142bed3",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3389_fenvs_2024_1496813",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "not_reported",
+        "evidence": [],
+        "rationale": "The excerpt is only a section heading about social capital and community disaster resilience; it does not substantively analyse any listed governance dimension.",
+        "requires_human_review": true,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2087,
+        "output_tokens": 98,
+        "total_tokens": 2185,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 21,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:45.622742+00:00"
+  }
+}

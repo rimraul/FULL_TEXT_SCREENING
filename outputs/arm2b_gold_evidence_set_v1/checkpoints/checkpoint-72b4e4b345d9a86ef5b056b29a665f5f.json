@@ -1,0 +1,68 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "90abc844dad0eb4a2266cf8416aca62714dd46f643d3f402b939269a9e8f2b25",
+  "full_payload_hash": "ac9ccab169659d94e2558841fa3d80ad48321cf4c782e6b8960c0963d831c8a8",
+  "envelope_header_hash": "8176441854aae6aa2085aaca85096c8f8a5b0e0fa106e951333cbd2f5f047444",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1080_09640568_2019_1641474",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1080_09640568_2019_1641474",
+            "document_sha256": "179c6835155d6501869ef3949f93478ef884c68fc734ddd426573c4164cea50c",
+            "chunk_id": "arm2b-10_1080_09640568_2019_1641474-I3_governance_dimension-2",
+            "section": null,
+            "page": 18,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Bottom-up approaches may be important for community acceptance and translation of\nlocal concerns into FRM (Bosher et al. 2009; Odemerho 2015; Schelfaut 2011).\nNguyen and James (2013), van Kessel, Gibbs, and MacDougall (2015) and Keogh et al.\n(2011) adopt a bottom-up approach to their resilience methodology by focusing on individual\nperspectives of resilience by those who have experienced flooding, as opposed to\na top-down approach with pre-determined indicators to determine resilience. A similar\nbottom-up perspective is adopted by Rose et al. (2009) who focus on the \u201clocus of control\u201d\n(Rotter 1982), a psycho-social theory that can be related to resilience of individuals.\nThe locus of control is a belief system that outlines \u201cinternal locus\u2019\u201d and \u201cexternal\nlocus\u2019,\u201d the former consists of those who perceive circumstances to be within their control,\nwhereas the latter believe they are determined by external influences such as luck\nor religious entities. Rose et al. (2009) provide examples of positive correlations\nbetween the locus of control theory and adaptive behaviour in the event of disasters. In",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_1080_09640568_2019_1641474",
+            "document_sha256": "179c6835155d6501869ef3949f93478ef884c68fc734ddd426573c4164cea50c",
+            "chunk_id": "arm2b-10_1080_09640568_2019_1641474-I3_governance_dimension-3",
+            "section": null,
+            "page": 19,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "addition, results from Qasim et al. (2016) reinforce this theory, as it is found that the\nmajority of the surveyed population within the study showed low preparedness and mitigative\nbehaviour, as it was the belief that floods are a result of Allah\u2019s will \u2013 thus further\nconfirming the correlation between external locus\u2019 and adaptive behaviour.\nOn the other hand, top-down approaches are still essential as part of a resilient\nFRM strategy. Property-level flood resilient technologies have become increasing integral\nto the new FRM paradigm. A theme of trust emerged in the literature surrounding\nthe uptake of resilience measures. White et al. (2018) found that trust (or lack thereof)\nwas an important influence in the uptake of private mitigation measures. For example,\nthere is a lack of trust in the independence of manufacturing companies, in product\nperformance, and in risk assessments. Furthermore, trust between citizens and people\nof influence in FRM was deemed to be an important factor in building resilience\n(Twigger-Ross et al. 2016; Manojlovic and Pasche 2008; and Schelfaut et al. 2011). A\nsimilar conclusion was drawn from the Water Management Enquiry, where relationships\nof trust were built between the public and key agencies which fostered social\ncapital and therefore resilience (Cashman 2011).\nDespite the importance of trust between the public and key stakeholders, a review\nof FRM governance by Morrison, Westbrook, and Nob (2017) highlights siloing\nbetween social and physical sciences. This is attributed towards low connectivity\nbetween stakeholder engagement, which focuses on social interactions such as trust,\nand the tools used in FRM governance, which are focused on the prediction and modelling\nof flood events and physical vulnerability. Further division in FRM governance\nrelates to effectiveness of flood resilience technologies at property level. Due to lack\nof regulations surrounding FReT at National or European level, a lack of uptake in\nprotective measures among homeowners exists (Golz, Schinke, and Naumann 2015).\nCoaffee (2008) as cited in Bosher et al. (2009, 18\u201319) further highlight the low connectivity\nbetween stakeholder engagement and governance of FRM as a result of the\nresilience agenda being developed: almost exclusively by politicians and emergency\nplanning professionals with little if any discussion with citizens, the business community,\ntown planners, urban designers and other built environment professionals.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document substantively discusses community/stakeholder participation through bottom-up approaches, trust and engagement between citizens, agencies and other stakeholders in flood-resilience management. It also analyses governance siloing and regulatory gaps affecting uptake of flood-resilience technologies.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 3037,
+        "output_tokens": 205,
+        "total_tokens": 3242,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 51,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:18.546493+00:00"
+  }
+}

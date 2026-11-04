@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "b001cea45b557a750d7d4d4ae5fd215d76029f72bf3f2e8b8228fa350aed6c8d",
+  "full_payload_hash": "bb0eda94edda20e8adc42428289bf26efb147f4c8d14760a323f36d24d6fb5c8",
+  "envelope_header_hash": "d0da2900c27cac56a27bf39139b9d1c24655f20253c302237b93640d34566ed7",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1002_eet_1766",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1002_eet_1766",
+            "document_sha256": "3d24c987e5d44d2eee8f5a63aac6d825d42645b58b987c3a2c0bf5f118eb1fd2",
+            "chunk_id": "arm2b-10_1002_eet_1766-I1_review_type-0",
+            "section": null,
+            "page": 4,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Since relevant papers are available, but have not been brought together in an explicit and systematic\nanalysis based on a coherent conceptual framework, we used a literature review as our main data collection\nmethod. Berrang-Ford et al. (2015) would characterize our approach as a narrative review.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly states that it used a literature review as its main data-collection method and characterizes the approach as a narrative review, which is a review-type synthesis of published papers.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2087,
+        "output_tokens": 101,
+        "total_tokens": 2188,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:01.476570+00:00"
+  }
+}

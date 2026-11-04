@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "09475594d27923680d0ea2c2599aa6021d82baeaf73f585c5d25c7b684496c8c",
+  "full_payload_hash": "f037b6b680b7a76081e67b5b020d7f7d899d608339952123cbbcc49058c3dfb1",
+  "envelope_header_hash": "54bb9b8122c926a7c9175cd5d3b03881a6730ed1a9657ea8350e386ea650cb6e",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_5194_nhess-21-1383-2021",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_5194_nhess-21-1383-2021",
+            "document_sha256": "51b5dcb78cc7f4c758bad49e70714dca081556784a782bd6a251628f87ac4c7e",
+            "chunk_id": "arm2b-10_5194_nhess-21-1383-2021-I3_governance_dimension-2",
+            "section": null,
+            "page": 14,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "itoring used by governmental organizations and their associated\npartners to ensure that infrastructure services are available\nto people (OECD, 2015). For example, preparedness is\none of the important approaches to ensure that systems are\nable to cope with sudden shocks and future pressures (Majithia,\n2014). Hallegatte et al. (2019) suggested that the first\nstep in making infrastructures resilient should be to make\nthem reliable in normal conditions through having proper\ngovernance in infrastructure design, operation, maintenance,\nand financing phases. According to this suggestion, substantial\ninvestments in the regular maintenance of the current systems\nare of utmost importance, given that such investments in\nplanning, in the initial stage of the projects and in the maintenance\nphase is considerably greater than the repairs or reconstruction\ncosts after a disruptive event. In line with this\nperspective, Shittu et al. (2018) also highlighted the role of\nsustained investment, continuous monitoring, and data collection\nin having an effective emergency response after a disaster\noccurs. In addition, Hallegatte et al. (2019) pointed out\nthat reducing the exposure and vulnerability of the systems\nto hazards is another way of promoting resilience of infrastructures.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document substantively discusses governance in infrastructure resilience, including governance across design, operation, maintenance, financing, planning, monitoring, and data collection for disaster response.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2441,
+        "output_tokens": 172,
+        "total_tokens": 2613,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 62,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:06.890366+00:00"
+  }
+}

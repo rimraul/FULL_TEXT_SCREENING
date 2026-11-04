@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "generated": "2026-08-13",
+  "note": "See docling_artifacts.py's module docstring for how this is used and computed. expected_tree_digest is computed by compute_tree_digest() over the whole artifacts directory (all 5 model sources), excluding huggingface_hub's own bookkeeping (.cache/huggingface, .locks). Regenerate with: python -c \"from pathlib import Path; from ft_screening.docling_artifacts import bootstrap; print(bootstrap(Path.home()/'.cache'/'docling'/'models', progress=True))\" then update expected_tree_digest below (bootstrap() already validates and returns the digest, so no separate compute_tree_digest() call is needed).",
+  "pinned_repos": {
+    "docling-project/docling-layout-heron": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8 (bootstrap()-pinned commit; Docling itself leaves this at revision=\"main\")",
+    "docling-project/CodeFormulaV2": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4 (bootstrap()-pinned commit; Docling itself leaves this at revision=\"main\")",
+    "docling-project/docling-models": "fc0f2d45e2218ea24bce5045f58a389aed16dc23 (bootstrap()-pinned commit; Docling's own code additionally pins this to tag v2.3.0)",
+    "docling-project/DocumentFigureClassifier": "12b08ac4e56f280a2a9a1ad920eacc1af60f6a72 (bootstrap()-pinned commit; Docling's own code additionally pins this to tag v1.0.1)",
+    "RapidAI/RapidOCR (ModelScope, not Hugging Face)": "versioned release URLs (v3.4.0, v2.0.7) hardcoded in the installed rapidocr/docling package version -- already immutable as long as that package version is pinned; downloaded via Docling's own RapidOcrModel.download_models(), not snapshot_download()"
+  },
+  "expected_tree_digest": "01c0595530dbf24efca3bf08c0e5032ad67d71a5dd955b155341eea223d0afa3"
+}

@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "2b0ba20a390b37bd0b97f14603f1743ef16637696423062e6baa9a44b182bee4",
+  "full_payload_hash": "407e0c09bbb483cd2db967929ca9a72f9c71fa03d2b259b7645c2326ef0a9bed",
+  "envelope_header_hash": "a8783c074119762f7e58d38a6c3bc3037c0c0909b06772339b454a758fbdd3be",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3390_cli12050067",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_3390_cli12050067",
+            "document_sha256": "4e3dd85b6951167ebeec56cdb584730d72fab89beac134a0e477121b90b85f11",
+            "chunk_id": "arm2b-10_3390_cli12050067-I2_drr_hazard_framing-1",
+            "section": null,
+            "page": 9,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "7. Flood Risk Governance",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document includes an explicit \u201cFlood Risk Governance\u201d section, providing a clear hazard/disaster-risk framing relevant to DRR.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2118,
+        "output_tokens": 231,
+        "total_tokens": 2349,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 132,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:22.256760+00:00"
+  }
+}

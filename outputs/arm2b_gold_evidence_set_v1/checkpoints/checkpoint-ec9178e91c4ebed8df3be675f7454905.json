@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "a6aafcc7de4b8e5d1fbf2726ad1300a8f605fa25ccca2c7cdd2db6502c87fc98",
+  "full_payload_hash": "0cc25d58ef11cf038b030dd6f00e1311f8f455fe052af25498c1f46a8859976c",
+  "envelope_header_hash": "c532f2e247476981efa97e947aaa08e67bd0c829b9e45ee70659ef26bf2cefd0",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1007_s11269-016-1491-7",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1007_s11269-016-1491-7",
+            "document_sha256": "d5c0f1198b9bc1d9b477ba5fb08a1ba74951735e4529bbdc262f5ef49388f35a",
+            "chunk_id": "arm2b-10_1007_s11269-016-1491-7-I3_governance_dimension-2",
+            "section": null,
+            "page": 10,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "governance and interactive policymaking as identified in our Scopus search suggest that a\ncombination of coordination mechanisms is required to organise these processes in an effective\nway. Below we list eight of those mechanisms distilled from our literature review.\nFirst, authors stress the importance of clear leadership (Van den Brink et al. 2011; Rijke\net al. 2013). Visionary leadership is perceived to be important, to link different time scales and\nto convince others to anticipate potential future threats. Entrepreneurial leadership is necessary\nto get things done, for example to gain access to the necessary resources for realising\nadaptation projects. The presence of a dedicated neutral and skilled process manager will be\nhelpful to organize the entire process in such a way that participants are kept at the table,\nremain interested and learning (Dieperink et al. 2012). Collaborative leadership is necessary to\nbridge gaps, span boundaries and build coalitions between different actors and sectors. Policy\nentrepreneurs may provide for this type of leadership (Partzsch and Ziegler 2011; Huitema and\nMeijerink 2009).\nSecond, leadership ask for a facilitating program office involving different competencies as\nwell as a set of management instruments for gathering data and information, assessing resource\nlevels and needs, and allocating resources for use (Medema et al. 2008), developing learning\ncapacities, organizing single and double loop learning by monitoring and evaluation of policy\nexperiences (Van den Brink et al. 2011), setting up teams for community building and progress\nevaluation (Fleischhauer et al. 2012.\nThird stakeholder engagement for informed and outcome-oriented contributions to water\npolicy design and implementation has to be promoted (OECD 2015). This is challenging for in\npractice this means that policy entrepreneurs have to find a balance between involving too\nmany actors (which might be good from a democracy point of view) on one hand and too few\n(which might be more effective in the short term) on the other hand via selective activation\n(Green and Penning-Rowsell 2010). Pro-actively involving the community in itself may result\nin different perspectives on the issues at stake (Garrelts and Lange 2011; Bruchnach and\nIngram 2012). The involvement of some actors will also be crucial because of the resources\nthey have, while the involvement of others might be motivated to get more societal support for\nthe final proposal that has to be developed. Of course, whether stakeholders will actually\nparticipate depends on their capacities to do so and the presence of other \u2018hot items\u2019 on their\nagendas (Ruiz-Villaverde and Garc\u00eda-Rubio 2016).\nAs a fourth mechanism the clarification of roles and of responsibilities within complex\npolycentric networks can be mentioned (Warner et al. 2008, 134; Moss and Newig 2010). On\nthe catchment level, river basin organisations can be charged with the development of\nhydrological models and scenarios for flood forecasting. The catchment level will also be\nthe optimal level to discuss upstream retention options as well as the potentials of improvement\nof flood flow conditions. On lower geographical scales, actors representing different\npolicy sectors, especially those that represent the water and spatial planning sector, will discuss\nthe potentials of flood risk prevention, flood defence, mitigation, preparation and recovery.\nOverall, processes will be more successful if the rules of the game are clear to all involved\nparties. Drafting agreements or covenants might be helpful to achieve this.\nFifth, inspiring visions may be developed which involve a variety of policy frames and\nsolutions - connecting scale levels, both geographically and in time (Van den Brink et al. 2011;\nBruchnach and Ingram 2012) and balance multiple (spatial) objectives (Rijke et al. 2013).\nIdeally they can initiate and integrate different societal discussions (Greiving and Angignard\n2013) which result in common problem definitions (Bruchnach and Ingram 2012), a shared sense\nof urgency, normative consensus and creative solutions. Multi-layered safety is an example of",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document substantively discusses flood-risk governance coordination mechanisms, including leadership and institutional capacities, information and resource-management systems, stakeholder/community participation, clarified multilevel roles, and spatial planning.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 3054,
+        "output_tokens": 184,
+        "total_tokens": 3238,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 71,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:33.455832+00:00"
+  }
+}

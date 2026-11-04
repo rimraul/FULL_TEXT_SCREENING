@@ -1,0 +1,2395 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceSet",
+  "content_hash": "eb7ac00b2fd1d6456b8bdf2ac58d67f58af01ae65ceaff42bd7c53c2512fc2db",
+  "full_payload_hash": "c7c3283fb5164957496d07a63a785ce01a5435fb53a033daa5d13a37cb8889cd",
+  "envelope_header_hash": "b8294c9c2c51319e83ce658704ad332701c180fc7d08ed520b81f555b964676c",
+  "payload": {
+    "gold_set_hash": "6fdfaebfd84e7ed33101d1a9b9ba4960367ab6985f1a52e3a13cabc2e396280a",
+    "version_label": "gold_evidence_set_v1",
+    "entries": [
+      {
+        "document_id": "10_1080_09640568_2019_1641474",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          5
+        ],
+        "original_supporting_passages": [
+          "A systematic review differentiates from a conventional review in terms of rigor, repeatability,\nand completeness (Righi, Saurin, and Wachs 2015). In order to meet this criteria,\nwe ensured the methodology was explicit and reproducible by following clearly\nstated objectives with a set of pre-defined eligibility criteria, and a systematic search to\nidentify all potential papers (Liberati et al. 2009)."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 5,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "A systematic review differentiates from a conventional review in terms of rigor, repeatability,\nand completeness (Righi, Saurin, and Wachs 2015). In order to meet this criteria,\nwe ensured the methodology was explicit and reproducible by following clearly\nstated objectives with a set of pre-defined eligibility criteria, and a systematic search to\nidentify all potential papers (Liberati et al. 2009).",
+            "supported_inference": "Sufficient: explicit self-identification as a systematic review with stated eligibility criteria and search methodology (not just a search-string mention).",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit self-identification as a systematic review with stated eligibility criteria and search methodology (not just a search-string mention).",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit self-identification as a systematic review with stated eligibility criteria and search methodology (not just a search-string mention).",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1080_09640568_2019_1641474",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          5
+        ],
+        "original_supporting_passages": [
+          "Our analysis of resilience in FRM was based solely on how academia was employing\nthe term; therefore our database search was restricted to peer reviewed journal\narticles and conference papers printed in English."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 5,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Our analysis of resilience in FRM was based solely on how academia was employing\nthe term; therefore our database search was restricted to peer reviewed journal\narticles and conference papers printed in English.",
+            "supported_inference": "Original draft excerpt was meta/methodological (search scope re: terminology usage), not substantive hazard content. Added expanded excerpt from p.10 with explicit flood-event/resilience substantive discussion -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 10,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Allowing small, manageable floods to enter the system allows adjustment and learning over time, increasing resilience capacity to cope with larger, unpredictable flood events (Liao 2014; Liao, Le, and Nguyen 2016; Adeyeye and Emmitt, 2017). As Liao (2014, 736) states: \u201cresilience to a disturbance is cultivated through learning from and adapting to that very same disturbance over time\u201d. Therefore, learning from these disturbances leads to genuine adaptation to floods and an opportunity for resilience (Nguyen and James 2013; Balsells et al. 2015; Thieken et al. 2014).",
+            "supported_inference": "Original draft excerpt was meta/methodological (search scope re: terminology usage), not substantive hazard content. Added expanded excerpt from p.10 with explicit flood-event/resilience substantive discussion -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "179c6835155d6501869ef3949f93478ef884c68fc734ddd426573c4164cea50c",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original draft excerpt was meta/methodological (search scope re: terminology usage), not substantive hazard content. Added expanded excerpt from p.10 with explicit flood-event/resilience substantive discussion -- sufficient.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original draft excerpt was meta/methodological (search scope re: terminology usage), not substantive hazard content. Added expanded excerpt from p.10 with explicit flood-event/resilience substantive discussion -- sufficient.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1080_09640568_2019_1641474",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          4,
+          18
+        ],
+        "original_supporting_passages": [
+          "To develop this understanding, the following research questions are addressed:\n1. What are the most commonly adopted perspectives on resilience throughout FRM?\n2. How is resilience assessed within FRM?\n3. How do the differing perspectives on resilience influence implementation and\noperationalisation of the concept?",
+          "3.3.3. FRM strategies"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "To develop this understanding, the following research questions are addressed:\n1. What are the most commonly adopted perspectives on resilience throughout FRM?\n2. How is resilience assessed within FRM?\n3. How do the differing perspectives on resilience influence implementation and\noperationalisation of the concept?",
+            "supported_inference": "Focus on stategies is the only bridge to governance topics, even if not mentioned in the criterion, as strategies and policy planning are part of public management and public management overlaps with public governance.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 18,
+            "evidence_role": "structural_heading",
+            "heading_or_quotation": "3.3.3. FRM strategies",
+            "supported_inference": "Focus on stategies is the only bridge to governance topics, even if not mentioned in the criterion, as strategies and policy planning are part of public management and public management overlaps with public governance.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 18,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Bottom-up approaches may be important for community acceptance and translation of\nlocal concerns into FRM (Bosher et al. 2009; Odemerho 2015; Schelfaut 2011).\nNguyen and James (2013), van Kessel, Gibbs, and MacDougall (2015) and Keogh et al.\n(2011) adopt a bottom-up approach to their resilience methodology by focusing on individual\nperspectives of resilience by those who have experienced flooding, as opposed to\na top-down approach with pre-determined indicators to determine resilience. A similar\nbottom-up perspective is adopted by Rose et al. (2009) who focus on the \u201clocus of control\u201d\n(Rotter 1982), a psycho-social theory that can be related to resilience of individuals.\nThe locus of control is a belief system that outlines \u201cinternal locus\u2019\u201d and \u201cexternal\nlocus\u2019,\u201d the former consists of those who perceive circumstances to be within their control,\nwhereas the latter believe they are determined by external influences such as luck\nor religious entities. Rose et al. (2009) provide examples of positive correlations\nbetween the locus of control theory and adaptive behaviour in the event of disasters. In",
+            "supported_inference": "Focus on stategies is the only bridge to governance topics, even if not mentioned in the criterion, as strategies and policy planning are part of public management and public management overlaps with public governance.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "179c6835155d6501869ef3949f93478ef884c68fc734ddd426573c4164cea50c",
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 19,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "addition, results from Qasim et al. (2016) reinforce this theory, as it is found that the\nmajority of the surveyed population within the study showed low preparedness and mitigative\nbehaviour, as it was the belief that floods are a result of Allah\u2019s will \u2013 thus further\nconfirming the correlation between external locus\u2019 and adaptive behaviour.\nOn the other hand, top-down approaches are still essential as part of a resilient\nFRM strategy. Property-level flood resilient technologies have become increasing integral\nto the new FRM paradigm. A theme of trust emerged in the literature surrounding\nthe uptake of resilience measures. White et al. (2018) found that trust (or lack thereof)\nwas an important influence in the uptake of private mitigation measures. For example,\nthere is a lack of trust in the independence of manufacturing companies, in product\nperformance, and in risk assessments. Furthermore, trust between citizens and people\nof influence in FRM was deemed to be an important factor in building resilience\n(Twigger-Ross et al. 2016; Manojlovic and Pasche 2008; and Schelfaut et al. 2011). A\nsimilar conclusion was drawn from the Water Management Enquiry, where relationships\nof trust were built between the public and key agencies which fostered social\ncapital and therefore resilience (Cashman 2011).\nDespite the importance of trust between the public and key stakeholders, a review\nof FRM governance by Morrison, Westbrook, and Nob (2017) highlights siloing\nbetween social and physical sciences. This is attributed towards low connectivity\nbetween stakeholder engagement, which focuses on social interactions such as trust,\nand the tools used in FRM governance, which are focused on the prediction and modelling\nof flood events and physical vulnerability. Further division in FRM governance\nrelates to effectiveness of flood resilience technologies at property level. Due to lack\nof regulations surrounding FReT at National or European level, a lack of uptake in\nprotective measures among homeowners exists (Golz, Schinke, and Naumann 2015).\nCoaffee (2008) as cited in Bosher et al. (2009, 18\u201319) further highlight the low connectivity\nbetween stakeholder engagement and governance of FRM as a result of the\nresilience agenda being developed: almost exclusively by politicians and emergency\nplanning professionals with little if any discussion with citizens, the business community,\ntown planners, urban designers and other built environment professionals.",
+            "supported_inference": "Focus on stategies is the only bridge to governance topics, even if not mentioned in the criterion, as strategies and policy planning are part of public management and public management overlaps with public governance.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "179c6835155d6501869ef3949f93478ef884c68fc734ddd426573c4164cea50c",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Focus on stategies is the only bridge to governance topics, even if not mentioned in the criterion, as strategies and policy planning are part of public management and public management overlaps with public governance.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Focus on stategies is the only bridge to governance topics, even if not mentioned in the criterion, as strategies and policy planning are part of public management and public management overlaps with public governance.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1177_08854122231199462",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          2
+        ],
+        "original_supporting_passages": [
+          "To record the scope of empirically derived knowledge\nabout the smart city framework for disaster resilience, we followed\nthe procedures outlined by Xiao and Watson (2019), suggesting\nthat the procedures for conducting an SLR include\ndeveloping a research question, defining inclusion/exclusion\ncriteria, conducting a comprehensive literature search, screening,\nand selecting studies based on predefined criteria, extracting\ndata from the selected studies, and synthesizing and\nanalyzing the findings (Xiao and Watson 2019)."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 2,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "To record the scope of empirically derived knowledge\nabout the smart city framework for disaster resilience, we followed\nthe procedures outlined by Xiao and Watson (2019), suggesting\nthat the procedures for conducting an SLR include\ndeveloping a research question, defining inclusion/exclusion\ncriteria, conducting a comprehensive literature search, screening,\nand selecting studies based on predefined criteria, extracting\ndata from the selected studies, and synthesizing and\nanalyzing the findings (Xiao and Watson 2019).",
+            "supported_inference": "Sufficient: explicit SLR methodology citation (Xiao and Watson 2019) with full procedure description.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit SLR methodology citation (Xiao and Watson 2019) with full procedure description.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit SLR methodology citation (Xiao and Watson 2019) with full procedure description.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1177_08854122231199462",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          2,
+          3
+        ],
+        "original_supporting_passages": [
+          "Fourth, we only selected articles focusing on natural",
+          "hazard events caused by natural forces that result in widespread\ndamage, destruction, or loss of life. Examples of natural hazard\nevents include earthquakes, wildfires, landslides, hurricanes,\nfloods, tsunamis, typhoons, and tropical storms. Meanwhile,\nwe excluded papers related to man-made disasters, terrorism,\npandemics, energy, pollution, debris disposal, chronic climate\nrisks, security threats, and cyber-attacks."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 2,
+            "evidence_role": "structural_heading",
+            "heading_or_quotation": "Fourth, we only selected articles focusing on natural",
+            "supported_inference": "Sufficient: the review's own inclusion criteria explicitly enumerate specific natural-hazard types (earthquakes, wildfires, landslides, floods, hurricanes, tsunamis, etc.) and explicitly exclude non-hazard categories -- a deliberate, explicit hazard framing, not domain-adjacent scope.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "hazard events caused by natural forces that result in widespread\ndamage, destruction, or loss of life. Examples of natural hazard\nevents include earthquakes, wildfires, landslides, hurricanes,\nfloods, tsunamis, typhoons, and tropical storms. Meanwhile,\nwe excluded papers related to man-made disasters, terrorism,\npandemics, energy, pollution, debris disposal, chronic climate\nrisks, security threats, and cyber-attacks.",
+            "supported_inference": "Sufficient: the review's own inclusion criteria explicitly enumerate specific natural-hazard types (earthquakes, wildfires, landslides, floods, hurricanes, tsunamis, etc.) and explicitly exclude non-hazard categories -- a deliberate, explicit hazard framing, not domain-adjacent scope.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: the review's own inclusion criteria explicitly enumerate specific natural-hazard types (earthquakes, wildfires, landslides, floods, hurricanes, tsunamis, etc.) and explicitly exclude non-hazard categories -- a deliberate, explicit hazard framing, not domain-adjacent scope.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: the review's own inclusion criteria explicitly enumerate specific natural-hazard types (earthquakes, wildfires, landslides, floods, hurricanes, tsunamis, etc.) and explicitly exclude non-hazard categories -- a deliberate, explicit hazard framing, not domain-adjacent scope.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1177_08854122231199462",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          3,
+          11
+        ],
+        "original_supporting_passages": [
+          "Fifth, we only retained\narticles focusing on disaster management, emergency response,\nor resilience that affected urban environments while excluding\nbuilding-scale technologies (i.e., architectural applications,\nbuilding information modeling) and management for agriculture\nand rural communities.",
+          "In brief, the findings\nof this study suggest that urban planners should work closely\nwith other disciplines to develop comprehensive disaster management\nsystems that protect communities and enhance overall\nurban resilience."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Fifth, we only retained\narticles focusing on disaster management, emergency response,\nor resilience that affected urban environments while excluding\nbuilding-scale technologies (i.e., architectural applications,\nbuilding information modeling) and management for agriculture\nand rural communities.",
+            "supported_inference": "p.3 excerpt was scope/inclusion criteria, p.11 excerpt was one thin general recommendation. Added expanded excerpt from p.17 with explicit decentralization/governance analysis -- directly maps to I3's decentralization dimension, sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 11,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "In brief, the findings\nof this study suggest that urban planners should work closely\nwith other disciplines to develop comprehensive disaster management\nsystems that protect communities and enhance overall\nurban resilience.",
+            "supported_inference": "p.3 excerpt was scope/inclusion criteria, p.11 excerpt was one thin general recommendation. Added expanded excerpt from p.17 with explicit decentralization/governance analysis -- directly maps to I3's decentralization dimension, sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 17,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Third, the study's findings reveal the importance of developing decentralized operations for smart disaster resilience. Decentralized systems can enhance public engagement and governance, leading to more efficient and effective responses to disaster events, having significant implications for improving the overall resilience of urban areas and better serving the needs of affected communities. In terms of efficiency, Olshansky, Hopkins. and Johnson (2012) highlighted the necessity of time compression in emergency response and postdisaster recovery, further underscoring the need for efficient, usercentric technologies and systems",
+            "supported_inference": "p.3 excerpt was scope/inclusion criteria, p.11 excerpt was one thin general recommendation. Added expanded excerpt from p.17 with explicit decentralization/governance analysis -- directly maps to I3's decentralization dimension, sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "592d55a9f57ab8ac166b454403389a37d8e736c246237dd0f5bbfd1ae4a26d7f",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "p.3 excerpt was scope/inclusion criteria, p.11 excerpt was one thin general recommendation. Added expanded excerpt from p.17 with explicit decentralization/governance analysis -- directly maps to I3's decentralization dimension, sufficient.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "p.3 excerpt was scope/inclusion criteria, p.11 excerpt was one thin general recommendation. Added expanded excerpt from p.17 with explicit decentralization/governance analysis -- directly maps to I3's decentralization dimension, sufficient.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3390_w16111571",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          4
+        ],
+        "original_supporting_passages": [
+          "Figure 2. Methodology for the review following the PRISMA concept."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "visual_evidence_locator",
+            "heading_or_quotation": "Figure 2. Methodology for the review following the PRISMA concept.",
+            "supported_inference": "Sufficient: the caption names PRISMA explicitly -- a document presenting a PRISMA flow diagram is following a recognized systematic-review reporting standard, meaningful (if indirect, figure-locator) evidence of review-type status.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: the caption names PRISMA explicitly -- a document presenting a PRISMA flow diagram is following a recognized systematic-review reporting standard, meaningful (if indirect, figure-locator) evidence of review-type status.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: the caption names PRISMA explicitly -- a document presenting a PRISMA flow diagram is following a recognized systematic-review reporting standard, meaningful (if indirect, figure-locator) evidence of review-type status.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3390_w16111571",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          20
+        ],
+        "original_supporting_passages": [
+          "This review evaluated trade-offs between different scales of selection for UWSs resilience,\nby analysing the impacts of scale on the components of resilience capabilities\n(redundancy, availability, robustness, and learning and investment ability), as well as which\nUWS functionality (ies) could be involved in the trade-off."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 20,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "This review evaluated trade-offs between different scales of selection for UWSs resilience,\nby analysing the impacts of scale on the components of resilience capabilities\n(redundancy, availability, robustness, and learning and investment ability), as well as which\nUWS functionality (ies) could be involved in the trade-off.",
+            "supported_inference": "Original draft excerpt was generic resilience-engineering language (redundancy, robustness) with no named hazard -- consistent with the reviewer's original \u2018unclear\u2019 gold label. Expanded excerpt from p.13 does mention explicit flooding (pluvial/fluvial), but reviewer's judgment: the paper's overall focus is general urban water system resilience, with flooding as just one use case among several, not the paper's explicit framing -- kept as \u2018unclear\u2019 rather than reclassified to satisfied. FLAGGED: possible gold-label sensitivity to which evidence was captured -- the original supporting passage never surfaced the flooding content that does exist deeper in the text; recorded here for awareness, gold_status intentionally left unchanged (frozen).",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 13,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "DWMUs for local source control are more effective options if the intention is to reduce water flooding before runoff enters the drainage systems; they help to minimize pluvial flooding, protect headwaters, and promote aquifer recharge, while larger WMUs, such as ponds or underground water tanks, are a much more effective option if the intention is to reduce flooding in downstream areas and mitigate fluvial flooding [70]. The consideration of those variables depends on the purpose of the WMU.",
+            "supported_inference": "Original draft excerpt was generic resilience-engineering language (redundancy, robustness) with no named hazard -- consistent with the reviewer's original \u2018unclear\u2019 gold label. Expanded excerpt from p.13 does mention explicit flooding (pluvial/fluvial), but reviewer's judgment: the paper's overall focus is general urban water system resilience, with flooding as just one use case among several, not the paper's explicit framing -- kept as \u2018unclear\u2019 rather than reclassified to satisfied. FLAGGED: possible gold-label sensitivity to which evidence was captured -- the original supporting passage never surfaced the flooding content that does exist deeper in the text; recorded here for awareness, gold_status intentionally left unchanged (frozen).",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "144a07e138a5169fbbf69cec8c601f72c598a94c2c8132799ed474739f243684",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original draft excerpt was generic resilience-engineering language (redundancy, robustness) with no named hazard -- consistent with the reviewer's original \u2018unclear\u2019 gold label. Expanded excerpt from p.13 does mention explicit flooding (pluvial/fluvial), but reviewer's judgment: the paper's overall focus is general urban water system resilience, with flooding as just one use case among several, not the paper's explicit framing -- kept as \u2018unclear\u2019 rather than reclassified to satisfied. FLAGGED: possible gold-label sensitivity to which evidence was captured -- the original supporting passage never surfaced the flooding content that does exist deeper in the text; recorded here for awareness, gold_status intentionally left unchanged (frozen).",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original draft excerpt was generic resilience-engineering language (redundancy, robustness) with no named hazard -- consistent with the reviewer's original \u2018unclear\u2019 gold label. Expanded excerpt from p.13 does mention explicit flooding (pluvial/fluvial), but reviewer's judgment: the paper's overall focus is general urban water system resilience, with flooding as just one use case among several, not the paper's explicit framing -- kept as \u2018unclear\u2019 rather than reclassified to satisfied. FLAGGED: possible gold-label sensitivity to which evidence was captured -- the original supporting passage never surfaced the flooding content that does exist deeper in the text; recorded here for awareness, gold_status intentionally left unchanged (frozen).",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3390_w16111571",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          22
+        ],
+        "original_supporting_passages": [
+          "Moreover, the second level of analysis allows us to prioritize\nwhich city sectors/sites present greater advantages for decentralization and which zones\nshould remain connected to the main central plant."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 22,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Moreover, the second level of analysis allows us to prioritize\nwhich city sectors/sites present greater advantages for decentralization and which zones\nshould remain connected to the main central plant.",
+            "supported_inference": "Original + expanded excerpts (p.22 decentralization, p.5 management/WSUD, p.6 management paradigms) collectively show a terminology collision: 'decentralization' and 'management'/'management paradigm' here refer to technical/engineering water-infrastructure concepts, not institutional/public-administration governance dimensions per I3's definition. Reviewer judgment: more likely NOT satisfied on substance, but gold_status intentionally left as originally labeled 'unclear' (frozen, not changed here). Evidence is sufficient to support that judgment either way.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 5,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "In years, the planning and design of decentralized systems have gained traction within the concepts of Integrated Urban Water Management and Water Sensitive Urban Design (WSUD) [21,22]. Both concepts focus on the coordinated management of water supply, wastewater, stormwater, and urban planning. (p.5)",
+            "supported_inference": "Original + expanded excerpts (p.22 decentralization, p.5 management/WSUD, p.6 management paradigms) collectively show a terminology collision: 'decentralization' and 'management'/'management paradigm' here refer to technical/engineering water-infrastructure concepts, not institutional/public-administration governance dimensions per I3's definition. Reviewer judgment: more likely NOT satisfied on substance, but gold_status intentionally left as originally labeled 'unclear' (frozen, not changed here). Evidence is sufficient to support that judgment either way.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "144a07e138a5169fbbf69cec8c601f72c598a94c2c8132799ed474739f243684",
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 6,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "According to those management paradigms, DWMUs are mostly emphasized in the literature when associated with technologies designed for water reuse [12,21,22,25,31\u201338]. (p.6)",
+            "supported_inference": "Original + expanded excerpts (p.22 decentralization, p.5 management/WSUD, p.6 management paradigms) collectively show a terminology collision: 'decentralization' and 'management'/'management paradigm' here refer to technical/engineering water-infrastructure concepts, not institutional/public-administration governance dimensions per I3's definition. Reviewer judgment: more likely NOT satisfied on substance, but gold_status intentionally left as originally labeled 'unclear' (frozen, not changed here). Evidence is sufficient to support that judgment either way.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "144a07e138a5169fbbf69cec8c601f72c598a94c2c8132799ed474739f243684",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original + expanded excerpts (p.22 decentralization, p.5 management/WSUD, p.6 management paradigms) collectively show a terminology collision: 'decentralization' and 'management'/'management paradigm' here refer to technical/engineering water-infrastructure concepts, not institutional/public-administration governance dimensions per I3's definition. Reviewer judgment: more likely NOT satisfied on substance, but gold_status intentionally left as originally labeled 'unclear' (frozen, not changed here). Evidence is sufficient to support that judgment either way.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original + expanded excerpts (p.22 decentralization, p.5 management/WSUD, p.6 management paradigms) collectively show a terminology collision: 'decentralization' and 'management'/'management paradigm' here refer to technical/engineering water-infrastructure concepts, not institutional/public-administration governance dimensions per I3's definition. Reviewer judgment: more likely NOT satisfied on substance, but gold_status intentionally left as originally labeled 'unclear' (frozen, not changed here). Evidence is sufficient to support that judgment either way.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1007_978-3-031-54118-6_8",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          3
+        ],
+        "original_supporting_passages": [
+          "This study conducted a systematic literature review to provide an evidence-based answer\nto the before mentioned research questions. The search was performed in April 2023\nfrom some widely accepted citation databases, relying on PRISMA 2020 methodology\n[12]."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "This study conducted a systematic literature review to provide an evidence-based answer\nto the before mentioned research questions. The search was performed in April 2023\nfrom some widely accepted citation databases, relying on PRISMA 2020 methodology\n[12].",
+            "supported_inference": "Sufficient: explicit self-identification as a systematic literature review following PRISMA 2020 methodology.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit self-identification as a systematic literature review following PRISMA 2020 methodology.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: explicit self-identification as a systematic literature review following PRISMA 2020 methodology.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1007_978-3-031-54118-6_8",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          4
+        ],
+        "original_supporting_passages": [
+          "Fig. 1. Research protocol adopted for the literature review."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "visual_evidence_locator",
+            "heading_or_quotation": "Fig. 1. Research protocol adopted for the literature review.",
+            "supported_inference": "Docling should have saved the picture of the figure and should have extracted the text. Part of the text in this figure is: \"Searching terms in Web of Science and Scopus (\"participatory mapping\" OR \"collaborative mapping\" OR \"community mapping\" OR \"shared mapping\" OR \"cooperative mapping\" OR \"democratic mapping\") AND (\"sustainable development\" OR \"inclusive development\" OR \"urban development\" OR \"urban planning\" OR \"urban renewal\" OR \"land use planning\" OR \"spatial planning\" OR \"territorial planning\") AND (\"risk\" OR \"hazard\" OR \"disaster\" OR \"resilience\" OR \"adaptation\" OR \"preparedness\" OR \"vulnerability\" OR \"exposure\" OR \"mitigation\" OR \"recovery\" OR \"prevention\" OR \"reconstruction\" OR \"rehabilitation\" OR \"build back better\" OR \"reduction\" OR \"climate change\" OR \"climate crisis\" OR \"climate emergency\")\". Substantive I2 impossible to proof without pasting the whole analysis and discussion part to demonstrate that there are no discusion or mentioning of disaster/hazard context.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Identified databases: Web of Science, Scopus and other databases. Document type: Only peer-reviewed papers. Language: English. Date range: For 2003 January 1st to 2023 April 30th. Searching terms in Web of Science and Scopus: (\"participatory mapping\" OR \"collaborative mapping\" OR \"community mapping\" OR \"shared mapping\" OR \"cooperative mapping\" OR \"democratic mapping\") AND (\"sustainable development\" OR \"inclusive development\" OR \"urban development\" OR \"urban planning\" OR \"urban renewal\" OR \"land use planning\" OR \"spatial planning\" OR \"territorial planning\") AND (\"risk\" OR \"hazard\" OR \"disaster\" OR \"resilience\" OR \"adaptation\" OR \"preparedness\" OR \"vulnerability\" OR \"exposure\" OR \"mitigation\" OR \"recovery\" OR \"prevention\" OR \"reconstruction\" OR \"rehabilitation\" OR \"build back better\" OR \"reduction\" OR \"climate change\" OR \"climate crisis\" OR \"climate emergency\"). Searching terms in other databases: \"participatory mapping\" OR \"collaborative mapping\" OR \"community mapping\" OR \"shared mapping\" OR \"cooperative mapping\" OR \"democratic mapping\". Search fields: Title, abstract and keywords (only title and keywords in the other databases). Inclusion criteria: Based on original research (not reviews and meta-analyses); based on empirical studies (case studies); preferably focused on local urban contexts. Exclusion criteria: Unavailability of full text; duplicates; main topic not related to research purposes.",
+            "supported_inference": "Docling should have saved the picture of the figure and should have extracted the text. Part of the text in this figure is: \"Searching terms in Web of Science and Scopus (\"participatory mapping\" OR \"collaborative mapping\" OR \"community mapping\" OR \"shared mapping\" OR \"cooperative mapping\" OR \"democratic mapping\") AND (\"sustainable development\" OR \"inclusive development\" OR \"urban development\" OR \"urban planning\" OR \"urban renewal\" OR \"land use planning\" OR \"spatial planning\" OR \"territorial planning\") AND (\"risk\" OR \"hazard\" OR \"disaster\" OR \"resilience\" OR \"adaptation\" OR \"preparedness\" OR \"vulnerability\" OR \"exposure\" OR \"mitigation\" OR \"recovery\" OR \"prevention\" OR \"reconstruction\" OR \"rehabilitation\" OR \"build back better\" OR \"reduction\" OR \"climate change\" OR \"climate crisis\" OR \"climate emergency\")\". Substantive I2 impossible to proof without pasting the whole analysis and discussion part to demonstrate that there are no discusion or mentioning of disaster/hazard context.",
+            "body_excerpt": null,
+            "extraction_method": "human_transcribed",
+            "source_document_sha256": "628cbf78d4bb46d8a0152e0a469f768fefc4cfe151684e720a062cbadaebb0be",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Docling should have saved the picture of the figure and should have extracted the text. Part of the text in this figure is: \"Searching terms in Web of Science and Scopus (\"participatory mapping\" OR \"collaborative mapping\" OR \"community mapping\" OR \"shared mapping\" OR \"cooperative mapping\" OR \"democratic mapping\") AND (\"sustainable development\" OR \"inclusive development\" OR \"urban development\" OR \"urban planning\" OR \"urban renewal\" OR \"land use planning\" OR \"spatial planning\" OR \"territorial planning\") AND (\"risk\" OR \"hazard\" OR \"disaster\" OR \"resilience\" OR \"adaptation\" OR \"preparedness\" OR \"vulnerability\" OR \"exposure\" OR \"mitigation\" OR \"recovery\" OR \"prevention\" OR \"reconstruction\" OR \"rehabilitation\" OR \"build back better\" OR \"reduction\" OR \"climate change\" OR \"climate crisis\" OR \"climate emergency\")\". Substantive I2 impossible to proof without pasting the whole analysis and discussion part to demonstrate that there are no discusion or mentioning of disaster/hazard context.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Docling should have saved the picture of the figure and should have extracted the text. Part of the text in this figure is: \"Searching terms in Web of Science and Scopus (\"participatory mapping\" OR \"collaborative mapping\" OR \"community mapping\" OR \"shared mapping\" OR \"cooperative mapping\" OR \"democratic mapping\") AND (\"sustainable development\" OR \"inclusive development\" OR \"urban development\" OR \"urban planning\" OR \"urban renewal\" OR \"land use planning\" OR \"spatial planning\" OR \"territorial planning\") AND (\"risk\" OR \"hazard\" OR \"disaster\" OR \"resilience\" OR \"adaptation\" OR \"preparedness\" OR \"vulnerability\" OR \"exposure\" OR \"mitigation\" OR \"recovery\" OR \"prevention\" OR \"reconstruction\" OR \"rehabilitation\" OR \"build back better\" OR \"reduction\" OR \"climate change\" OR \"climate crisis\" OR \"climate emergency\")\". Substantive I2 impossible to proof without pasting the whole analysis and discussion part to demonstrate that there are no discusion or mentioning of disaster/hazard context.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1007_978-3-031-54118-6_8",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [],
+        "original_supporting_passages": [],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Empty package confirmed correct: reviewer exhaustively checked the full document and found no content substantively analysing any of I3's enumerated governance dimensions -- see human_attestation.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Empty package confirmed correct: reviewer exhaustively checked the full document and found no content substantively analysing any of I3's enumerated governance dimensions -- see human_attestation.",
+        "human_attestation": "no_qualifying_evidence_found_after_full_document_review"
+      },
+      {
+        "document_id": "10_1108_dpm-06-2023-0128",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          4
+        ],
+        "original_supporting_passages": [
+          "Thirdly, the retrieved literature was screened. Titles, abstracts and full texts of the\nselected papers were reviewed to understand their relevance to the research objective. Among\nthe reviewed studies, 52 irrelevant studies were excluded while the 102 relevant ones were\nretained."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Thirdly, the retrieved literature was screened. Titles, abstracts and full texts of the\nselected papers were reviewed to understand their relevance to the research objective. Among\nthe reviewed studies, 52 irrelevant studies were excluded while the 102 relevant ones were\nretained.",
+            "supported_inference": "Sufficient: explicit multi-stage screening process (title/abstract/full-text) with reported inclusion/exclusion counts.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit multi-stage screening process (title/abstract/full-text) with reported inclusion/exclusion counts.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit multi-stage screening process (title/abstract/full-text) with reported inclusion/exclusion counts.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1108_dpm-06-2023-0128",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          4
+        ],
+        "original_supporting_passages": [
+          "A total of 102 articles from 1970 to 2023, focusing on \u201cpeople\u2019s role in ecosystem-based\nDRR,\u201d were analyzed to understand how community participation can contribute to\nsuccessful ecosystem-based DRR."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "A total of 102 articles from 1970 to 2023, focusing on \u201cpeople\u2019s role in ecosystem-based\nDRR,\u201d were analyzed to understand how community participation can contribute to\nsuccessful ecosystem-based DRR.",
+            "supported_inference": "Sufficient: explicit ecosystem-based DRR framing as the review's own stated topic (not a search-string mention).",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit ecosystem-based DRR framing as the review's own stated topic (not a search-string mention).",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit ecosystem-based DRR framing as the review's own stated topic (not a search-string mention).",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1108_dpm-06-2023-0128",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          4
+        ],
+        "original_supporting_passages": [
+          "A total of 102 articles from 1970 to 2023, focusing on \u201cpeople\u2019s role in ecosystem-based\nDRR,\u201d were analyzed to understand how community participation can contribute to\nsuccessful ecosystem-based DRR."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "A total of 102 articles from 1970 to 2023, focusing on \u201cpeople\u2019s role in ecosystem-based\nDRR,\u201d were analyzed to understand how community participation can contribute to\nsuccessful ecosystem-based DRR.",
+            "supported_inference": "Original draft excerpt names community participation as the review's topic but states nothing substantive about it. Added expanded excerpt from p.11 with substantive analysis of multilevel/co-governance -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 11,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Despite the challenges, there are regional strengths that support integrated governance. Among them are increasing research that calls for integrated governance, national and regional policies that facilitate co-governance, local awareness on their right to participate in policy and decision-making and the contribution of NGOs that constantly encourage integrated governance (Chaudhary and Piracha, 2021). An example for policies that support co-governance can be seen in India: in general, legislative power in India is distributed between the central and the state government.",
+            "supported_inference": "Original draft excerpt names community participation as the review's topic but states nothing substantive about it. Added expanded excerpt from p.11 with substantive analysis of multilevel/co-governance -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "2b62a0c20110fcd3b1b52c735fe848fb82bc22e3fb694c9d039b613af59a52b1",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original draft excerpt names community participation as the review's topic but states nothing substantive about it. Added expanded excerpt from p.11 with substantive analysis of multilevel/co-governance -- sufficient.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original draft excerpt names community participation as the review's topic but states nothing substantive about it. Added expanded excerpt from p.11 with substantive analysis of multilevel/co-governance -- sufficient.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1051_bioconf_202519300057",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          3
+        ],
+        "original_supporting_passages": [
+          "This study was conducted in January 2025 using leading international databases, namely Scopus, Science Direct, and Emerald, with the keywords (\u201cdisaster preparedness\u201d OR \u201cdisaster risk resilience\u201d OR \u201cdisaster risk reduction\u201d) AND (\u201celementary school\u201d OR \u201cprimary school\u201d) AND (\u201cmodel\u201d OR \u201cframework\u201d OR \u201cprogram\u201d) AND (\u201cstrategy\u201d OR \u201cimplementation\u201d OR \u2018practice\u2019 OR \u201cpolicy\u201d). After entering the keywords into the database, the researcher recorded the total number of articles. The screening stage involved identifying and removing duplicate articles using Zotero software. Screening was conducted based on the title and abstract according to the inclusion criterias."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "This study was conducted in January 2025 using leading international databases, namely Scopus, Science Direct, and Emerald, with the keywords (\u201cdisaster preparedness\u201d OR \u201cdisaster risk resilience\u201d OR \u201cdisaster risk reduction\u201d) AND (\u201celementary school\u201d OR \u201cprimary school\u201d) AND (\u201cmodel\u201d OR \u201cframework\u201d OR \u201cprogram\u201d) AND (\u201cstrategy\u201d OR \u201cimplementation\u201d OR \u2018practice\u2019 OR \u201cpolicy\u201d). After entering the keywords into the database, the researcher recorded the total number of articles. The screening stage involved identifying and removing duplicate articles using Zotero software. Screening was conducted based on the title and abstract according to the inclusion criterias.",
+            "supported_inference": "Sufficient: explicit systematic search methodology (databases, keyword string, dedup via Zotero, title/abstract screening) is clear review-type methodology language on its own.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit systematic search methodology (databases, keyword string, dedup via Zotero, title/abstract screening) is clear review-type methodology language on its own.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit systematic search methodology (databases, keyword string, dedup via Zotero, title/abstract screening) is clear review-type methodology language on its own.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1051_bioconf_202519300057",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          3
+        ],
+        "original_supporting_passages": [
+          "This study was conducted in January 2025 using leading international databases, namely Scopus, Science Direct, and Emerald, with the keywords (\u201cdisaster preparedness\u201d OR \u201cdisaster risk resilience\u201d OR \u201cdisaster risk reduction\u201d) AND (\u201celementary school\u201d OR \u201cprimary school\u201d) AND (\u201cmodel\u201d OR \u201cframework\u201d OR \u201cprogram\u201d) AND (\u201cstrategy\u201d OR \u201cimplementation\u201d OR \u2018practice\u2019 OR \u201cpolicy\u201d)"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "This study was conducted in January 2025 using leading international databases, namely Scopus, Science Direct, and Emerald, with the keywords (\u201cdisaster preparedness\u201d OR \u201cdisaster risk resilience\u201d OR \u201cdisaster risk reduction\u201d) AND (\u201celementary school\u201d OR \u201cprimary school\u201d) AND (\u201cmodel\u201d OR \u201cframework\u201d OR \u201cprogram\u201d) AND (\u201cstrategy\u201d OR \u201cimplementation\u201d OR \u2018practice\u2019 OR \u201cpolicy\u201d)",
+            "supported_inference": "Original draft excerpt (search-string sentence) alone is insufficient -- a keyword string mentioning DRR terms only proves the SEARCH targeted DRR, not that the document substantively addresses it (seen this diverge in other cases). Added expanded excerpt from p.12 explicitly discussing a DRR approach strategy in schools -- genuine body-text hazard/DRR framing, sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 12,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Based on Table 2 above, the DRR approach strategy in schools includes three aspects, including education, management and collaboration, and contextual, with the following details",
+            "supported_inference": "Original draft excerpt (search-string sentence) alone is insufficient -- a keyword string mentioning DRR terms only proves the SEARCH targeted DRR, not that the document substantively addresses it (seen this diverge in other cases). Added expanded excerpt from p.12 explicitly discussing a DRR approach strategy in schools -- genuine body-text hazard/DRR framing, sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "dc02c210b150dfd53b9f6269a6f814e5c207f50f57f1e296fe68cb2185b213cd",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original draft excerpt (search-string sentence) alone is insufficient -- a keyword string mentioning DRR terms only proves the SEARCH targeted DRR, not that the document substantively addresses it (seen this diverge in other cases). Added expanded excerpt from p.12 explicitly discussing a DRR approach strategy in schools -- genuine body-text hazard/DRR framing, sufficient.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original draft excerpt (search-string sentence) alone is insufficient -- a keyword string mentioning DRR terms only proves the SEARCH targeted DRR, not that the document substantively addresses it (seen this diverge in other cases). Added expanded excerpt from p.12 explicitly discussing a DRR approach strategy in schools -- genuine body-text hazard/DRR framing, sufficient.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1051_bioconf_202519300057",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          8
+        ],
+        "original_supporting_passages": [
+          "3.4 DRR Strategies, Community Involvement, and Success Factors in School\nResilience Programs"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 8,
+            "evidence_role": "structural_heading",
+            "heading_or_quotation": "3.4 DRR Strategies, Community Involvement, and Success Factors in School\nResilience Programs",
+            "supported_inference": "Sufficient: draft excerpt already had substantive body text on community involvement in school-based DRR programs -- matches I3's community participation and education/training dimensions.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: draft excerpt already had substantive body text on community involvement in school-based DRR programs -- matches I3's community participation and education/training dimensions.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: draft excerpt already had substantive body text on community involvement in school-based DRR programs -- matches I3's community participation and education/training dimensions.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_5194_nhess-21-1383-2021",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          2
+        ],
+        "original_supporting_passages": [
+          "To identify key challenges, opportunities, and research questions,\na systematic review of the academic literature was carried\nout."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 2,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "To identify key challenges, opportunities, and research questions,\na systematic review of the academic literature was carried\nout.",
+            "supported_inference": "Combined with the original draft excerpt (explicit systematic review self-label), this p.3 excerpt gives full search methodology detail (databases, keyword criteria, 160-study corpus) -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Elsevier\u2019s Scopus and Google Scholar citation databases were used to identify studies in which the concept of resilience engineering has been explored for the four selected infrastructure systems (i.e., water, energy, transportation, and telecommunication). Given the rapid development of the resilience concept, we limited our search criteria to four specific keywords (i.e., resilience engineering, critical infrastructure, vital infrastructure, and resilient infrastructure) with flexible combinations (e.g., resilience engineering AND vital infrastructure). Application of these criteria resulted in a selection of 160 studies, including books, full articles, and abstracts, in which the resilience of infrastructure systems was studied. Notably, the review was not bounded by a certain period or geography with the exception of our question about measures, developments, and best practices; to answer this question, we limited ourselves to recent literature (2012\u20132019).",
+            "supported_inference": "Combined with the original draft excerpt (explicit systematic review self-label), this p.3 excerpt gives full search methodology detail (databases, keyword criteria, 160-study corpus) -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "51b5dcb78cc7f4c758bad49e70714dca081556784a782bd6a251628f87ac4c7e",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Combined with the original draft excerpt (explicit systematic review self-label), this p.3 excerpt gives full search methodology detail (databases, keyword criteria, 160-study corpus) -- sufficient.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Combined with the original draft excerpt (explicit systematic review self-label), this p.3 excerpt gives full search methodology detail (databases, keyword criteria, 160-study corpus) -- sufficient.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_5194_nhess-21-1383-2021",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          6
+        ],
+        "original_supporting_passages": [
+          "In this article, the concept of risk is defined as the\nprobability of occurrence of a disturbance (hazard) to VIS\ntimes the consequences (damage) to the systems."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 6,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "In this article, the concept of risk is defined as the\nprobability of occurrence of a disturbance (hazard) to VIS\ntimes the consequences (damage) to the systems.",
+            "supported_inference": "Sufficient: explicit hazard terminology in the paper's own definition of risk.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit hazard terminology in the paper's own definition of risk.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit hazard terminology in the paper's own definition of risk.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_5194_nhess-21-1383-2021",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          13
+        ],
+        "original_supporting_passages": [
+          "5.1.3 Governance"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 13,
+            "evidence_role": "structural_heading",
+            "heading_or_quotation": "5.1.3 Governance",
+            "supported_inference": "Sufficient: original citation was only a structural heading (5.1.3 Governance, no body text). Expanded with body text from p.13-14 defining governance as decision-making procedures, tools, and monitoring, with substantial discussion of institutional capacity, financing, and investment for infrastructure resilience -- directly maps to I3's institutional capacity dimension.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 13,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Governance is a key element of infrastructure resilience\nwhich includes decision-making procedures, tools, and mon-",
+            "supported_inference": "Sufficient: original citation was only a structural heading (5.1.3 Governance, no body text). Expanded with body text from p.13-14 defining governance as decision-making procedures, tools, and monitoring, with substantial discussion of institutional capacity, financing, and investment for infrastructure resilience -- directly maps to I3's institutional capacity dimension.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "51b5dcb78cc7f4c758bad49e70714dca081556784a782bd6a251628f87ac4c7e",
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 14,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "itoring used by governmental organizations and their associated\npartners to ensure that infrastructure services are available\nto people (OECD, 2015). For example, preparedness is\none of the important approaches to ensure that systems are\nable to cope with sudden shocks and future pressures (Majithia,\n2014). Hallegatte et al. (2019) suggested that the first\nstep in making infrastructures resilient should be to make\nthem reliable in normal conditions through having proper\ngovernance in infrastructure design, operation, maintenance,\nand financing phases. According to this suggestion, substantial\ninvestments in the regular maintenance of the current systems\nare of utmost importance, given that such investments in\nplanning, in the initial stage of the projects and in the maintenance\nphase is considerably greater than the repairs or reconstruction\ncosts after a disruptive event. In line with this\nperspective, Shittu et al. (2018) also highlighted the role of\nsustained investment, continuous monitoring, and data collection\nin having an effective emergency response after a disaster\noccurs. In addition, Hallegatte et al. (2019) pointed out\nthat reducing the exposure and vulnerability of the systems\nto hazards is another way of promoting resilience of infrastructures.",
+            "supported_inference": "Sufficient: original citation was only a structural heading (5.1.3 Governance, no body text). Expanded with body text from p.13-14 defining governance as decision-making procedures, tools, and monitoring, with substantial discussion of institutional capacity, financing, and investment for infrastructure resilience -- directly maps to I3's institutional capacity dimension.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "51b5dcb78cc7f4c758bad49e70714dca081556784a782bd6a251628f87ac4c7e",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: original citation was only a structural heading (5.1.3 Governance, no body text). Expanded with body text from p.13-14 defining governance as decision-making procedures, tools, and monitoring, with substantial discussion of institutional capacity, financing, and investment for infrastructure resilience -- directly maps to I3's institutional capacity dimension.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: original citation was only a structural heading (5.1.3 Governance, no body text). Expanded with body text from p.13-14 defining governance as decision-making procedures, tools, and monitoring, with substantial discussion of institutional capacity, financing, and investment for infrastructure resilience -- directly maps to I3's institutional capacity dimension.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1080_17565529_2021_1906203",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          5
+        ],
+        "original_supporting_passages": [
+          "Results of this study rely on the systematic review of 24 peerreviewed\nacademic articles which present 31 empirical cases of\ngovernance for urban resilience in popular settlements in\ndeveloping countries. All articles were identified using Scopus\nand Web of Knowledge databases."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 5,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Results of this study rely on the systematic review of 24 peerreviewed\nacademic articles which present 31 empirical cases of\ngovernance for urban resilience in popular settlements in\ndeveloping countries. All articles were identified using Scopus\nand Web of Knowledge databases.",
+            "supported_inference": "Sufficient: explicit systematic review of 24 peer-reviewed articles with named databases.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit systematic review of 24 peer-reviewed articles with named databases.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit systematic review of 24 peer-reviewed articles with named databases.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1080_17565529_2021_1906203",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          5
+        ],
+        "original_supporting_passages": [
+          "Selected papers are relevant for urban planning, as\nselected cases link the built environment with the adverse\neffects of weather extremes that can be addressed through governance\nas planning concerns (i.e. flooding, landslides,\nextreme heat events, drought, heavy precipitation events, tropical\ncyclones, and sea level rise) (UN-Habitat, 2011)."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 5,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Selected papers are relevant for urban planning, as\nselected cases link the built environment with the adverse\neffects of weather extremes that can be addressed through governance\nas planning concerns (i.e. flooding, landslides,\nextreme heat events, drought, heavy precipitation events, tropical\ncyclones, and sea level rise) (UN-Habitat, 2011).",
+            "supported_inference": "Sufficient: explicit list of specific hazards (flooding, landslides, extreme heat, drought, cyclones, sea level rise) with direct governance/planning linkage.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit list of specific hazards (flooding, landslides, extreme heat, drought, cyclones, sea level rise) with direct governance/planning linkage.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit list of specific hazards (flooding, landslides, extreme heat, drought, cyclones, sea level rise) with direct governance/planning linkage.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1080_17565529_2021_1906203",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          5
+        ],
+        "original_supporting_passages": [
+          "Selected papers are relevant for urban planning, as\nselected cases link the built environment with the adverse\neffects of weather extremes that can be addressed through governance\nas planning concerns (i.e. flooding, landslides,\nextreme heat events, drought, heavy precipitation events, tropical\ncyclones, and sea level rise) (UN-Habitat, 2011)."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 5,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Selected papers are relevant for urban planning, as\nselected cases link the built environment with the adverse\neffects of weather extremes that can be addressed through governance\nas planning concerns (i.e. flooding, landslides,\nextreme heat events, drought, heavy precipitation events, tropical\ncyclones, and sea level rise) (UN-Habitat, 2011).",
+            "supported_inference": "Original draft excerpt was a paper-selection/scope sentence (same text used for I2), not substantive governance analysis. Added expanded excerpt from p.7 with substantive analysis of community participation and decision-making in governance -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 7,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Placing the needs of vulnerable communities at the centre of decision-making processes is at the core of governance for the resilience of popular settlements. For this to occur, the reasons of the exclusion of vulnerable communities from effectively participating in governance must be addressed. The majority of analyzed cases support the idea that fruitful governance outcomes for resilience rest upon these two factors.",
+            "supported_inference": "Original draft excerpt was a paper-selection/scope sentence (same text used for I2), not substantive governance analysis. Added expanded excerpt from p.7 with substantive analysis of community participation and decision-making in governance -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "52ba6a1832146eacbe510002252a5d26deda466caca43a1f136cc0e0fad903a3",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original draft excerpt was a paper-selection/scope sentence (same text used for I2), not substantive governance analysis. Added expanded excerpt from p.7 with substantive analysis of community participation and decision-making in governance -- sufficient.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original draft excerpt was a paper-selection/scope sentence (same text used for I2), not substantive governance analysis. Added expanded excerpt from p.7 with substantive analysis of community participation and decision-making in governance -- sufficient.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_19053_uptc_01233769_18772",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          5
+        ],
+        "original_supporting_passages": [
+          "Realizamos una revisi\u00f3n sistem\u00e1tica de la literatura\nsiguiendo los lineamientos de la declaraci\u00f3n PRISMA"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 5,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Realizamos una revisi\u00f3n sistem\u00e1tica de la literatura\nsiguiendo los lineamientos de la declaraci\u00f3n PRISMA",
+            "supported_inference": "Sufficient: explicit self-identification (Spanish) as a PRISMA-guided systematic literature review.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit self-identification (Spanish) as a PRISMA-guided systematic literature review.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit self-identification (Spanish) as a PRISMA-guided systematic literature review.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_19053_uptc_01233769_18772",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          1
+        ],
+        "original_supporting_passages": [
+          "In conclusion, participatory methodologies demonstrate strong\ntransformative potential in drm, but require more horizontal, sustainable, and ethically\nengaged approaches."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 1,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "In conclusion, participatory methodologies demonstrate strong\ntransformative potential in drm, but require more horizontal, sustainable, and ethically\nengaged approaches.",
+            "supported_inference": "Original excerpt was only the abstract's conclusion sentence (thin). Replaced with a stronger Introduction-section passage (found via ad hoc Docling parse, doc is Spanish-language) giving an explicit definition of GRD/DRM -- identification, reduction, forecasting, control of risks, multilevel local-to-national approach. Reviewer-confirmed page 4.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Para reducir la vulnerabilidad y fortalecer las capacidades adaptativas de las comunidades, es fundamental impulsar la acci\u00f3n clim\u00e1tica mediante la gesti\u00f3n del riesgo de desastres (GRD). Esta se orienta a la identificaci\u00f3n, reducci\u00f3n, previsi\u00f3n y control de riesgos, y se basa en enfoques multinivel que articulan acciones desde lo local hasta lo nacional (Lavell, 2003).",
+            "supported_inference": "Original excerpt was only the abstract's conclusion sentence (thin). Replaced with a stronger Introduction-section passage (found via ad hoc Docling parse, doc is Spanish-language) giving an explicit definition of GRD/DRM -- identification, reduction, forecasting, control of risks, multilevel local-to-national approach. Reviewer-confirmed page 4.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "79014d57ac286f212e3b475fcb5d52a08c11d3b7b94a69b1dd6a96c25cb4a255",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original excerpt was only the abstract's conclusion sentence (thin). Replaced with a stronger Introduction-section passage (found via ad hoc Docling parse, doc is Spanish-language) giving an explicit definition of GRD/DRM -- identification, reduction, forecasting, control of risks, multilevel local-to-national approach. Reviewer-confirmed page 4.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original excerpt was only the abstract's conclusion sentence (thin). Replaced with a stronger Introduction-section passage (found via ad hoc Docling parse, doc is Spanish-language) giving an explicit definition of GRD/DRM -- identification, reduction, forecasting, control of risks, multilevel local-to-national approach. Reviewer-confirmed page 4.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_19053_uptc_01233769_18772",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          1
+        ],
+        "original_supporting_passages": [
+          "In conclusion, participatory methodologies demonstrate strong\ntransformative potential in drm, but require more horizontal, sustainable, and ethically\nengaged approaches."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 1,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "In conclusion, participatory methodologies demonstrate strong\ntransformative potential in drm, but require more horizontal, sustainable, and ethically\nengaged approaches.",
+            "supported_inference": "Original excerpt was only the abstract's conclusion sentence (participatory methodologies claim, thin). Replaced with a stronger Introduction-section passage (found via ad hoc Docling parse) explicitly discussing decentralized local governance and multilevel articulation between communities, institutions, and academia -- directly hits I3's decentralization/multilevel-governance/partnerships dimensions. Reviewer-confirmed page 4.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "En l\u00ednea con lo anterior, la GRD requiere una gobernanza local s\u00f3lida, colaborativa y descentralizada que promueva la articulaci\u00f3n entre comunidades, instituciones y la academia (Barton et al., 2015; Hardoy et al., 2020).",
+            "supported_inference": "Original excerpt was only the abstract's conclusion sentence (participatory methodologies claim, thin). Replaced with a stronger Introduction-section passage (found via ad hoc Docling parse) explicitly discussing decentralized local governance and multilevel articulation between communities, institutions, and academia -- directly hits I3's decentralization/multilevel-governance/partnerships dimensions. Reviewer-confirmed page 4.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "79014d57ac286f212e3b475fcb5d52a08c11d3b7b94a69b1dd6a96c25cb4a255",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original excerpt was only the abstract's conclusion sentence (participatory methodologies claim, thin). Replaced with a stronger Introduction-section passage (found via ad hoc Docling parse) explicitly discussing decentralized local governance and multilevel articulation between communities, institutions, and academia -- directly hits I3's decentralization/multilevel-governance/partnerships dimensions. Reviewer-confirmed page 4.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original excerpt was only the abstract's conclusion sentence (participatory methodologies claim, thin). Replaced with a stronger Introduction-section passage (found via ad hoc Docling parse) explicitly discussing decentralized local governance and multilevel articulation between communities, institutions, and academia -- directly hits I3's decentralization/multilevel-governance/partnerships dimensions. Reviewer-confirmed page 4.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1007_s11269-016-1491-7",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          4
+        ],
+        "original_supporting_passages": [
+          "We have supplemented our expert knowledge on\nflood risk governance (especially in the Netherlands, the UK and Poland) by conducting a\nScopus search in the subject areas Social Sciences & Humanities and Physical Sciences. We\nhave limited our search to the articles published since 2000 with a geographical scope on\nEurope."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "We have supplemented our expert knowledge on\nflood risk governance (especially in the Netherlands, the UK and Poland) by conducting a\nScopus search in the subject areas Social Sciences & Humanities and Physical Sciences. We\nhave limited our search to the articles published since 2000 with a geographical scope on\nEurope.",
+            "supported_inference": "Sufficient: combined with a documented systematic search (Table 2, p.4) showing article counts per keyword-combination in Scopus (flood risk management/prevention/defence/mitigation/preparation/recovery x governance/participation/stakeholder-engagement terms), this is a genuine documented systematic search methodology, not just an expert-knowledge narrative -- the draft excerpt alone (expert knowledge + Scopus search description) was thinner, but the table makes the systematic-search methodology concrete and verifiable.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: combined with a documented systematic search (Table 2, p.4) showing article counts per keyword-combination in Scopus (flood risk management/prevention/defence/mitigation/preparation/recovery x governance/participation/stakeholder-engagement terms), this is a genuine documented systematic search methodology, not just an expert-knowledge narrative -- the draft excerpt alone (expert knowledge + Scopus search description) was thinner, but the table makes the systematic-search methodology concrete and verifiable.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: combined with a documented systematic search (Table 2, p.4) showing article counts per keyword-combination in Scopus (flood risk management/prevention/defence/mitigation/preparation/recovery x governance/participation/stakeholder-engagement terms), this is a genuine documented systematic search methodology, not just an expert-knowledge narrative -- the draft excerpt alone (expert knowledge + Scopus search description) was thinner, but the table makes the systematic-search methodology concrete and verifiable.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1007_s11269-016-1491-7",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          4
+        ],
+        "original_supporting_passages": [
+          "Since diversification implies that separate FRMSs\nmay get more emphasis we will first discuss the actor-, discourses-, rules- or resources-related\nchallenges that may result if society wants to change its emphasis on flood risk prevention,\nflood defence, mitigation, preparation or recovery."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Since diversification implies that separate FRMSs\nmay get more emphasis we will first discuss the actor-, discourses-, rules- or resources-related\nchallenges that may result if society wants to change its emphasis on flood risk prevention,\nflood defence, mitigation, preparation or recovery.",
+            "supported_inference": "Sufficient: explicit flood risk management vocabulary (prevention, defence, mitigation, preparation, recovery) is an explicit hazard/disaster framing on its own, even though the exact point of the sentence is not fully clear.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit flood risk management vocabulary (prevention, defence, mitigation, preparation, recovery) is an explicit hazard/disaster framing on its own, even though the exact point of the sentence is not fully clear.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit flood risk management vocabulary (prevention, defence, mitigation, preparation, recovery) is an explicit hazard/disaster framing on its own, even though the exact point of the sentence is not fully clear.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1007_s11269-016-1491-7",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          9
+        ],
+        "original_supporting_passages": [
+          "4 Coordination Mechanisms"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 9,
+            "evidence_role": "structural_heading",
+            "heading_or_quotation": "4 Coordination Mechanisms",
+            "supported_inference": "Sufficient: original citation was only a structural heading (section title, no body text). Expanded with body text from p.9-10 listing 8 concrete coordination mechanisms (leadership, program office, stakeholder engagement, role clarification across catchment/national/local levels, shared visions) -- directly maps to multiple I3 dimensions (multilevel governance, partnerships, community participation, institutional capacity).",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 9,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Studies on\nflood risk management, integrated water management, policy integration, participatory",
+            "supported_inference": "Sufficient: original citation was only a structural heading (section title, no body text). Expanded with body text from p.9-10 listing 8 concrete coordination mechanisms (leadership, program office, stakeholder engagement, role clarification across catchment/national/local levels, shared visions) -- directly maps to multiple I3 dimensions (multilevel governance, partnerships, community participation, institutional capacity).",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "d5c0f1198b9bc1d9b477ba5fb08a1ba74951735e4529bbdc262f5ef49388f35a",
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 10,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "governance and interactive policymaking as identified in our Scopus search suggest that a\ncombination of coordination mechanisms is required to organise these processes in an effective\nway. Below we list eight of those mechanisms distilled from our literature review.\nFirst, authors stress the importance of clear leadership (Van den Brink et al. 2011; Rijke\net al. 2013). Visionary leadership is perceived to be important, to link different time scales and\nto convince others to anticipate potential future threats. Entrepreneurial leadership is necessary\nto get things done, for example to gain access to the necessary resources for realising\nadaptation projects. The presence of a dedicated neutral and skilled process manager will be\nhelpful to organize the entire process in such a way that participants are kept at the table,\nremain interested and learning (Dieperink et al. 2012). Collaborative leadership is necessary to\nbridge gaps, span boundaries and build coalitions between different actors and sectors. Policy\nentrepreneurs may provide for this type of leadership (Partzsch and Ziegler 2011; Huitema and\nMeijerink 2009).\nSecond, leadership ask for a facilitating program office involving different competencies as\nwell as a set of management instruments for gathering data and information, assessing resource\nlevels and needs, and allocating resources for use (Medema et al. 2008), developing learning\ncapacities, organizing single and double loop learning by monitoring and evaluation of policy\nexperiences (Van den Brink et al. 2011), setting up teams for community building and progress\nevaluation (Fleischhauer et al. 2012.\nThird stakeholder engagement for informed and outcome-oriented contributions to water\npolicy design and implementation has to be promoted (OECD 2015). This is challenging for in\npractice this means that policy entrepreneurs have to find a balance between involving too\nmany actors (which might be good from a democracy point of view) on one hand and too few\n(which might be more effective in the short term) on the other hand via selective activation\n(Green and Penning-Rowsell 2010). Pro-actively involving the community in itself may result\nin different perspectives on the issues at stake (Garrelts and Lange 2011; Bruchnach and\nIngram 2012). The involvement of some actors will also be crucial because of the resources\nthey have, while the involvement of others might be motivated to get more societal support for\nthe final proposal that has to be developed. Of course, whether stakeholders will actually\nparticipate depends on their capacities to do so and the presence of other \u2018hot items\u2019 on their\nagendas (Ruiz-Villaverde and Garc\u00eda-Rubio 2016).\nAs a fourth mechanism the clarification of roles and of responsibilities within complex\npolycentric networks can be mentioned (Warner et al. 2008, 134; Moss and Newig 2010). On\nthe catchment level, river basin organisations can be charged with the development of\nhydrological models and scenarios for flood forecasting. The catchment level will also be\nthe optimal level to discuss upstream retention options as well as the potentials of improvement\nof flood flow conditions. On lower geographical scales, actors representing different\npolicy sectors, especially those that represent the water and spatial planning sector, will discuss\nthe potentials of flood risk prevention, flood defence, mitigation, preparation and recovery.\nOverall, processes will be more successful if the rules of the game are clear to all involved\nparties. Drafting agreements or covenants might be helpful to achieve this.\nFifth, inspiring visions may be developed which involve a variety of policy frames and\nsolutions - connecting scale levels, both geographically and in time (Van den Brink et al. 2011;\nBruchnach and Ingram 2012) and balance multiple (spatial) objectives (Rijke et al. 2013).\nIdeally they can initiate and integrate different societal discussions (Greiving and Angignard\n2013) which result in common problem definitions (Bruchnach and Ingram 2012), a shared sense\nof urgency, normative consensus and creative solutions. Multi-layered safety is an example of",
+            "supported_inference": "Sufficient: original citation was only a structural heading (section title, no body text). Expanded with body text from p.9-10 listing 8 concrete coordination mechanisms (leadership, program office, stakeholder engagement, role clarification across catchment/national/local levels, shared visions) -- directly maps to multiple I3 dimensions (multilevel governance, partnerships, community participation, institutional capacity).",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "d5c0f1198b9bc1d9b477ba5fb08a1ba74951735e4529bbdc262f5ef49388f35a",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: original citation was only a structural heading (section title, no body text). Expanded with body text from p.9-10 listing 8 concrete coordination mechanisms (leadership, program office, stakeholder engagement, role clarification across catchment/national/local levels, shared visions) -- directly maps to multiple I3 dimensions (multilevel governance, partnerships, community participation, institutional capacity).",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: original citation was only a structural heading (section title, no body text). Expanded with body text from p.9-10 listing 8 concrete coordination mechanisms (leadership, program office, stakeholder engagement, role clarification across catchment/national/local levels, shared visions) -- directly maps to multiple I3 dimensions (multilevel governance, partnerships, community participation, institutional capacity).",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1080_13669877_2017_1351466",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          4
+        ],
+        "original_supporting_passages": [
+          "The approach adopted is a systematic literature selection process combined with a qualitative thematic\nsynthesis."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The approach adopted is a systematic literature selection process combined with a qualitative thematic\nsynthesis.",
+            "supported_inference": "Sufficient: explicit systematic literature selection process combined with qualitative thematic synthesis.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit systematic literature selection process combined with qualitative thematic synthesis.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit systematic literature selection process combined with qualitative thematic synthesis.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1080_13669877_2017_1351466",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          8
+        ],
+        "original_supporting_passages": [
+          "3.3. Cluster 3: disaster risk management (13 authors, 12 publications)"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 8,
+            "evidence_role": "structural_heading",
+            "heading_or_quotation": "3.3. Cluster 3: disaster risk management (13 authors, 12 publications)",
+            "supported_inference": "Sufficient (reverses an earlier Claude draft pass's provisional False): that earlier judgment read Cluster 2 (general environmental/risk governance) text, which I2's wording correctly excludes as too generic. The actual expanded excerpt here (p.8-9) is Cluster 3, explicitly labeled 'disaster risk management (DRM)' and explicitly discussing 'governance of natural hazards such as flood risks, forest fires and landslides' -- named specific hazards, not generic risk. Correct cluster satisfies I2; the earlier insufficient call was reading the wrong section of the paper.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 8,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The disaster risk management (DRM) cluster as represented by the authors included through the\nmethodology is about the cooperative governance of natural hazards through preventing or limiting\nvulnerabilities to disaster. It differs from the other clusters in that it is about the governance of natural\nhazards such as flood risks, forest fires and landslides, including the disaster that follows. This differentiation\nof the subject area results in a certain distinctiveness in how the authors in this cluster look at\nrisk, governance and public engagement in relation to complex environmental issues. Nevertheless,\ncross-collaborative learning can be achieved by comparing and contrasting this body of literature with\nthe other clusters. It has therefore been decided to elaborate on this group separately even though\nthe publications could have been categorized within the public engagement (see: Challies et al. 2016;",
+            "supported_inference": "Sufficient (reverses an earlier Claude draft pass's provisional False): that earlier judgment read Cluster 2 (general environmental/risk governance) text, which I2's wording correctly excludes as too generic. The actual expanded excerpt here (p.8-9) is Cluster 3, explicitly labeled 'disaster risk management (DRM)' and explicitly discussing 'governance of natural hazards such as flood risks, forest fires and landslides' -- named specific hazards, not generic risk. Correct cluster satisfies I2; the earlier insufficient call was reading the wrong section of the paper.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "672e5e913122734960417871de3b1615a8fcdf71d4c7361fbc117555c7bd5be7",
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 9,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Newig et al. 2016), environmental science, policy and governance (see: Oen et al. 2010; Sparrevik and\nBreedveld 2010) and risk governance (see: Fleischhauer et al. 2012; Greiving et al. 2012; Komendantova\net al. 2014; Kuhlicke, Callsen, and Begg 2016; Scolobig 2015; Scolobig et al. 2014; Scolobig, Thompson,\nand Linnerooth-Bayer 2015; Wachinger et al. 2013) clusters based on the theoretical approach taken.\nWithin DRM it is argued that economic losses and the number of people affected by natural hazards\nwill continue to grow even though the knowledge on geophysical, sociological, and economical aspects is\nincreasing (Komendantova et al. 2014). Hazards might happen more frequently but they also increasingly\ntrigger other disasters and cascading effects (Komendantova et al. 2014). Furthermore, the successful management\nof disasters is limited because of social, cultural, technical, and institutional barriers (Greiving et al.\n2012; Scolobig et al. 2014). Decisions for disaster management are usually based on an engineering approach\nwith probabilities and statistics from a specific time period in the past (Greiving et al. 2012). However, these\ndata are no longer representative for longer periods and future governance because of a wide variety of\nclimate-change related effects that have led to new uncertainties (Greiving et al. 2012). The role of science\nconcerning disasters is therefore problematic because it can neither guarantee safety nor give a proof of risk\n(Fleischhauer et al. 2012; Greiving et al. 2012). Therefore, it is widely acknowledged that the involvement of\nthe public in assessing, reviewing and updating the risk governance process could improve the quality of\nthe decision-making process by incorporating local knowledge and risk perceptions in addition to scientific\nknowledge (Fleischhauer et al. 2012; Kuhlicke, Callsen, and Begg 2016; Newig et al. 2016; Oen et al. 2010;\nWachinger et al. 2013). It is argued that this is especially important in natural hazards such as flood risks to\nget everyone involved from the start of the process onwards because people potentially affected by these\nhazards have to work together in managing them (Fleischhauer et al. 2012). It also increases legitimacy,\ntransparency and trust in authorities, experts and the process (Fleischhauer et al. 2012; Scolobig, Thompson,\nand Linnerooth-Bayer 2015; Wachinger et al. 2013). A limitation is that little research has been done on how\ndecision-makers design and conduct participatory environmental governance approaches (Newig et al.\n2016). This causes a lack of understanding in how policy-makers, consultants and scientists can collaborate\nand learn from governance approaches and thus improve it in both practice and theory through aspects\nsuch as existing networks, experimentation, evidence, and procedural aspects (Newig et al. 2016).\nIn summary, the inclusion of the public in disaster risk management is widely acknowledged as the\nright course of action to overcome current issues, raise awareness, avoid controversies, and distribute\npower more equally (Greiving et al. 2012; Scolobig, Thompson, and Linnerooth-Bayer 2015; Wachinger\net al. 2013). Ontologically and epistemologically the authors in the cluster largely share the same foundations\nas those in the risk governance cluster although there is a bit more emphasis on the inclusion\nof lay knowledge and the questioning of scientific knowledge, largely due to the different nature of\nnatural hazards and the disasters that could follow. The authors argue that public engagement is one\nof the key solutions to improve uncertainty and knowledge-making because local knowledge, risk\nperceptions, and collaborative management of disasters could improve the decision-making process\nif used in addition to scientific knowledge. Nevertheless, the structured search strategy and the literature\nselection process that have shaped this cluster show literature with an underdeveloped practiceoriented\ncomponent. It is however likely that this is addressed in other sources of literature that can be\nfound using different search criteria as well as in different publication channels such as government and\nthink tank reports. For the scope of the publications included for this cluster however, the relationship\nbetween risk governance and public engagement can be described as the inclusion of lay knowledge\nand risk perceptions in DRM to cooperatively limit or prevent disaster.",
+            "supported_inference": "Sufficient (reverses an earlier Claude draft pass's provisional False): that earlier judgment read Cluster 2 (general environmental/risk governance) text, which I2's wording correctly excludes as too generic. The actual expanded excerpt here (p.8-9) is Cluster 3, explicitly labeled 'disaster risk management (DRM)' and explicitly discussing 'governance of natural hazards such as flood risks, forest fires and landslides' -- named specific hazards, not generic risk. Correct cluster satisfies I2; the earlier insufficient call was reading the wrong section of the paper.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "672e5e913122734960417871de3b1615a8fcdf71d4c7361fbc117555c7bd5be7",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient (reverses an earlier Claude draft pass's provisional False): that earlier judgment read Cluster 2 (general environmental/risk governance) text, which I2's wording correctly excludes as too generic. The actual expanded excerpt here (p.8-9) is Cluster 3, explicitly labeled 'disaster risk management (DRM)' and explicitly discussing 'governance of natural hazards such as flood risks, forest fires and landslides' -- named specific hazards, not generic risk. Correct cluster satisfies I2; the earlier insufficient call was reading the wrong section of the paper.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient (reverses an earlier Claude draft pass's provisional False): that earlier judgment read Cluster 2 (general environmental/risk governance) text, which I2's wording correctly excludes as too generic. The actual expanded excerpt here (p.8-9) is Cluster 3, explicitly labeled 'disaster risk management (DRM)' and explicitly discussing 'governance of natural hazards such as flood risks, forest fires and landslides' -- named specific hazards, not generic risk. Correct cluster satisfies I2; the earlier insufficient call was reading the wrong section of the paper.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1080_13669877_2017_1351466",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          4
+        ],
+        "original_supporting_passages": [
+          "Besides risk governance and public engagement, similar concepts that are more commonly used by\nresearchers operating from within a specific academic orientation, such as decision-making, participation,\nand deliberation, are included."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Besides risk governance and public engagement, similar concepts that are more commonly used by\nresearchers operating from within a specific academic orientation, such as decision-making, participation,\nand deliberation, are included.",
+            "supported_inference": "Original draft excerpt was a scope-defining sentence (which concepts the review covers), not substantive analysis. Added expanded excerpt from p.6 with actual analytical treatment of risk governance as a concept -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 6,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "More specifically, according to the authors grouped in this cluster, risk governance refers to a body of scholarly ideas that directs attention to complex multi-actor networks and processes dealing with collective decisions on demanding public risks surrounded by complexity, scientific uncertainty, and/or socio-political ambiguity (Renn and Graham 2005; van Asselt and Renn 2011). In addition to this conceptual definition, risk governance can also be understood as a set of normative principles that can inform how collective decision-making in the context of risk can be done responsibly (Renn and Graham 2005; van Asselt and Renn 2011).",
+            "supported_inference": "Original draft excerpt was a scope-defining sentence (which concepts the review covers), not substantive analysis. Added expanded excerpt from p.6 with actual analytical treatment of risk governance as a concept -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "672e5e913122734960417871de3b1615a8fcdf71d4c7361fbc117555c7bd5be7",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original draft excerpt was a scope-defining sentence (which concepts the review covers), not substantive analysis. Added expanded excerpt from p.6 with actual analytical treatment of risk governance as a concept -- sufficient.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original draft excerpt was a scope-defining sentence (which concepts the review covers), not substantive analysis. Added expanded excerpt from p.6 with actual analytical treatment of risk governance as a concept -- sufficient.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3389_fenvs_2024_1496813",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          2
+        ],
+        "original_supporting_passages": [
+          "The systematic review was executed using the\nprotocols established by the Cochrane Qualitative and\nImplementation Methods Group."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 2,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The systematic review was executed using the\nprotocols established by the Cochrane Qualitative and\nImplementation Methods Group.",
+            "supported_inference": "Sufficient: explicit systematic review using named Cochrane Qualitative and Implementation Methods Group protocols.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit systematic review using named Cochrane Qualitative and Implementation Methods Group protocols.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit systematic review using named Cochrane Qualitative and Implementation Methods Group protocols.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3389_fenvs_2024_1496813",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          3
+        ],
+        "original_supporting_passages": [
+          "For disaster risk management, the following three questions can\nbe used to summarise the different types of mechanisms for\nincreasing community disaster resilience: (1) risk perception\nrelated mechanisms: how do changes in risk awareness,\nstemming from knowledge acquisition and dissemination,\ninfluence attitudes and behaviors in risk management; (2) risk\nresponse related mechanisms: which behavioral mechanisms\nunderlines processes of community disaster resilience\nimprovement; and (3) risk communication related mechanisms:\nwhich mechanisms elucidate indirect changes at individual or macro\nlevels, such as trust or cohesion, and so forth (Zhang et al., 2021)."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "For disaster risk management, the following three questions can\nbe used to summarise the different types of mechanisms for\nincreasing community disaster resilience: (1) risk perception\nrelated mechanisms: how do changes in risk awareness,\nstemming from knowledge acquisition and dissemination,\ninfluence attitudes and behaviors in risk management; (2) risk\nresponse related mechanisms: which behavioral mechanisms\nunderlines processes of community disaster resilience\nimprovement; and (3) risk communication related mechanisms:\nwhich mechanisms elucidate indirect changes at individual or macro\nlevels, such as trust or cohesion, and so forth (Zhang et al., 2021).",
+            "supported_inference": "Sufficient: substantive analytical framework for disaster risk management and community resilience mechanisms, not a scope/search-string fragment.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: substantive analytical framework for disaster risk management and community resilience mechanisms, not a scope/search-string fragment.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: substantive analytical framework for disaster risk management and community resilience mechanisms, not a scope/search-string fragment.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3389_fenvs_2024_1496813",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          10
+        ],
+        "original_supporting_passages": [
+          "4.1 Key findings: how does social capital\nfacilitate community disaster resilience?"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 10,
+            "evidence_role": "structural_heading",
+            "heading_or_quotation": "4.1 Key findings: how does social capital\nfacilitate community disaster resilience?",
+            "supported_inference": "Sufficient: findings section directly analyses social capital and community mechanisms driving disaster resilience -- matches I3's community participation/civil society dimension.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: findings section directly analyses social capital and community mechanisms driving disaster resilience -- matches I3's community participation/civil society dimension.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: findings section directly analyses social capital and community mechanisms driving disaster resilience -- matches I3's community participation/civil society dimension.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1080_13549839_2026_2687421",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          8
+        ],
+        "original_supporting_passages": [
+          "A systematic review methodology formed the basis of the research through both protocol development and the extensive search for suitable publications. These data are collected on the basis of the Recommended Reporting Items for Systematic Reviews and Meta- analysis (PRISMA)."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 8,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "A systematic review methodology formed the basis of the research through both protocol development and the extensive search for suitable publications. These data are collected on the basis of the Recommended Reporting Items for Systematic Reviews and Meta- analysis (PRISMA).",
+            "supported_inference": "Sufficient: explicit systematic review methodology with PRISMA reporting basis.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit systematic review methodology with PRISMA reporting basis.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit systematic review methodology with PRISMA reporting basis.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1080_13549839_2026_2687421",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          8,
+          16
+        ],
+        "original_supporting_passages": [
+          "The keywords and search phrases utilised in this study were adaptive governance, strategy, disaster resilience, disaster management, natural disasters, governance frameworks, and community resilience.",
+          "4.2.2. Principles of adaptive governance relevant to disaster resilience"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 8,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The keywords and search phrases utilised in this study were adaptive governance, strategy, disaster resilience, disaster management, natural disasters, governance frameworks, and community resilience.",
+            "supported_inference": "Sufficient: unlike the generic-risk-term search strings flagged elsewhere in this set as insufficient on their own, this search-strategy passage explicitly and repeatedly names specific disaster/hazard terms (disaster resilience, disaster management, natural disasters), not generic risk language -- explicit hazard framing in the review's own stated search terms.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 16,
+            "evidence_role": "structural_heading",
+            "heading_or_quotation": "4.2.2. Principles of adaptive governance relevant to disaster resilience",
+            "supported_inference": "Sufficient: unlike the generic-risk-term search strings flagged elsewhere in this set as insufficient on their own, this search-strategy passage explicitly and repeatedly names specific disaster/hazard terms (disaster resilience, disaster management, natural disasters), not generic risk language -- explicit hazard framing in the review's own stated search terms.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: unlike the generic-risk-term search strings flagged elsewhere in this set as insufficient on their own, this search-strategy passage explicitly and repeatedly names specific disaster/hazard terms (disaster resilience, disaster management, natural disasters), not generic risk language -- explicit hazard framing in the review's own stated search terms.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: unlike the generic-risk-term search strings flagged elsewhere in this set as insufficient on their own, this search-strategy passage explicitly and repeatedly names specific disaster/hazard terms (disaster resilience, disaster management, natural disasters), not generic risk language -- explicit hazard framing in the review's own stated search terms.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1080_13549839_2026_2687421",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          8,
+          16
+        ],
+        "original_supporting_passages": [
+          "The keywords and search phrases utilised in this study were adaptive governance, strategy, disaster resilience, disaster management, natural disasters, governance frameworks, and community resilience.",
+          "4.2.2. Principles of adaptive governance relevant to disaster resilience"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 8,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The keywords and search phrases utilised in this study were adaptive governance, strategy, disaster resilience, disaster management, natural disasters, governance frameworks, and community resilience.",
+            "supported_inference": "Sufficient: Table 4 explicitly analyses decentralisation and multistakeholder partnerships as adaptive-governance principles for disaster resilience -- directly maps to I3's decentralization and partnerships dimensions.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 16,
+            "evidence_role": "structural_heading",
+            "heading_or_quotation": "4.2.2. Principles of adaptive governance relevant to disaster resilience",
+            "supported_inference": "Sufficient: Table 4 explicitly analyses decentralisation and multistakeholder partnerships as adaptive-governance principles for disaster resilience -- directly maps to I3's decentralization and partnerships dimensions.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: Table 4 explicitly analyses decentralisation and multistakeholder partnerships as adaptive-governance principles for disaster resilience -- directly maps to I3's decentralization and partnerships dimensions.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: Table 4 explicitly analyses decentralisation and multistakeholder partnerships as adaptive-governance principles for disaster resilience -- directly maps to I3's decentralization and partnerships dimensions.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3846_ijspm_2010_22",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [],
+        "original_supporting_passages": [],
+        "original_contradicting_pages": [
+          3
+        ],
+        "original_contradicting_passages": [
+          "The framework was mainly developed based\non expert opinions of various parties who are\ninvolved in the built environment such as built\nenvironment professionals, disaster management\nexperts and policy makers in several different\ncountries."
+        ],
+        "self_contained_excerpts": [
+          {
+            "stance": "contradicts",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The framework was mainly developed based\non expert opinions of various parties who are\ninvolved in the built environment such as built\nenvironment professionals, disaster management\nexperts and policy makers in several different\ncountries.",
+            "supported_inference": "Sufficient: clearly supports violated -- framework built via expert-opinion elicitation (primary/empirical methodology), not literature synthesis.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: clearly supports violated -- framework built via expert-opinion elicitation (primary/empirical methodology), not literature synthesis.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: clearly supports violated -- framework built via expert-opinion elicitation (primary/empirical methodology), not literature synthesis.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3846_ijspm_2010_22",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          3
+        ],
+        "original_supporting_passages": [
+          "The overview of capacities and capacity\ngaps in the built environment in relation to\ndisaster risk reduction, and related capacity\ngaps in Sri Lanka presented in the paper were\ncomposed through a literature review"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The overview of capacities and capacity\ngaps in the built environment in relation to\ndisaster risk reduction, and related capacity\ngaps in Sri Lanka presented in the paper were\ncomposed through a literature review",
+            "supported_inference": "Sufficient: explicit disaster risk reduction framing as the paper's own stated topic.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit disaster risk reduction framing as the paper's own stated topic.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit disaster risk reduction framing as the paper's own stated topic.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3846_ijspm_2010_22",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          3
+        ],
+        "original_supporting_passages": [
+          "Firstly, capacity development was identified\nas a process of four interlinked stages, namely,\nAnalysis, Creation, Utilisation and Retention\nthrough the interviews and literature."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Firstly, capacity development was identified\nas a process of four interlinked stages, namely,\nAnalysis, Creation, Utilisation and Retention\nthrough the interviews and literature.",
+            "supported_inference": "Sufficient: capacity development (maps to I3's capacity-building dimension) analyzed as a substantive 4-stage framework (Analysis, Creation, Utilisation, Retention).",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: capacity development (maps to I3's capacity-building dimension) analyzed as a substantive 4-stage framework (Analysis, Creation, Utilisation, Retention).",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: capacity development (maps to I3's capacity-building dimension) analyzed as a substantive 4-stage framework (Analysis, Creation, Utilisation, Retention).",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1002_eet_1766",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          4
+        ],
+        "original_supporting_passages": [
+          "Since relevant papers are available, but have not been brought together in an explicit and systematic\nanalysis based on a coherent conceptual framework, we used a literature review as our main data collection\nmethod. Berrang-Ford et al. (2015) would characterize our approach as a narrative review."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Since relevant papers are available, but have not been brought together in an explicit and systematic\nanalysis based on a coherent conceptual framework, we used a literature review as our main data collection\nmethod. Berrang-Ford et al. (2015) would characterize our approach as a narrative review.",
+            "supported_inference": "definitely a review",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "definitely a review",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "definitely a review",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1002_eet_1766",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          4
+        ],
+        "original_supporting_passages": [
+          "The study\u2019s empirical focus is on the adaptation domains of fluvial flooding, pluvial flooding and heatwaves in\nthe Netherlands."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 4,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The study\u2019s empirical focus is on the adaptation domains of fluvial flooding, pluvial flooding and heatwaves in\nthe Netherlands.",
+            "supported_inference": "Sufficient: the study's own stated empirical focus explicitly names specific hazards (fluvial flooding, pluvial flooding, heatwaves) -- explicit hazard framing, not generic risk/adaptation language.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: the study's own stated empirical focus explicitly names specific hazards (fluvial flooding, pluvial flooding, heatwaves) -- explicit hazard framing, not generic risk/adaptation language.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: the study's own stated empirical focus explicitly names specific hazards (fluvial flooding, pluvial flooding, heatwaves) -- explicit hazard framing, not generic risk/adaptation language.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1002_eet_1766",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          8,
+          8
+        ],
+        "original_supporting_passages": [
+          "In the domain of stormwater management, the main role of citizens is that of being addressed by local governments\nas potential action takers regarding the retaining of rainwater on their own premises.",
+          "A first additional role for citizens in FRM is that of addressee of more proactive risk communication, and to some\nextent participant in participatory governance processes."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 8,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "In the domain of stormwater management, the main role of citizens is that of being addressed by local governments\nas potential action takers regarding the retaining of rainwater on their own premises.",
+            "supported_inference": "Sufficient: substantive text on citizens' roles as addressees/action-takers in local-government-led stormwater management and as participants in participatory governance and risk communication -- matches I3's community participation dimension.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 8,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "A first additional role for citizens in FRM is that of addressee of more proactive risk communication, and to some\nextent participant in participatory governance processes.",
+            "supported_inference": "Sufficient: substantive text on citizens' roles as addressees/action-takers in local-government-led stormwater management and as participants in participatory governance and risk communication -- matches I3's community participation dimension.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: substantive text on citizens' roles as addressees/action-takers in local-government-led stormwater management and as participants in participatory governance and risk communication -- matches I3's community participation dimension.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: substantive text on citizens' roles as addressees/action-takers in local-government-led stormwater management and as participants in participatory governance and risk communication -- matches I3's community participation dimension.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1111_1468-5973_12592",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          2
+        ],
+        "original_supporting_passages": [
+          "This systematic review was prospectively registered in the International\nProspective Register of Systematic Reviews registry under reference\nnumber CRD42022372815. This systematic review was developed\nbased on the Cochrane Collaboration Handbook (Cumpston et al., 2022)\nand is reported following the preferred reporting items for systematic\nreviews and meta?analyses (Supporting Information S1: PRISMA 2020)\nguidelines (Supplementary Appendix A) (Page et al., 2021)."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 2,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "This systematic review was prospectively registered in the International\nProspective Register of Systematic Reviews registry under reference\nnumber CRD42022372815. This systematic review was developed\nbased on the Cochrane Collaboration Handbook (Cumpston et al., 2022)\nand is reported following the preferred reporting items for systematic\nreviews and meta?analyses (Supporting Information S1: PRISMA 2020)\nguidelines (Supplementary Appendix A) (Page et al., 2021).",
+            "supported_inference": "Sufficient: PROSPERO-registered systematic review, Cochrane Handbook methodology, PRISMA 2020 reporting -- strongest possible I1 evidence.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: PROSPERO-registered systematic review, Cochrane Handbook methodology, PRISMA 2020 reporting -- strongest possible I1 evidence.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: PROSPERO-registered systematic review, Cochrane Handbook methodology, PRISMA 2020 reporting -- strongest possible I1 evidence.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1111_1468-5973_12592",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          2
+        ],
+        "original_supporting_passages": [
+          "Original qualitative and quantitative primary studies that\naddressed various healthcare system preparedness strategies for\ndeliberate, accidental, and natural CBRN incidents."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 2,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Original qualitative and quantitative primary studies that\naddressed various healthcare system preparedness strategies for\ndeliberate, accidental, and natural CBRN incidents.",
+            "supported_inference": "Sufficient: explicit CBRN incident/healthcare preparedness framing -- this is the review's stated eligible-study topic, not a search-string term.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit CBRN incident/healthcare preparedness framing -- this is the review's stated eligible-study topic, not a search-string term.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit CBRN incident/healthcare preparedness framing -- this is the review's stated eligible-study topic, not a search-string term.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1111_1468-5973_12592",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          2
+        ],
+        "original_supporting_passages": [
+          "Exclusion criteria included original articles not specifically\non healthcare systems' preparedness for CBRN incidents, review\narticles, books and theses."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 2,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Exclusion criteria included original articles not specifically\non healthcare systems' preparedness for CBRN incidents, review\narticles, books and theses.",
+            "supported_inference": "Original draft excerpt was an exclusion-criteria sentence unrelated to governance. A p.9 excerpt (workforce training / planning / coordination) was considered but judged too summary-like. Added expanded excerpt from p.13 with substantive community-engagement/participation analysis -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 13,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The importance of community engagement in addressing CBRN threats such as bioterrorism is a salient theme emerging from the literature. Incorporating community perspectives into bioterrorism response plans was identified as essential to strengthen these plans (Scharoun et al., 2002). This helps improve the tactical responses and foster a sense of shared responsibility and awareness among the public (Gupta et al., 2021). This was identified as essential in disease prevention and outbreak management (Gupta et al., 2021).",
+            "supported_inference": "Original draft excerpt was an exclusion-criteria sentence unrelated to governance. A p.9 excerpt (workforce training / planning / coordination) was considered but judged too summary-like. Added expanded excerpt from p.13 with substantive community-engagement/participation analysis -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "87cf0752c1979de08d8def2c8ab7d345263a9d89da6487c718176dc04c7da060",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original draft excerpt was an exclusion-criteria sentence unrelated to governance. A p.9 excerpt (workforce training / planning / coordination) was considered but judged too summary-like. Added expanded excerpt from p.13 with substantive community-engagement/participation analysis -- sufficient.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original draft excerpt was an exclusion-criteria sentence unrelated to governance. A p.9 excerpt (workforce training / planning / coordination) was considered but judged too summary-like. Added expanded excerpt from p.13 with substantive community-engagement/participation analysis -- sufficient.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3390_cli12050067",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          9
+        ],
+        "original_supporting_passages": [
+          "An extensive bibliometric review of flood risk management and\ngovernance identified 3059 articles from more than 100 countries. Most articles addressed\nissues of developed countries, with a focus on Europe."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 9,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "An extensive bibliometric review of flood risk management and\ngovernance identified 3059 articles from more than 100 countries. Most articles addressed\nissues of developed countries, with a focus on Europe.",
+            "supported_inference": "Original excerpt was ambiguous (could be citing someone else's bibliometric review as background rather than self-describing). Replaced with a clearer self-identification passage: paper explicitly frames itself as a review of IFM literature spanning the globe. Not a rigorous/PRISMA-style systematic review (reviewer flagged low methodological rigor), but I1 only requires literature synthesis vs. primary/conceptual work, not methodological rigor -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 2,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The intended contribution of the paper is to provide a comprehensive and contemporary review of IFM and to derive conclusions about the needs to advance the concept, given more than two decades of experience with it. ... The paper reviews the governance needed to foster IFM and its elements and compares them with those for IWRM... The literature reviewed spans the globe, and several examples from the US experience are included... Much of the literature reviewed involves European perspectives.",
+            "supported_inference": "Original excerpt was ambiguous (could be citing someone else's bibliometric review as background rather than self-describing). Replaced with a clearer self-identification passage: paper explicitly frames itself as a review of IFM literature spanning the globe. Not a rigorous/PRISMA-style systematic review (reviewer flagged low methodological rigor), but I1 only requires literature synthesis vs. primary/conceptual work, not methodological rigor -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "4e3dd85b6951167ebeec56cdb584730d72fab89beac134a0e477121b90b85f11",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original excerpt was ambiguous (could be citing someone else's bibliometric review as background rather than self-describing). Replaced with a clearer self-identification passage: paper explicitly frames itself as a review of IFM literature spanning the globe. Not a rigorous/PRISMA-style systematic review (reviewer flagged low methodological rigor), but I1 only requires literature synthesis vs. primary/conceptual work, not methodological rigor -- sufficient.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original excerpt was ambiguous (could be citing someone else's bibliometric review as background rather than self-describing). Replaced with a clearer self-identification passage: paper explicitly frames itself as a review of IFM literature spanning the globe. Not a rigorous/PRISMA-style systematic review (reviewer flagged low methodological rigor), but I1 only requires literature synthesis vs. primary/conceptual work, not methodological rigor -- sufficient.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3390_cli12050067",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          2,
+          9
+        ],
+        "original_supporting_passages": [
+          "The paper reviews the\ngovernance needed to foster IFM and its elements and compares them with those for IWRM,\nwhich is considered by the APFM to include IFM.",
+          "7. Flood Risk Governance"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 2,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The paper reviews the\ngovernance needed to foster IFM and its elements and compares them with those for IWRM,\nwhich is considered by the APFM to include IFM.",
+            "supported_inference": "Sufficient: the document's stated scope is explicitly flood risk management -- floods are a specific hazard, unlike generic 'risk' framing flagged as insufficient elsewhere in this set. Corroborated by a whole top-level section (7. Flood Risk Governance).",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 9,
+            "evidence_role": "structural_heading",
+            "heading_or_quotation": "7. Flood Risk Governance",
+            "supported_inference": "Sufficient: the document's stated scope is explicitly flood risk management -- floods are a specific hazard, unlike generic 'risk' framing flagged as insufficient elsewhere in this set. Corroborated by a whole top-level section (7. Flood Risk Governance).",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: the document's stated scope is explicitly flood risk management -- floods are a specific hazard, unlike generic 'risk' framing flagged as insufficient elsewhere in this set. Corroborated by a whole top-level section (7. Flood Risk Governance).",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: the document's stated scope is explicitly flood risk management -- floods are a specific hazard, unlike generic 'risk' framing flagged as insufficient elsewhere in this set. Corroborated by a whole top-level section (7. Flood Risk Governance).",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3390_cli12050067",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          2,
+          9
+        ],
+        "original_supporting_passages": [
+          "The paper reviews the\ngovernance needed to foster IFM and its elements and compares them with those for IWRM,\nwhich is considered by the APFM to include IFM.",
+          "7. Flood Risk Governance"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 2,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The paper reviews the\ngovernance needed to foster IFM and its elements and compares them with those for IWRM,\nwhich is considered by the APFM to include IFM.",
+            "supported_inference": "Sufficient: a whole top-level section devoted to 'Flood Risk Governance' (stronger structural signal than a sub-subsection), corroborated by the introduction naming governance as a covered topic -- explicitly in a hazard (flood) context.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 9,
+            "evidence_role": "structural_heading",
+            "heading_or_quotation": "7. Flood Risk Governance",
+            "supported_inference": "Sufficient: a whole top-level section devoted to 'Flood Risk Governance' (stronger structural signal than a sub-subsection), corroborated by the introduction naming governance as a covered topic -- explicitly in a hazard (flood) context.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: a whole top-level section devoted to 'Flood Risk Governance' (stronger structural signal than a sub-subsection), corroborated by the introduction naming governance as a covered topic -- explicitly in a hazard (flood) context.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: a whole top-level section devoted to 'Flood Risk Governance' (stronger structural signal than a sub-subsection), corroborated by the introduction naming governance as a covered topic -- explicitly in a hazard (flood) context.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1186_s12245-025-01000-4",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          3
+        ],
+        "original_supporting_passages": [
+          "A comprehensive literature search was conducted across\nnine databases: EBSCO, Cochrane, PsycINFO, Scopus,\nWeb of Science, PubMed, Medline, EconLit, and Google\nScholar."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "A comprehensive literature search was conducted across\nnine databases: EBSCO, Cochrane, PsycINFO, Scopus,\nWeb of Science, PubMed, Medline, EconLit, and Google\nScholar.",
+            "supported_inference": "Original 9-database list alone was thin (same shape as flagged search-string cases). Combined with expanded excerpts on p.3 -- documented MeSH-based search string with Boolean operators/filters plus explicit eligibility criteria definition -- establishes a genuine systematic review protocol, sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The search strategy was developed through a systematic approach and employed a combination of keywords and Medical Subject Headings (MeSH) terms related to seismic risk reduction programs. A complete example of the search string used for MEDLINE, including Boolean operators and applied filters, is provided in Appendix 1 to enhance transparency and reproducibility.",
+            "supported_inference": "Original 9-database list alone was thin (same shape as flagged search-string cases). Combined with expanded excerpts on p.3 -- documented MeSH-based search string with Boolean operators/filters plus explicit eligibility criteria definition -- establishes a genuine systematic review protocol, sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "8a4be582a1a0ebb8c5527fb14aa9dd5b8b93de30b49f3413d261e362ae29c8f9",
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "To be eligible for inclusion, studies had to report on hospitals implementing comprehensive or partial seismic risk reduction programs. In this review, \u201ccomprehensive\u201d seismic risk reduction programs were defined as those meeting all three minimum criteria: (1) structural retrofitting measures to improve seismic safety (e.g., base isolation, reinforcement of load-bearing structures); (2) functional preparedness activities, including disaster drills, surge capacity planning, and continuity of operations protocols; and (3) governance and coordination mechanisms that integrate hospital disaster plans with national or regional emergency management systems.",
+            "supported_inference": "Original 9-database list alone was thin (same shape as flagged search-string cases). Combined with expanded excerpts on p.3 -- documented MeSH-based search string with Boolean operators/filters plus explicit eligibility criteria definition -- establishes a genuine systematic review protocol, sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "8a4be582a1a0ebb8c5527fb14aa9dd5b8b93de30b49f3413d261e362ae29c8f9",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original 9-database list alone was thin (same shape as flagged search-string cases). Combined with expanded excerpts on p.3 -- documented MeSH-based search string with Boolean operators/filters plus explicit eligibility criteria definition -- establishes a genuine systematic review protocol, sufficient.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original 9-database list alone was thin (same shape as flagged search-string cases). Combined with expanded excerpts on p.3 -- documented MeSH-based search string with Boolean operators/filters plus explicit eligibility criteria definition -- establishes a genuine systematic review protocol, sufficient.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1186_s12245-025-01000-4",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          3
+        ],
+        "original_supporting_passages": [
+          "These databases were selected to ensure broad\ncoverage of multidisciplinary evidence relevant to hospital\nfunctionality in post-earthquake settings, with an\nemphasis on their applicability to the research topic."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "These databases were selected to ensure broad\ncoverage of multidisciplinary evidence relevant to hospital\nfunctionality in post-earthquake settings, with an\nemphasis on their applicability to the research topic.",
+            "supported_inference": "Original draft excerpt was a database-selection scope sentence. Reused the eligibility-criteria excerpt (also used for I1) which substantively describes seismic risk reduction programs and structural retrofitting for seismic safety -- explicit hazard framing, sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "To be eligible for inclusion, studies had to report on hospitals implementing comprehensive or partial seismic risk reduction programs. In this review, \u201ccomprehensive\u201d seismic risk reduction programs were defined as those meeting all three minimum criteria: (1) structural retrofitting measures to improve seismic safety (e.g., base isolation, reinforcement of load-bearing structures); (2) functional preparedness activities, including disaster drills, surge capacity planning, and continuity of operations protocols; and (3) governance and coordination mechanisms that integrate hospital disaster plans with national or regional emergency management systems.",
+            "supported_inference": "Original draft excerpt was a database-selection scope sentence. Reused the eligibility-criteria excerpt (also used for I1) which substantively describes seismic risk reduction programs and structural retrofitting for seismic safety -- explicit hazard framing, sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "8a4be582a1a0ebb8c5527fb14aa9dd5b8b93de30b49f3413d261e362ae29c8f9",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original draft excerpt was a database-selection scope sentence. Reused the eligibility-criteria excerpt (also used for I1) which substantively describes seismic risk reduction programs and structural retrofitting for seismic safety -- explicit hazard framing, sufficient.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original draft excerpt was a database-selection scope sentence. Reused the eligibility-criteria excerpt (also used for I1) which substantively describes seismic risk reduction programs and structural retrofitting for seismic safety -- explicit hazard framing, sufficient.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_1186_s12245-025-01000-4",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          3
+        ],
+        "original_supporting_passages": [
+          "To be eligible for inclusion, studies had to report on hospitals\nimplementing comprehensive or partial seismic\nrisk reduction programs. In this review, \u201ccomprehensive\u201d\nseismic risk reduction programs were defined as those\nmeeting all three minimum criteria: (1) structural retrofitting\nmeasures to improve seismic safety (e.g., base\nisolation, reinforcement of load-bearing structures); (2)\nfunctional preparedness activities, including disaster\ndrills, surge capacity planning, and continuity of operations\nprotocols; and (3) governance and coordination\nmechanisms that integrate hospital disaster plans with\nnational or regional emergency management systems."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "To be eligible for inclusion, studies had to report on hospitals\nimplementing comprehensive or partial seismic\nrisk reduction programs. In this review, \u201ccomprehensive\u201d\nseismic risk reduction programs were defined as those\nmeeting all three minimum criteria: (1) structural retrofitting\nmeasures to improve seismic safety (e.g., base\nisolation, reinforcement of load-bearing structures); (2)\nfunctional preparedness activities, including disaster\ndrills, surge capacity planning, and continuity of operations\nprotocols; and (3) governance and coordination\nmechanisms that integrate hospital disaster plans with\nnational or regional emergency management systems.",
+            "supported_inference": "Original draft excerpt was an eligibility-criteria definition (methods), not substantive analysis. Added expanded excerpt from p.9 with real results-level cross-country analysis of governance structures, regulatory enforcement, and interagency collaboration -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 9,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "A critical comparison of these country-specific findings suggests that structural resilience tends to be prioritized in settings where governmental enforcement of building codes is strong (e.g., Tehran), whereas functional preparedness measures, such as surge capacity planning and communication protocols, are more consistent in politically stable, higher-income contexts (e.g., Lebanon). These patterns highlight that resilience outcomes are shaped not only by financial investment but also by governance structures, regulatory enforcement, and interagency collaboration.",
+            "supported_inference": "Original draft excerpt was an eligibility-criteria definition (methods), not substantive analysis. Added expanded excerpt from p.9 with real results-level cross-country analysis of governance structures, regulatory enforcement, and interagency collaboration -- sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "8a4be582a1a0ebb8c5527fb14aa9dd5b8b93de30b49f3413d261e362ae29c8f9",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original draft excerpt was an eligibility-criteria definition (methods), not substantive analysis. Added expanded excerpt from p.9 with real results-level cross-country analysis of governance structures, regulatory enforcement, and interagency collaboration -- sufficient.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original draft excerpt was an eligibility-criteria definition (methods), not substantive analysis. Added expanded excerpt from p.9 with real results-level cross-country analysis of governance structures, regulatory enforcement, and interagency collaboration -- sufficient.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3390_smartcities7060147",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          10
+        ],
+        "original_supporting_passages": [
+          "The study adheres to the approach outlined in the Preferred Reporting Items for\nSystematic Reviews and Meta-Analyses (PRISMA) [132] format, which was developed by a\nconsortium of medical researchers to enhance the transparency, reliability, and accuracy\nof systematic literature reviews."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 10,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The study adheres to the approach outlined in the Preferred Reporting Items for\nSystematic Reviews and Meta-Analyses (PRISMA) [132] format, which was developed by a\nconsortium of medical researchers to enhance the transparency, reliability, and accuracy\nof systematic literature reviews.",
+            "supported_inference": "Sufficient: explicit PRISMA adherence statement.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit PRISMA adherence statement.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit PRISMA adherence statement.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3390_smartcities7060147",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          9,
+          10
+        ],
+        "original_supporting_passages": [
+          "This paper explores the transition in disaster management from conventional relieforiented\nstrategies to novel and smart approaches that prioritize DRR and CBS. The primary",
+          "focus lies in methods for engaging the community, emphasizing preparedness for emergencies\nthrough clear communication and locally led activities."
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 9,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "This paper explores the transition in disaster management from conventional relieforiented\nstrategies to novel and smart approaches that prioritize DRR and CBS. The primary",
+            "supported_inference": "Sufficient: explicit DRR framing as the paper's own stated focus (transition to DRR/community-based strategies), not a search-string mention.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 10,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "focus lies in methods for engaging the community, emphasizing preparedness for emergencies\nthrough clear communication and locally led activities.",
+            "supported_inference": "Sufficient: explicit DRR framing as the paper's own stated focus (transition to DRR/community-based strategies), not a search-string mention.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: explicit DRR framing as the paper's own stated focus (transition to DRR/community-based strategies), not a search-string mention.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Sufficient: explicit DRR framing as the paper's own stated focus (transition to DRR/community-based strategies), not a search-string mention.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_3390_smartcities7060147",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          9,
+          10,
+          14
+        ],
+        "original_supporting_passages": [
+          "This paper explores the transition in disaster management from conventional relieforiented\nstrategies to novel and smart approaches that prioritize DRR and CBS. The primary",
+          "focus lies in methods for engaging the community, emphasizing preparedness for emergencies\nthrough clear communication and locally led activities.",
+          "4.3.3. Emergence of Volunteer Crowdsourcing"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 9,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "This paper explores the transition in disaster management from conventional relieforiented\nstrategies to novel and smart approaches that prioritize DRR and CBS. The primary",
+            "supported_inference": "Sufficient: text directly states a community-engagement focus for disaster preparedness -- matches I3's community participation dimension.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 10,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "focus lies in methods for engaging the community, emphasizing preparedness for emergencies\nthrough clear communication and locally led activities.",
+            "supported_inference": "Sufficient: text directly states a community-engagement focus for disaster preparedness -- matches I3's community participation dimension.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 14,
+            "evidence_role": "structural_heading",
+            "heading_or_quotation": "4.3.3. Emergence of Volunteer Crowdsourcing",
+            "supported_inference": "Sufficient: text directly states a community-engagement focus for disaster preparedness -- matches I3's community participation dimension.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Sufficient: text directly states a community-engagement focus for disaster preparedness -- matches I3's community participation dimension.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "Sufficient: text directly states a community-engagement focus for disaster preparedness -- matches I3's community participation dimension.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_5194_nhess-12-2923-2012",
+        "criterion_id": "I1_review_type",
+        "original_supporting_pages": [
+          3
+        ],
+        "original_supporting_passages": [
+          "3.1 Conceptual review"
+        ],
+        "original_contradicting_pages": [
+          1
+        ],
+        "original_contradicting_passages": [
+          "The literature\nreviews and in-depth interviews with key respondents in Indonesia\nshow that the international and regional MSPs tend\nto have more human, technical and financial capacity than\nnational and local MSPs"
+        ],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 3,
+            "evidence_role": "structural_heading",
+            "heading_or_quotation": "3.1 Conceptual review",
+            "supported_inference": "I would exclude, this is not a review paper; agree for UNCERTAIN because of the mixed evidence and the clear definition of what a lit. review is, what are the edgle cases.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "contradicts",
+            "page": 1,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "The literature\nreviews and in-depth interviews with key respondents in Indonesia\nshow that the international and regional MSPs tend\nto have more human, technical and financial capacity than\nnational and local MSPs",
+            "supported_inference": "I would exclude, this is not a review paper; agree for UNCERTAIN because of the mixed evidence and the clear definition of what a lit. review is, what are the edgle cases.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "I would exclude, this is not a review paper; agree for UNCERTAIN because of the mixed evidence and the clear definition of what a lit. review is, what are the edgle cases.",
+        "reviewer_id": "RR",
+        "reviewed_at": "19/08/2026",
+        "review_notes": "I would exclude, this is not a review paper; agree for UNCERTAIN because of the mixed evidence and the clear definition of what a lit. review is, what are the edgle cases.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_5194_nhess-12-2923-2012",
+        "criterion_id": "I2_drr_hazard_framing",
+        "original_supporting_pages": [
+          10
+        ],
+        "original_supporting_passages": [
+          "4.1.4 Learning and innovation: how do experiences\nfrom past disasters affect the development and operation\nof the multi-stakeholder platforms?"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 10,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "4.1.4 Learning and innovation: how do experiences\nfrom past disasters affect the development and operation\nof the multi-stakeholder platforms?",
+            "supported_inference": "Original excerpt was a section-heading-style research question, thin on its own. Expanded excerpt from p.11 does discuss disasters in Asia/Indonesia and DRR institutions/frameworks explicitly, but reviewer judged it weak (fairly general, citation-heavy) rather than a strong substantive passage. Marked sufficient but weak/borderline -- acceptable, not strong.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 11,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "Large scale or high impact disasters which frequently hit Asia and Indonesia created and brought enormous changes to DRR systems for the increased political commitments to the DRR institutions and frameworks. However, the author sees the need for more systematic learning from disaster experiences, a term that is frequently termed single, double and triple loop learning (Argyris and Schoen, 1974). Many studies in DRR express the need for (Jabeen et al., 2010; Goldstein, 2008; Josef, 2007; Voss and Wagner, 2010; Farazmand, 2007) systematic learning from disasters.",
+            "supported_inference": "Original excerpt was a section-heading-style research question, thin on its own. Expanded excerpt from p.11 does discuss disasters in Asia/Indonesia and DRR institutions/frameworks explicitly, but reviewer judged it weak (fairly general, citation-heavy) rather than a strong substantive passage. Marked sufficient but weak/borderline -- acceptable, not strong.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "5e6e1d505b37371af2f58d100cd380e597c1f360b4e966ac56a971f2d4fe7887",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original excerpt was a section-heading-style research question, thin on its own. Expanded excerpt from p.11 does discuss disasters in Asia/Indonesia and DRR institutions/frameworks explicitly, but reviewer judged it weak (fairly general, citation-heavy) rather than a strong substantive passage. Marked sufficient but weak/borderline -- acceptable, not strong.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original excerpt was a section-heading-style research question, thin on its own. Expanded excerpt from p.11 does discuss disasters in Asia/Indonesia and DRR institutions/frameworks explicitly, but reviewer judged it weak (fairly general, citation-heavy) rather than a strong substantive passage. Marked sufficient but weak/borderline -- acceptable, not strong.",
+        "human_attestation": null
+      },
+      {
+        "document_id": "10_5194_nhess-12-2923-2012",
+        "criterion_id": "I3_governance_dimension",
+        "original_supporting_pages": [
+          10
+        ],
+        "original_supporting_passages": [
+          "4.1.4 Learning and innovation: how do experiences\nfrom past disasters affect the development and operation\nof the multi-stakeholder platforms?"
+        ],
+        "original_contradicting_pages": [],
+        "original_contradicting_passages": [],
+        "self_contained_excerpts": [
+          {
+            "stance": "supports",
+            "page": 10,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "4.1.4 Learning and innovation: how do experiences\nfrom past disasters affect the development and operation\nof the multi-stakeholder platforms?",
+            "supported_inference": "Original draft excerpt was a section-heading-style research question, thin. Added expanded excerpt from p.11 with substantive multilevel-governance/partnerships analysis (horizontal and vertical MSP relationships, Biermann et al. partnership framework) -- directly hits I3's multilevel governance and partnerships dimensions, sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "retained_original_citation",
+            "source_document_sha256": null,
+            "source_section": null
+          },
+          {
+            "stance": "supports",
+            "page": 11,
+            "evidence_role": "verbatim_text",
+            "heading_or_quotation": "This sub-section presents the author analysis on the roles, interlinkages and collaborations between the MSPs, utilising Biermann et al. (2007) framework on partnership implementation. Figure 3 shows the relationships between the selected MSPs, horizontally (on the same geographical scale) and also vertically (across different scales). The arrows represent different activities and types of support between the MSPs: financial resources, technical capacity and assistance in DRR coordination. In general, there are more horizontal connections at the global level while the vertical relationships between the MSPs have mainly developed along the lines of the formation of the GPDRR, and the supporting regional, national and local MSPs, as part of the UNISDR system.",
+            "supported_inference": "Original draft excerpt was a section-heading-style research question, thin. Added expanded excerpt from p.11 with substantive multilevel-governance/partnerships analysis (horizontal and vertical MSP relationships, Biermann et al. partnership framework) -- directly hits I3's multilevel governance and partnerships dimensions, sufficient.",
+            "body_excerpt": null,
+            "extraction_method": "expanded_from_pdf_section",
+            "source_document_sha256": "5e6e1d505b37371af2f58d100cd380e597c1f360b4e966ac56a971f2d4fe7887",
+            "source_section": null
+          }
+        ],
+        "sufficient_for_independent_adjudication": true,
+        "sufficiency_assessed_by": "human_review:RR",
+        "sufficiency_rationale": "Original draft excerpt was a section-heading-style research question, thin. Added expanded excerpt from p.11 with substantive multilevel-governance/partnerships analysis (horizontal and vertical MSP relationships, Biermann et al. partnership framework) -- directly hits I3's multilevel governance and partnerships dimensions, sufficient.",
+        "reviewer_id": "RR",
+        "reviewed_at": "20/08/2026",
+        "review_notes": "Original draft excerpt was a section-heading-style research question, thin. Added expanded excerpt from p.11 with substantive multilevel-governance/partnerships analysis (horizontal and vertical MSP relationships, Biermann et al. partnership framework) -- directly hits I3's multilevel governance and partnerships dimensions, sufficient.",
+        "human_attestation": null
+      }
+    ],
+    "frozen_at": "2026-08-20T10:57:56.971577+00:00"
+  }
+}

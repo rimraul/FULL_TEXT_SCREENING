@@ -1,0 +1,68 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "3ac6a6a40b34171ab13abc4a45a78968d3cfe08fccae41c4fe8854ec7471165c",
+  "full_payload_hash": "ea17efd02340ea27a7ba975ba479ab3b04f860da9a18644affbd727c28ca0087",
+  "envelope_header_hash": "e84f5d25be59a57b60afb54504d6ed0760e13189fffa49f1d2f16ea8286b3f21",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1002_eet_1766",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1002_eet_1766",
+            "document_sha256": "3d24c987e5d44d2eee8f5a63aac6d825d42645b58b987c3a2c0bf5f118eb1fd2",
+            "chunk_id": "arm2b-10_1002_eet_1766-I3_governance_dimension-0",
+            "section": null,
+            "page": 8,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "In the domain of stormwater management, the main role of citizens is that of being addressed by local governments\nas potential action takers regarding the retaining of rainwater on their own premises.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_1002_eet_1766",
+            "document_sha256": "3d24c987e5d44d2eee8f5a63aac6d825d42645b58b987c3a2c0bf5f118eb1fd2",
+            "chunk_id": "arm2b-10_1002_eet_1766-I3_governance_dimension-1",
+            "section": null,
+            "page": 8,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "A first additional role for citizens in FRM is that of addressee of more proactive risk communication, and to some\nextent participant in participatory governance processes.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The excerpts substantively discuss citizens' roles in flood/stormwater risk management, including action-taking, risk communication, and participation in participatory governance processes, addressing community participation/civil-society governance in a DRR context.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2169,
+        "output_tokens": 329,
+        "total_tokens": 2498,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 189,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:08.669292+00:00"
+  }
+}

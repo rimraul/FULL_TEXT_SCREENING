@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "6d2feb9b86bd1882a0d8a8151a2ba1834108f7f58574f09238686c0e523bb851",
+  "full_payload_hash": "857225c8483fd4a54b8dc1fbab4dba3b329af081a8bfb42fbaca8192580dfad1",
+  "envelope_header_hash": "1c97643feb122d873319f683628bcd1381226694a2dfa25aaa08dca507449a5c",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1177_08854122231199462",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1177_08854122231199462",
+            "document_sha256": "592d55a9f57ab8ac166b454403389a37d8e736c246237dd0f5bbfd1ae4a26d7f",
+            "chunk_id": "arm2b-10_1177_08854122231199462-I1_review_type-0",
+            "section": null,
+            "page": 2,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "To record the scope of empirically derived knowledge\nabout the smart city framework for disaster resilience, we followed\nthe procedures outlined by Xiao and Watson (2019), suggesting\nthat the procedures for conducting an SLR include\ndeveloping a research question, defining inclusion/exclusion\ncriteria, conducting a comprehensive literature search, screening,\nand selecting studies based on predefined criteria, extracting\ndata from the selected studies, and synthesizing and\nanalyzing the findings (Xiao and Watson 2019).",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The excerpt describes systematic literature review procedures, including comprehensive searching, study selection, data extraction, and synthesis of findings, directly indicating a literature-review study.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2133,
+        "output_tokens": 96,
+        "total_tokens": 2229,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:20.507602+00:00"
+  }
+}

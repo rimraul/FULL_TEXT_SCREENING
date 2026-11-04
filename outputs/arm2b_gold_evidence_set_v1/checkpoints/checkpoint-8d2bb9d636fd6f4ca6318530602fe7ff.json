@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "377c002046af337fe463400467c52ba4340410d76a8194b41dc2f92e96d44887",
+  "full_payload_hash": "bfded3d7de37f9931728da88ca99bcddf010d1aa5e5800560cbcbd5c3efe0721",
+  "envelope_header_hash": "4692fd9e0758541709e2f1d5d440c048680bc35ed3a0b751a60fe33d50877b11",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3389_fenvs_2024_1496813",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_3389_fenvs_2024_1496813",
+            "document_sha256": "ed26b4861587f32a72b4e2a9bc86928636adb6265c434a355c82ce9a91d42460",
+            "chunk_id": "arm2b-10_3389_fenvs_2024_1496813-I2_drr_hazard_framing-0",
+            "section": null,
+            "page": 3,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "For disaster risk management, the following three questions can\nbe used to summarise the different types of mechanisms for\nincreasing community disaster resilience: (1) risk perception\nrelated mechanisms: how do changes in risk awareness,\nstemming from knowledge acquisition and dissemination,\ninfluence attitudes and behaviors in risk management; (2) risk\nresponse related mechanisms: which behavioral mechanisms\nunderlines processes of community disaster resilience\nimprovement; and (3) risk communication related mechanisms:\nwhich mechanisms elucidate indirect changes at individual or macro\nlevels, such as trust or cohesion, and so forth (Zhang et al., 2021).",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The excerpt explicitly discusses disaster risk management and community disaster resilience, directly meeting the DRR/resilience requirement with a disaster framing.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2171,
+        "output_tokens": 99,
+        "total_tokens": 2270,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:43.535135+00:00"
+  }
+}

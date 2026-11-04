@@ -1,0 +1,2790 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldSet",
+  "content_hash": "6fdfaebfd84e7ed33101d1a9b9ba4960367ab6985f1a52e3a13cabc2e396280a",
+  "full_payload_hash": "1fcbf6dd2b421fbe88d1facceaa5511918e111930e8cd319c52c146a86e5daad",
+  "envelope_header_hash": "08b3ab5db21e34207ed50f4a1b91c0ea001b9f07434180002859e8b5da06f1a8",
+  "payload": {
+    "protocol_version": "gold_set_protocol_v9",
+    "blind_manifest_hash": "c1661ffa17d183427b623ea3bc0be4f3f77c1024ae0e27384f688ce1d8c51686",
+    "sample_manifest_hash": "b0f53e3f338a70e9a78d2cab87c26aa36a5a2cd97066296ac7db810e8cc7070a",
+    "document_pdf_sha256": {
+      "10_1080_13549839_2026_2687421": "7d3b396f4e686acc1fb5c3e97bb6953ca56a4050552a21bdcb60f4dc5f0b873f",
+      "10_3389_fenvs_2024_1496813": "ed26b4861587f32a72b4e2a9bc86928636adb6265c434a355c82ce9a91d42460",
+      "10_1080_17565529_2021_1906203": "52ba6a1832146eacbe510002252a5d26deda466caca43a1f136cc0e0fad903a3",
+      "10_5194_nhess-12-2923-2012": "5e6e1d505b37371af2f58d100cd380e597c1f360b4e966ac56a971f2d4fe7887",
+      "10_1108_dpm-06-2023-0128": "2b62a0c20110fcd3b1b52c735fe848fb82bc22e3fb694c9d039b613af59a52b1",
+      "10_1007_s11269-016-1491-7": "d5c0f1198b9bc1d9b477ba5fb08a1ba74951735e4529bbdc262f5ef49388f35a",
+      "10_1080_13669877_2017_1351466": "672e5e913122734960417871de3b1615a8fcdf71d4c7361fbc117555c7bd5be7",
+      "10_1111_1468-5973_12592": "87cf0752c1979de08d8def2c8ab7d345263a9d89da6487c718176dc04c7da060",
+      "10_3390_w16111571": "144a07e138a5169fbbf69cec8c601f72c598a94c2c8132799ed474739f243684",
+      "10_1186_s12245-025-01000-4": "8a4be582a1a0ebb8c5527fb14aa9dd5b8b93de30b49f3413d261e362ae29c8f9",
+      "10_1177_08854122231199462": "592d55a9f57ab8ac166b454403389a37d8e736c246237dd0f5bbfd1ae4a26d7f",
+      "10_3390_cli12050067": "4e3dd85b6951167ebeec56cdb584730d72fab89beac134a0e477121b90b85f11",
+      "10_1007_978-3-031-54118-6_8": "628cbf78d4bb46d8a0152e0a469f768fefc4cfe151684e720a062cbadaebb0be",
+      "10_1051_bioconf_202519300057": "dc02c210b150dfd53b9f6269a6f814e5c207f50f57f1e296fe68cb2185b213cd",
+      "10_3390_smartcities7060147": "481c57718364bdea56dae6192e106eaf643d787df40d9443f6432c0faf767e45",
+      "10_3846_ijspm_2010_22": "2793076079b2b83eab3845b37d7d79c4b098a26bb77dbc6e461b21c35ab890cc",
+      "10_1080_09640568_2019_1641474": "179c6835155d6501869ef3949f93478ef884c68fc734ddd426573c4164cea50c",
+      "10_1002_eet_1766": "3d24c987e5d44d2eee8f5a63aac6d825d42645b58b987c3a2c0bf5f118eb1fd2",
+      "10_5194_nhess-21-1383-2021": "51b5dcb78cc7f4c758bad49e70714dca081556784a782bd6a251628f87ac4c7e",
+      "10_19053_uptc_01233769_18772": "79014d57ac286f212e3b475fcb5d52a08c11d3b7b94a69b1dd6a96c25cb4a255"
+    },
+    "expected_document_ids": [
+      "10_1002_eet_1766",
+      "10_1007_978-3-031-54118-6_8",
+      "10_1007_s11269-016-1491-7",
+      "10_1051_bioconf_202519300057",
+      "10_1080_09640568_2019_1641474",
+      "10_1080_13549839_2026_2687421",
+      "10_1080_13669877_2017_1351466",
+      "10_1080_17565529_2021_1906203",
+      "10_1108_dpm-06-2023-0128",
+      "10_1111_1468-5973_12592",
+      "10_1177_08854122231199462",
+      "10_1186_s12245-025-01000-4",
+      "10_19053_uptc_01233769_18772",
+      "10_3389_fenvs_2024_1496813",
+      "10_3390_cli12050067",
+      "10_3390_smartcities7060147",
+      "10_3390_w16111571",
+      "10_3846_ijspm_2010_22",
+      "10_5194_nhess-12-2923-2012",
+      "10_5194_nhess-21-1383-2021"
+    ],
+    "expected_dual_review_document_ids": [
+      "10_1007_978-3-031-54118-6_8",
+      "10_1080_09640568_2019_1641474",
+      "10_1186_s12245-025-01000-4",
+      "10_3389_fenvs_2024_1496813",
+      "10_3846_ijspm_2010_22"
+    ],
+    "criteria_set": {
+      "criteria_set_id": "walking-skeleton-drr-governance",
+      "version": "1",
+      "criteria": [
+        {
+          "criterion_id": "I1_review_type",
+          "version": "1",
+          "eligibility_requirement": "The document is a review-type study (systematic review, scoping review, or other literature review) that synthesizes existing published literature, rather than reporting a single primary empirical study or a purely conceptual framework paper with no literature synthesis.",
+          "missing_evidence_policy": "review",
+          "exclusion_reason_code": "not_a_review",
+          "exclusion_reason_label": "Not a review-type synthesis of existing literature",
+          "priority": 1,
+          "allowed_sources": null
+        },
+        {
+          "criterion_id": "I2_drr_hazard_framing",
+          "version": "1",
+          "eligibility_requirement": "The document substantively addresses disaster risk reduction (DRR) or resilience to hazards, with an explicit hazard/disaster framing -- general risk, climate adaptation, or sustainability content without an explicit hazard/disaster context does not satisfy this criterion.",
+          "missing_evidence_policy": "review",
+          "exclusion_reason_code": "off_topic_hazard",
+          "exclusion_reason_label": "No explicit disaster/hazard framing",
+          "priority": 2,
+          "allowed_sources": null
+        },
+        {
+          "criterion_id": "I3_governance_dimension",
+          "version": "1",
+          "eligibility_requirement": "The document substantively analyses at least one of the following governance dimensions in a DRR/resilience context: institutional capacity, decentralization, multilevel governance, partnerships, civil society, capacity building, community participation, education/training, financing, legal/regulatory frameworks, information systems, or urban planning. Passing mention of government actors without substantive analysis of one of these dimensions does not satisfy this criterion.",
+          "missing_evidence_policy": "review",
+          "exclusion_reason_code": "no_governance",
+          "exclusion_reason_label": "No substantive governance-dimension analysis",
+          "priority": 3,
+          "allowed_sources": null
+        }
+      ]
+    },
+    "criterion_annotations": [
+      {
+        "document_id": "10_1080_09640568_2019_1641474",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 27,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          5
+        ],
+        "supporting_passages": [
+          "A systematic review differentiates from a conventional review in terms of rigor, repeatability,\nand completeness (Righi, Saurin, and Wachs 2015). In order to meet this criteria,\nwe ensured the methodology was explicit and reproducible by following clearly\nstated objectives with a set of pre-defined eligibility criteria, and a systematic search to\nidentify all potential papers (Liberati et al. 2009)."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1080_09640568_2019_1641474",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 27,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          5
+        ],
+        "supporting_passages": [
+          "Our analysis of resilience in FRM was based solely on how academia was employing\nthe term; therefore our database search was restricted to peer reviewed journal\narticles and conference papers printed in English."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1080_09640568_2019_1641474",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 27,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          4,
+          18
+        ],
+        "supporting_passages": [
+          "To develop this understanding, the following research questions are addressed:\n1. What are the most commonly adopted perspectives on resilience throughout FRM?\n2. How is resilience assessed within FRM?\n3. How do the differing perspectives on resilience influence implementation and\noperationalisation of the concept?",
+          "3.3.3. FRM strategies"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "second pass judgement is more precise"
+      },
+      {
+        "document_id": "10_1177_08854122231199462",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 17,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          2
+        ],
+        "supporting_passages": [
+          "To record the scope of empirically derived knowledge\nabout the smart city framework for disaster resilience, we followed\nthe procedures outlined by Xiao and Watson (2019), suggesting\nthat the procedures for conducting an SLR include\ndeveloping a research question, defining inclusion/exclusion\ncriteria, conducting a comprehensive literature search, screening,\nand selecting studies based on predefined criteria, extracting\ndata from the selected studies, and synthesizing and\nanalyzing the findings (Xiao and Watson 2019)."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "evidence in Methods section"
+      },
+      {
+        "document_id": "10_1177_08854122231199462",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 17,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          2,
+          3
+        ],
+        "supporting_passages": [
+          "Fourth, we only selected articles focusing on natural",
+          "hazard events caused by natural forces that result in widespread\ndamage, destruction, or loss of life. Examples of natural hazard\nevents include earthquakes, wildfires, landslides, hurricanes,\nfloods, tsunamis, typhoons, and tropical storms. Meanwhile,\nwe excluded papers related to man-made disasters, terrorism,\npandemics, energy, pollution, debris disposal, chronic climate\nrisks, security threats, and cyber-attacks."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1177_08854122231199462",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 17,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          3,
+          11
+        ],
+        "supporting_passages": [
+          "Fifth, we only retained\narticles focusing on disaster management, emergency response,\nor resilience that affected urban environments while excluding\nbuilding-scale technologies (i.e., architectural applications,\nbuilding information modeling) and management for agriculture\nand rural communities.",
+          "In brief, the findings\nof this study suggest that urban planners should work closely\nwith other disciplines to develop comprehensive disaster management\nsystems that protect communities and enhance overall\nurban resilience."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "governance is covered, but the coverage is shallow as this is a scoping type of the review."
+      },
+      {
+        "document_id": "10_3390_w16111571",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 29,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          4
+        ],
+        "supporting_passages": [
+          "Figure 2. Methodology for the review following the PRISMA concept."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_3390_w16111571",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 29,
+        "gold_status": "unclear",
+        "supporting_pages": [
+          20
+        ],
+        "supporting_passages": [
+          "This review evaluated trade-offs between different scales of selection for UWSs resilience,\nby analysing the impacts of scale on the components of resilience capabilities\n(redundancy, availability, robustness, and learning and investment ability), as well as which\nUWS functionality (ies) could be involved in the trade-off."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": true,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "focus on resilience, but hazards context is only implied as it exist only as keywords of the search string"
+      },
+      {
+        "document_id": "10_3390_w16111571",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 29,
+        "gold_status": "unclear",
+        "supporting_pages": [
+          22
+        ],
+        "supporting_passages": [
+          "Moreover, the second level of analysis allows us to prioritize\nwhich city sectors/sites present greater advantages for decentralization and which zones\nshould remain connected to the main central plant."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": true,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "decentralization focus is not so much on governnce, but on pjysical scale and resilience"
+      },
+      {
+        "document_id": "10_1007_978-3-031-54118-6_8",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 10,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          3
+        ],
+        "supporting_passages": [
+          "This study conducted a systematic literature review to provide an evidence-based answer\nto the before mentioned research questions. The search was performed in April 2023\nfrom some widely accepted citation databases, relying on PRISMA 2020 methodology\n[12]."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "coppied from the second pass"
+      },
+      {
+        "document_id": "10_1007_978-3-031-54118-6_8",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 10,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          4
+        ],
+        "supporting_passages": [
+          "Fig. 1. Research protocol adopted for the literature review."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "coppied from the second pass"
+      },
+      {
+        "document_id": "10_1007_978-3-031-54118-6_8",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 10,
+        "gold_status": "not_reported",
+        "supporting_pages": [],
+        "supporting_passages": [],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": true,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "no discusion of or within the disaster context, although search keywords do have disaster/hazard element"
+      },
+      {
+        "document_id": "10_1108_dpm-06-2023-0128",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 20,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          4
+        ],
+        "supporting_passages": [
+          "Thirdly, the retrieved literature was screened. Titles, abstracts and full texts of the\nselected papers were reviewed to understand their relevance to the research objective. Among\nthe reviewed studies, 52 irrelevant studies were excluded while the 102 relevant ones were\nretained."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1108_dpm-06-2023-0128",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 20,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          4
+        ],
+        "supporting_passages": [
+          "A total of 102 articles from 1970 to 2023, focusing on \u201cpeople\u2019s role in ecosystem-based\nDRR,\u201d were analyzed to understand how community participation can contribute to\nsuccessful ecosystem-based DRR."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1108_dpm-06-2023-0128",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 20,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          4
+        ],
+        "supporting_passages": [
+          "A total of 102 articles from 1970 to 2023, focusing on \u201cpeople\u2019s role in ecosystem-based\nDRR,\u201d were analyzed to understand how community participation can contribute to\nsuccessful ecosystem-based DRR."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1051_bioconf_202519300057",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 18,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          3
+        ],
+        "supporting_passages": [
+          "This study was conducted in January 2025 using leading international databases, namely Scopus, Science Direct, and Emerald, with the keywords (\u201cdisaster preparedness\u201d OR \u201cdisaster risk resilience\u201d OR \u201cdisaster risk reduction\u201d) AND (\u201celementary school\u201d OR \u201cprimary school\u201d) AND (\u201cmodel\u201d OR \u201cframework\u201d OR \u201cprogram\u201d) AND (\u201cstrategy\u201d OR \u201cimplementation\u201d OR \u2018practice\u2019 OR \u201cpolicy\u201d). After entering the keywords into the database, the researcher recorded the total number of articles. The screening stage involved identifying and removing duplicate articles using Zotero software. Screening was conducted based on the title and abstract according to the inclusion criterias."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1051_bioconf_202519300057",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 18,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          3
+        ],
+        "supporting_passages": [
+          "This study was conducted in January 2025 using leading international databases, namely Scopus, Science Direct, and Emerald, with the keywords (\u201cdisaster preparedness\u201d OR \u201cdisaster risk resilience\u201d OR \u201cdisaster risk reduction\u201d) AND (\u201celementary school\u201d OR \u201cprimary school\u201d) AND (\u201cmodel\u201d OR \u201cframework\u201d OR \u201cprogram\u201d) AND (\u201cstrategy\u201d OR \u201cimplementation\u201d OR \u2018practice\u2019 OR \u201cpolicy\u201d)"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1051_bioconf_202519300057",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 18,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          8
+        ],
+        "supporting_passages": [
+          "3.4 DRR Strategies, Community Involvement, and Success Factors in School\nResilience Programs"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_5194_nhess-21-1383-2021",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 25,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          2
+        ],
+        "supporting_passages": [
+          "To identify key challenges, opportunities, and research questions,\na systematic review of the academic literature was carried\nout."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_5194_nhess-21-1383-2021",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 25,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          6
+        ],
+        "supporting_passages": [
+          "In this article, the concept of risk is defined as the\nprobability of occurrence of a disturbance (hazard) to VIS\ntimes the consequences (damage) to the systems."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_5194_nhess-21-1383-2021",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 25,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          13
+        ],
+        "supporting_passages": [
+          "5.1.3 Governance"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1080_17565529_2021_1906203",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 15,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          5
+        ],
+        "supporting_passages": [
+          "Results of this study rely on the systematic review of 24 peerreviewed\nacademic articles which present 31 empirical cases of\ngovernance for urban resilience in popular settlements in\ndeveloping countries. All articles were identified using Scopus\nand Web of Knowledge databases."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1080_17565529_2021_1906203",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 15,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          5
+        ],
+        "supporting_passages": [
+          "Selected papers are relevant for urban planning, as\nselected cases link the built environment with the adverse\neffects of weather extremes that can be addressed through governance\nas planning concerns (i.e. flooding, landslides,\nextreme heat events, drought, heavy precipitation events, tropical\ncyclones, and sea level rise) (UN-Habitat, 2011)."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1080_17565529_2021_1906203",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 15,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          5
+        ],
+        "supporting_passages": [
+          "Selected papers are relevant for urban planning, as\nselected cases link the built environment with the adverse\neffects of weather extremes that can be addressed through governance\nas planning concerns (i.e. flooding, landslides,\nextreme heat events, drought, heavy precipitation events, tropical\ncyclones, and sea level rise) (UN-Habitat, 2011)."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_19053_uptc_01233769_18772",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 21,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          5
+        ],
+        "supporting_passages": [
+          "Realizamos una revisi\u00f3n sistem\u00e1tica de la literatura\nsiguiendo los lineamientos de la declaraci\u00f3n PRISMA"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_19053_uptc_01233769_18772",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 21,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          1
+        ],
+        "supporting_passages": [
+          "In conclusion, participatory methodologies demonstrate strong\ntransformative potential in drm, but require more horizontal, sustainable, and ethically\nengaged approaches."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "based on abstract, as the text is in Spanish"
+      },
+      {
+        "document_id": "10_19053_uptc_01233769_18772",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 21,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          1
+        ],
+        "supporting_passages": [
+          "In conclusion, participatory methodologies demonstrate strong\ntransformative potential in drm, but require more horizontal, sustainable, and ethically\nengaged approaches."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "based on abstract, as the text is in Spanish"
+      },
+      {
+        "document_id": "10_1007_s11269-016-1491-7",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 15,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          4
+        ],
+        "supporting_passages": [
+          "We have supplemented our expert knowledge on\nflood risk governance (especially in the Netherlands, the UK and Poland) by conducting a\nScopus search in the subject areas Social Sciences & Humanities and Physical Sciences. We\nhave limited our search to the articles published since 2000 with a geographical scope on\nEurope."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1007_s11269-016-1491-7",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 15,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          4
+        ],
+        "supporting_passages": [
+          "Since diversification implies that separate FRMSs\nmay get more emphasis we will first discuss the actor-, discourses-, rules- or resources-related\nchallenges that may result if society wants to change its emphasis on flood risk prevention,\nflood defence, mitigation, preparation or recovery."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1007_s11269-016-1491-7",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 15,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          9
+        ],
+        "supporting_passages": [
+          "4 Coordination Mechanisms"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1080_13669877_2017_1351466",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 19,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          4
+        ],
+        "supporting_passages": [
+          "The approach adopted is a systematic literature selection process combined with a qualitative thematic\nsynthesis."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1080_13669877_2017_1351466",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 19,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          8
+        ],
+        "supporting_passages": [
+          "3.3. Cluster 3: disaster risk management (13 authors, 12 publications)"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "only one sunsection relates to natural risks"
+      },
+      {
+        "document_id": "10_1080_13669877_2017_1351466",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 19,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          4
+        ],
+        "supporting_passages": [
+          "Besides risk governance and public engagement, similar concepts that are more commonly used by\nresearchers operating from within a specific academic orientation, such as decision-making, participation,\nand deliberation, are included."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_3389_fenvs_2024_1496813",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 16,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          2
+        ],
+        "supporting_passages": [
+          "The systematic review was executed using the\nprotocols established by the Cochrane Qualitative and\nImplementation Methods Group."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "coppied from the second pass"
+      },
+      {
+        "document_id": "10_3389_fenvs_2024_1496813",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 16,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          3
+        ],
+        "supporting_passages": [
+          "For disaster risk management, the following three questions can\nbe used to summarise the different types of mechanisms for\nincreasing community disaster resilience: (1) risk perception\nrelated mechanisms: how do changes in risk awareness,\nstemming from knowledge acquisition and dissemination,\ninfluence attitudes and behaviors in risk management; (2) risk\nresponse related mechanisms: which behavioral mechanisms\nunderlines processes of community disaster resilience\nimprovement; and (3) risk communication related mechanisms:\nwhich mechanisms elucidate indirect changes at individual or macro\nlevels, such as trust or cohesion, and so forth (Zhang et al., 2021)."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "coppied from the second pass"
+      },
+      {
+        "document_id": "10_3389_fenvs_2024_1496813",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 16,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          10
+        ],
+        "supporting_passages": [
+          "4.1 Key findings: how does social capital\nfacilitate community disaster resilience?"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "coppied from the second pass"
+      },
+      {
+        "document_id": "10_1080_13549839_2026_2687421",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 29,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          8
+        ],
+        "supporting_passages": [
+          "A systematic review methodology formed the basis of the research through both protocol development and the extensive search for suitable publications. These data are collected on the basis of the Recommended Reporting Items for Systematic Reviews and Meta- analysis (PRISMA)."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1080_13549839_2026_2687421",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 29,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          8,
+          16
+        ],
+        "supporting_passages": [
+          "The keywords and search phrases utilised in this study were adaptive governance, strategy, disaster resilience, disaster management, natural disasters, governance frameworks, and community resilience.",
+          "4.2.2. Principles of adaptive governance relevant to disaster resilience"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1080_13549839_2026_2687421",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 29,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          8,
+          16
+        ],
+        "supporting_passages": [
+          "The keywords and search phrases utilised in this study were adaptive governance, strategy, disaster resilience, disaster management, natural disasters, governance frameworks, and community resilience.",
+          "4.2.2. Principles of adaptive governance relevant to disaster resilience"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_3846_ijspm_2010_22",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 17,
+        "gold_status": "violated",
+        "supporting_pages": [],
+        "supporting_passages": [],
+        "contradicting_pages": [
+          3
+        ],
+        "contradicting_passages": [
+          "The framework was mainly developed based\non expert opinions of various parties who are\ninvolved in the built environment such as built\nenvironment professionals, disaster management\nexperts and policy makers in several different\ncountries."
+        ],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "second pass judgement is more precise"
+      },
+      {
+        "document_id": "10_3846_ijspm_2010_22",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 17,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          3
+        ],
+        "supporting_passages": [
+          "The overview of capacities and capacity\ngaps in the built environment in relation to\ndisaster risk reduction, and related capacity\ngaps in Sri Lanka presented in the paper were\ncomposed through a literature review"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "coppied from the second pass"
+      },
+      {
+        "document_id": "10_3846_ijspm_2010_22",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 17,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          3
+        ],
+        "supporting_passages": [
+          "Firstly, capacity development was identified\nas a process of four interlinked stages, namely,\nAnalysis, Creation, Utilisation and Retention\nthrough the interviews and literature."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "coppied from the second pass"
+      },
+      {
+        "document_id": "10_1002_eet_1766",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 15,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          4
+        ],
+        "supporting_passages": [
+          "Since relevant papers are available, but have not been brought together in an explicit and systematic\nanalysis based on a coherent conceptual framework, we used a literature review as our main data collection\nmethod. Berrang-Ford et al. (2015) would characterize our approach as a narrative review."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1002_eet_1766",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 15,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          4
+        ],
+        "supporting_passages": [
+          "The study\u2019s empirical focus is on the adaptation domains of fluvial flooding, pluvial flooding and heatwaves in\nthe Netherlands."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1002_eet_1766",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 15,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          8,
+          8
+        ],
+        "supporting_passages": [
+          "In the domain of stormwater management, the main role of citizens is that of being addressed by local governments\nas potential action takers regarding the retaining of rainwater on their own premises.",
+          "A first additional role for citizens in FRM is that of addressee of more proactive risk communication, and to some\nextent participant in participatory governance processes."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1111_1468-5973_12592",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 20,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          2
+        ],
+        "supporting_passages": [
+          "This systematic review was prospectively registered in the International\nProspective Register of Systematic Reviews registry under reference\nnumber CRD42022372815. This systematic review was developed\nbased on the Cochrane Collaboration Handbook (Cumpston et al., 2022)\nand is reported following the preferred reporting items for systematic\nreviews and meta?analyses (Supporting Information S1: PRISMA 2020)\nguidelines (Supplementary Appendix A) (Page et al., 2021)."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1111_1468-5973_12592",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 20,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          2
+        ],
+        "supporting_passages": [
+          "Original qualitative and quantitative primary studies that\naddressed various healthcare system preparedness strategies for\ndeliberate, accidental, and natural CBRN incidents."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1111_1468-5973_12592",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 20,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          2
+        ],
+        "supporting_passages": [
+          "Exclusion criteria included original articles not specifically\non healthcare systems' preparedness for CBRN incidents, review\narticles, books and theses."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "preparedness treated as part of governance processes related to planning, anticipation, acting in advance"
+      },
+      {
+        "document_id": "10_3390_cli12050067",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 17,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          9
+        ],
+        "supporting_passages": [
+          "An extensive bibliometric review of flood risk management and\ngovernance identified 3059 articles from more than 100 countries. Most articles addressed\nissues of developed countries, with a focus on Europe."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "no description of lit.review methodology"
+      },
+      {
+        "document_id": "10_3390_cli12050067",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 17,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          2,
+          9
+        ],
+        "supporting_passages": [
+          "The paper reviews the\ngovernance needed to foster IFM and its elements and compares them with those for IWRM,\nwhich is considered by the APFM to include IFM.",
+          "7. Flood Risk Governance"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_3390_cli12050067",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 17,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          2,
+          9
+        ],
+        "supporting_passages": [
+          "The paper reviews the\ngovernance needed to foster IFM and its elements and compares them with those for IWRM,\nwhich is considered by the APFM to include IFM.",
+          "7. Flood Risk Governance"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1186_s12245-025-01000-4",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 12,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          3
+        ],
+        "supporting_passages": [
+          "A comprehensive literature search was conducted across\nnine databases: EBSCO, Cochrane, PsycINFO, Scopus,\nWeb of Science, PubMed, Medline, EconLit, and Google\nScholar."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "coppied from the second pass"
+      },
+      {
+        "document_id": "10_1186_s12245-025-01000-4",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 12,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          3
+        ],
+        "supporting_passages": [
+          "These databases were selected to ensure broad\ncoverage of multidisciplinary evidence relevant to hospital\nfunctionality in post-earthquake settings, with an\nemphasis on their applicability to the research topic."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "coppied from the second pass"
+      },
+      {
+        "document_id": "10_1186_s12245-025-01000-4",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 12,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          3
+        ],
+        "supporting_passages": [
+          "To be eligible for inclusion, studies had to report on hospitals\nimplementing comprehensive or partial seismic\nrisk reduction programs. In this review, \u201ccomprehensive\u201d\nseismic risk reduction programs were defined as those\nmeeting all three minimum criteria: (1) structural retrofitting\nmeasures to improve seismic safety (e.g., base\nisolation, reinforcement of load-bearing structures); (2)\nfunctional preparedness activities, including disaster\ndrills, surge capacity planning, and continuity of operations\nprotocols; and (3) governance and coordination\nmechanisms that integrate hospital disaster plans with\nnational or regional emergency management systems."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "coppied from the second pass"
+      },
+      {
+        "document_id": "10_3390_smartcities7060147",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 30,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          10
+        ],
+        "supporting_passages": [
+          "The study adheres to the approach outlined in the Preferred Reporting Items for\nSystematic Reviews and Meta-Analyses (PRISMA) [132] format, which was developed by a\nconsortium of medical researchers to enhance the transparency, reliability, and accuracy\nof systematic literature reviews."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_3390_smartcities7060147",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 30,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          9,
+          10
+        ],
+        "supporting_passages": [
+          "This paper explores the transition in disaster management from conventional relieforiented\nstrategies to novel and smart approaches that prioritize DRR and CBS. The primary",
+          "focus lies in methods for engaging the community, emphasizing preparedness for emergencies\nthrough clear communication and locally led activities."
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_3390_smartcities7060147",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 30,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          9,
+          10,
+          14
+        ],
+        "supporting_passages": [
+          "This paper explores the transition in disaster management from conventional relieforiented\nstrategies to novel and smart approaches that prioritize DRR and CBS. The primary",
+          "focus lies in methods for engaging the community, emphasizing preparedness for emergencies\nthrough clear communication and locally led activities.",
+          "4.3.3. Emergence of Volunteer Crowdsourcing"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_5194_nhess-12-2923-2012",
+        "criterion_id": "I1_review_type",
+        "document_page_count": 20,
+        "gold_status": "unclear",
+        "supporting_pages": [
+          3
+        ],
+        "supporting_passages": [
+          "3.1 Conceptual review"
+        ],
+        "contradicting_pages": [
+          1
+        ],
+        "contradicting_passages": [
+          "The literature\nreviews and in-depth interviews with key respondents in Indonesia\nshow that the international and regional MSPs tend\nto have more human, technical and financial capacity than\nnational and local MSPs"
+        ],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": true,
+        "human_review_required": true,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "Literature review type and methodology is not revealed; interviews are also the source; Indonesia is mentioned as a case study."
+      },
+      {
+        "document_id": "10_5194_nhess-12-2923-2012",
+        "criterion_id": "I2_drr_hazard_framing",
+        "document_page_count": 20,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          10
+        ],
+        "supporting_passages": [
+          "4.1.4 Learning and innovation: how do experiences\nfrom past disasters affect the development and operation\nof the multi-stakeholder platforms?"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_5194_nhess-12-2923-2012",
+        "criterion_id": "I3_governance_dimension",
+        "document_page_count": 20,
+        "gold_status": "satisfied",
+        "supporting_pages": [
+          10
+        ],
+        "supporting_passages": [
+          "4.1.4 Learning and innovation: how do experiences\nfrom past disasters affect the development and operation\nof the multi-stakeholder platforms?"
+        ],
+        "contradicting_pages": [],
+        "contradicting_passages": [],
+        "evidence_absent": false,
+        "evidence_ambiguous": false,
+        "evidence_conflicting": false,
+        "human_review_required": false,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      }
+    ],
+    "document_annotations": [
+      {
+        "document_id": "10_1080_09640568_2019_1641474",
+        "document_page_count": 27,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1177_08854122231199462",
+        "document_page_count": 17,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "shallow governance coverage"
+      },
+      {
+        "document_id": "10_3390_w16111571",
+        "document_page_count": 29,
+        "gold_final_decision": "needs_human_review",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": "exclude",
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "no explicit hazard and governance focus"
+      },
+      {
+        "document_id": "10_1007_978-3-031-54118-6_8",
+        "document_page_count": 10,
+        "gold_final_decision": "needs_human_review",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": "exclude",
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": "no governance focus"
+      },
+      {
+        "document_id": "10_1108_dpm-06-2023-0128",
+        "document_page_count": 20,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1051_bioconf_202519300057",
+        "document_page_count": 18,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_5194_nhess-21-1383-2021",
+        "document_page_count": 25,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1080_17565529_2021_1906203",
+        "document_page_count": 15,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_19053_uptc_01233769_18772",
+        "document_page_count": 21,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": "exclude",
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "Text is in Spanish, therefore exclude"
+      },
+      {
+        "document_id": "10_1007_s11269-016-1491-7",
+        "document_page_count": 15,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1080_13669877_2017_1351466",
+        "document_page_count": 19,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_3389_fenvs_2024_1496813",
+        "document_page_count": 16,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "agreed",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1080_13549839_2026_2687421",
+        "document_page_count": 29,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_3846_ijspm_2010_22",
+        "document_page_count": 17,
+        "gold_final_decision": "exclude",
+        "gold_primary_exclusion_reason_code": "not_a_review",
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "adjudicated",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1002_eet_1766",
+        "document_page_count": 15,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1111_1468-5973_12592",
+        "document_page_count": 20,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_3390_cli12050067",
+        "document_page_count": 17,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_1186_s12245-025-01000-4",
+        "document_page_count": 12,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "agreed",
+        "notes": "Focus on data from totalitarian Iran regime, therefore the reporting cannot be trusted; however,excluding this publication should come from quality appraisal decision"
+      },
+      {
+        "document_id": "10_3390_smartcities7060147",
+        "document_page_count": 30,
+        "gold_final_decision": "include",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": null,
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": ""
+      },
+      {
+        "document_id": "10_5194_nhess-12-2923-2012",
+        "document_page_count": 20,
+        "gold_final_decision": "needs_human_review",
+        "gold_primary_exclusion_reason_code": null,
+        "aggregation_override_rationale": "exclude",
+        "annotator_id": "RR",
+        "annotation_round": "primary",
+        "notes": "Unsystematic review is only part part of the reasearch paper; not_a_review, therefore likely exclude"
+      }
+    ],
+    "criterion_dual_review_audit": [
+      {
+        "document_id": "10_1080_09640568_2019_1641474",
+        "criterion_id": "I1_review_type",
+        "primary": {
+          "document_id": "10_1080_09640568_2019_1641474",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 27,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            4
+          ],
+          "supporting_passages": [
+            "In order to meet this criteria,\nwe ensured the methodology was explicit and reproducible by following clearly\nstated objectives with a set of pre-defined eligibility criteria, and a systematic search to\nidentify all potential papers (Liberati et al. 2009)."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": "evidence from the methodology section"
+        },
+        "second_pass": {
+          "document_id": "10_1080_09640568_2019_1641474",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 27,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            5
+          ],
+          "supporting_passages": [
+            "A systematic review differentiates from a conventional review in terms of rigor, repeatability,\nand completeness (Righi, Saurin, and Wachs 2015). In order to meet this criteria,\nwe ensured the methodology was explicit and reproducible by following clearly\nstated objectives with a set of pre-defined eligibility criteria, and a systematic search to\nidentify all potential papers (Liberati et al. 2009)."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_1080_09640568_2019_1641474",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 27,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            5
+          ],
+          "supporting_passages": [
+            "A systematic review differentiates from a conventional review in terms of rigor, repeatability,\nand completeness (Righi, Saurin, and Wachs 2015). In order to meet this criteria,\nwe ensured the methodology was explicit and reproducible by following clearly\nstated objectives with a set of pre-defined eligibility criteria, and a systematic search to\nidentify all potential papers (Liberati et al. 2009)."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": ""
+        }
+      },
+      {
+        "document_id": "10_1080_09640568_2019_1641474",
+        "criterion_id": "I2_drr_hazard_framing",
+        "primary": {
+          "document_id": "10_1080_09640568_2019_1641474",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 27,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "the following research questions are addressed:\n1. What are the most commonly adopted perspectives on resilience throughout FRM?\n2. How is resilience assessed within FRM?\n3. How do the differing perspectives on resilience influence implementation and\noperationalisation of the concept?"
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": ""
+        },
+        "second_pass": {
+          "document_id": "10_1080_09640568_2019_1641474",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 27,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            5
+          ],
+          "supporting_passages": [
+            "Our analysis of resilience in FRM was based solely on how academia was employing\nthe term; therefore our database search was restricted to peer reviewed journal\narticles and conference papers printed in English."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_1080_09640568_2019_1641474",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 27,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            5
+          ],
+          "supporting_passages": [
+            "Our analysis of resilience in FRM was based solely on how academia was employing\nthe term; therefore our database search was restricted to peer reviewed journal\narticles and conference papers printed in English."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": ""
+        }
+      },
+      {
+        "document_id": "10_1080_09640568_2019_1641474",
+        "criterion_id": "I3_governance_dimension",
+        "primary": {
+          "document_id": "10_1080_09640568_2019_1641474",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 27,
+          "gold_status": "unclear",
+          "supporting_pages": [
+            19
+          ],
+          "supporting_passages": [
+            "A lack of institutional and governmental influence\nin countries such as Vietnam and Nigeria has elicited a more adaptive perspective on\nresilience as opposed to a more controlled approach."
+          ],
+          "contradicting_pages": [
+            20
+          ],
+          "contradicting_passages": [
+            "This review\nfound recovery to be the most cited aspect of resilience."
+          ],
+          "evidence_absent": false,
+          "evidence_ambiguous": true,
+          "evidence_conflicting": true,
+          "human_review_required": true,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": "evidence in the discussion section; unclear how to assess the degree the discussion engages the governance topics (definitions, measurement and broad flood risk management  strategies are mentioned)."
+        },
+        "second_pass": {
+          "document_id": "10_1080_09640568_2019_1641474",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 27,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            4,
+            18
+          ],
+          "supporting_passages": [
+            "To develop this understanding, the following research questions are addressed:\n1. What are the most commonly adopted perspectives on resilience throughout FRM?\n2. How is resilience assessed within FRM?\n3. How do the differing perspectives on resilience influence implementation and\noperationalisation of the concept?",
+            "3.3.3. FRM strategies"
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": "resilience implementation is part of public governance (a stage in public policy cycle); similarly for FRM strategies "
+        },
+        "adjudicated": {
+          "document_id": "10_1080_09640568_2019_1641474",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 27,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            4,
+            18
+          ],
+          "supporting_passages": [
+            "To develop this understanding, the following research questions are addressed:\n1. What are the most commonly adopted perspectives on resilience throughout FRM?\n2. How is resilience assessed within FRM?\n3. How do the differing perspectives on resilience influence implementation and\noperationalisation of the concept?",
+            "3.3.3. FRM strategies"
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "second pass judgement is more precise"
+        }
+      },
+      {
+        "document_id": "10_1007_978-3-031-54118-6_8",
+        "criterion_id": "I1_review_type",
+        "primary": {
+          "document_id": "10_1007_978-3-031-54118-6_8",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 10,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            4
+          ],
+          "supporting_passages": [
+            "The search was performed in April 2023\nfrom some widely accepted citation databases, relying on PRISMA 2020 methodology"
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": ""
+        },
+        "second_pass": {
+          "document_id": "10_1007_978-3-031-54118-6_8",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 10,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "This study conducted a systematic literature review to provide an evidence-based answer\nto the before mentioned research questions. The search was performed in April 2023\nfrom some widely accepted citation databases, relying on PRISMA 2020 methodology\n[12]."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_1007_978-3-031-54118-6_8",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 10,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "This study conducted a systematic literature review to provide an evidence-based answer\nto the before mentioned research questions. The search was performed in April 2023\nfrom some widely accepted citation databases, relying on PRISMA 2020 methodology\n[12]."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "coppied from the second pass"
+        }
+      },
+      {
+        "document_id": "10_1007_978-3-031-54118-6_8",
+        "criterion_id": "I2_drr_hazard_framing",
+        "primary": {
+          "document_id": "10_1007_978-3-031-54118-6_8",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 10,
+          "gold_status": "unclear",
+          "supporting_pages": [
+            1
+          ],
+          "supporting_passages": [
+            "this paper takes up the challenge posed\nby the fragmented nature of existing practices and provides an updated literature\nreview on collaborative land use planning and design that has employed participatory\nmapping methods in the field of disaster risk management and promotion of\nurban resilience."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": true,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": "disaster management mentioned in the abstract, but  not present  and discussed in the text"
+        },
+        "second_pass": {
+          "document_id": "10_1007_978-3-031-54118-6_8",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 10,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            4
+          ],
+          "supporting_passages": [
+            "Fig. 1. Research protocol adopted for the literature review."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_1007_978-3-031-54118-6_8",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 10,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            4
+          ],
+          "supporting_passages": [
+            "Fig. 1. Research protocol adopted for the literature review."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "coppied from the second pass"
+        }
+      },
+      {
+        "document_id": "10_1007_978-3-031-54118-6_8",
+        "criterion_id": "I3_governance_dimension",
+        "primary": {
+          "document_id": "10_1007_978-3-031-54118-6_8",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 10,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            2,
+            2
+          ],
+          "supporting_passages": [
+            "The use of\nmapping tools allows for the involvement of the population (at different levels) in land use\nplanning through the creation of specific maps built with the data collected by the main\nstakeholders",
+            "The whole research responds to the need to plan effective solutions for urban\nresilience in a participatory way."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": "tools for planning are the focus"
+        },
+        "second_pass": {
+          "document_id": "10_1007_978-3-031-54118-6_8",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 10,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            1
+          ],
+          "supporting_passages": [
+            "First, this paper takes up the challenge posed\nby the fragmented nature of existing practices and provides an updated literature\nreview on collaborative land use planning and design that has employed participatory\nmapping methods in the field of disaster risk management and promotion of\nurban resilience."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": "paper quality is likely poor"
+        },
+        "adjudicated": {
+          "document_id": "10_1007_978-3-031-54118-6_8",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 10,
+          "gold_status": "not_reported",
+          "supporting_pages": [],
+          "supporting_passages": [],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": true,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "no discusion of or within the disaster context, although search keywords do have disaster/hazard element"
+        }
+      },
+      {
+        "document_id": "10_3389_fenvs_2024_1496813",
+        "criterion_id": "I1_review_type",
+        "primary": {
+          "document_id": "10_3389_fenvs_2024_1496813",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 16,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            2
+          ],
+          "supporting_passages": [
+            "The identification and selection\nprocess of studies strictly adhered to the guidelines provided by the\nPRISMA (Preferred Reporting Items for Systematic Reviews and\nMeta-Analyses) statement (Page et al., 2021)."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": ""
+        },
+        "second_pass": {
+          "document_id": "10_3389_fenvs_2024_1496813",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 16,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            2
+          ],
+          "supporting_passages": [
+            "The systematic review was executed using the\nprotocols established by the Cochrane Qualitative and\nImplementation Methods Group."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_3389_fenvs_2024_1496813",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 16,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            2
+          ],
+          "supporting_passages": [
+            "The systematic review was executed using the\nprotocols established by the Cochrane Qualitative and\nImplementation Methods Group."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "coppied from the second pass"
+        }
+      },
+      {
+        "document_id": "10_3389_fenvs_2024_1496813",
+        "criterion_id": "I2_drr_hazard_framing",
+        "primary": {
+          "document_id": "10_3389_fenvs_2024_1496813",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 16,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            4
+          ],
+          "supporting_passages": [
+            "Our research question was, \u201cHow does social capital facilitate\ncommunity disaster resilience ?\u201d The review includes original\nempirical studies investigating the relationship between social\ncapital and community disaster resilience."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": ""
+        },
+        "second_pass": {
+          "document_id": "10_3389_fenvs_2024_1496813",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 16,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "For disaster risk management, the following three questions can\nbe used to summarise the different types of mechanisms for\nincreasing community disaster resilience: (1) risk perception\nrelated mechanisms: how do changes in risk awareness,\nstemming from knowledge acquisition and dissemination,\ninfluence attitudes and behaviors in risk management; (2) risk\nresponse related mechanisms: which behavioral mechanisms\nunderlines processes of community disaster resilience\nimprovement; and (3) risk communication related mechanisms:\nwhich mechanisms elucidate indirect changes at individual or macro\nlevels, such as trust or cohesion, and so forth (Zhang et al., 2021)."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_3389_fenvs_2024_1496813",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 16,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "For disaster risk management, the following three questions can\nbe used to summarise the different types of mechanisms for\nincreasing community disaster resilience: (1) risk perception\nrelated mechanisms: how do changes in risk awareness,\nstemming from knowledge acquisition and dissemination,\ninfluence attitudes and behaviors in risk management; (2) risk\nresponse related mechanisms: which behavioral mechanisms\nunderlines processes of community disaster resilience\nimprovement; and (3) risk communication related mechanisms:\nwhich mechanisms elucidate indirect changes at individual or macro\nlevels, such as trust or cohesion, and so forth (Zhang et al., 2021)."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "coppied from the second pass"
+        }
+      },
+      {
+        "document_id": "10_3389_fenvs_2024_1496813",
+        "criterion_id": "I3_governance_dimension",
+        "primary": {
+          "document_id": "10_3389_fenvs_2024_1496813",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 16,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            4
+          ],
+          "supporting_passages": [
+            "Our research question was, \u201cHow does social capital facilitate\ncommunity disaster resilience ?\u201d The review includes original\nempirical studies investigating the relationship between social\ncapital and community disaster resilience."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": ""
+        },
+        "second_pass": {
+          "document_id": "10_3389_fenvs_2024_1496813",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 16,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            10
+          ],
+          "supporting_passages": [
+            "4.1 Key findings: how does social capital\nfacilitate community disaster resilience?"
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": "social capital relates to public participation and covers governance domain"
+        },
+        "adjudicated": {
+          "document_id": "10_3389_fenvs_2024_1496813",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 16,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            10
+          ],
+          "supporting_passages": [
+            "4.1 Key findings: how does social capital\nfacilitate community disaster resilience?"
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "coppied from the second pass"
+        }
+      },
+      {
+        "document_id": "10_3846_ijspm_2010_22",
+        "criterion_id": "I1_review_type",
+        "primary": {
+          "document_id": "10_3846_ijspm_2010_22",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 17,
+          "gold_status": "unclear",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "In addition,\na comprehensive literature review on capacity\ndevelopment for disaster risk reduction\nin the built environment was carried out to\ninform the framework."
+          ],
+          "contradicting_pages": [
+            3,
+            11
+          ],
+          "contradicting_passages": [
+            "The framework was mainly developed based\non expert opinions of various parties who are\ninvolved in the built environment such as built\nenvironment professionals, disaster management\nexperts and policy makers in several different\ncountries.",
+            "4. Capacity gaps in disaster risk\nreduction \u2013 A case study\non Sri Lanka"
+          ],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": true,
+          "human_review_required": true,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": "lit. review type is not specified, no information on its method; framework development and case study are two other focuses besides literature review; therefore I1 criterion is not or only partially matched"
+        },
+        "second_pass": {
+          "document_id": "10_3846_ijspm_2010_22",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 17,
+          "gold_status": "violated",
+          "supporting_pages": [],
+          "supporting_passages": [],
+          "contradicting_pages": [
+            3
+          ],
+          "contradicting_passages": [
+            "The framework was mainly developed based\non expert opinions of various parties who are\ninvolved in the built environment such as built\nenvironment professionals, disaster management\nexperts and policy makers in several different\ncountries."
+          ],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_3846_ijspm_2010_22",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 17,
+          "gold_status": "violated",
+          "supporting_pages": [],
+          "supporting_passages": [],
+          "contradicting_pages": [
+            3
+          ],
+          "contradicting_passages": [
+            "The framework was mainly developed based\non expert opinions of various parties who are\ninvolved in the built environment such as built\nenvironment professionals, disaster management\nexperts and policy makers in several different\ncountries."
+          ],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "second pass judgement is more precise"
+        }
+      },
+      {
+        "document_id": "10_3846_ijspm_2010_22",
+        "criterion_id": "I2_drr_hazard_framing",
+        "primary": {
+          "document_id": "10_3846_ijspm_2010_22",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 17,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "This paper aims to present the aforementioned\nframework which was developed for capacity\ndevelopment for disaster risk reduction\nin the built environment."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": ""
+        },
+        "second_pass": {
+          "document_id": "10_3846_ijspm_2010_22",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 17,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "The overview of capacities and capacity\ngaps in the built environment in relation to\ndisaster risk reduction, and related capacity\ngaps in Sri Lanka presented in the paper were\ncomposed through a literature review"
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_3846_ijspm_2010_22",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 17,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "The overview of capacities and capacity\ngaps in the built environment in relation to\ndisaster risk reduction, and related capacity\ngaps in Sri Lanka presented in the paper were\ncomposed through a literature review"
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "coppied from the second pass"
+        }
+      },
+      {
+        "document_id": "10_3846_ijspm_2010_22",
+        "criterion_id": "I3_governance_dimension",
+        "primary": {
+          "document_id": "10_3846_ijspm_2010_22",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 17,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "In addition, the paper\nattempts to demonstrate an overview of capacities\nand capacity gaps in disaster risk reduction\nin the built environment."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": ""
+        },
+        "second_pass": {
+          "document_id": "10_3846_ijspm_2010_22",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 17,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "Firstly, capacity development was identified\nas a process of four interlinked stages, namely,\nAnalysis, Creation, Utilisation and Retention\nthrough the interviews and literature."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_3846_ijspm_2010_22",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 17,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "Firstly, capacity development was identified\nas a process of four interlinked stages, namely,\nAnalysis, Creation, Utilisation and Retention\nthrough the interviews and literature."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "coppied from the second pass"
+        }
+      },
+      {
+        "document_id": "10_1186_s12245-025-01000-4",
+        "criterion_id": "I1_review_type",
+        "primary": {
+          "document_id": "10_1186_s12245-025-01000-4",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 12,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "The primary objective of this systematic review is to\nevaluate whether hospitals in earthquake-prone regions\nof the Middle East with seismic risk reduction programs\nmaintain higher functionality after seismic events compared\nto those with partial or no such programs."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": ""
+        },
+        "second_pass": {
+          "document_id": "10_1186_s12245-025-01000-4",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 12,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "A comprehensive literature search was conducted across\nnine databases: EBSCO, Cochrane, PsycINFO, Scopus,\nWeb of Science, PubMed, Medline, EconLit, and Google\nScholar."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_1186_s12245-025-01000-4",
+          "criterion_id": "I1_review_type",
+          "document_page_count": 12,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "A comprehensive literature search was conducted across\nnine databases: EBSCO, Cochrane, PsycINFO, Scopus,\nWeb of Science, PubMed, Medline, EconLit, and Google\nScholar."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "coppied from the second pass"
+        }
+      },
+      {
+        "document_id": "10_1186_s12245-025-01000-4",
+        "criterion_id": "I2_drr_hazard_framing",
+        "primary": {
+          "document_id": "10_1186_s12245-025-01000-4",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 12,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "The primary objective of this systematic review is to\nevaluate whether hospitals in earthquake-prone regions\nof the Middle East with seismic risk reduction programs\nmaintain higher functionality after seismic events compared\nto those with partial or no such programs."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": ""
+        },
+        "second_pass": {
+          "document_id": "10_1186_s12245-025-01000-4",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 12,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "These databases were selected to ensure broad\ncoverage of multidisciplinary evidence relevant to hospital\nfunctionality in post-earthquake settings, with an\nemphasis on their applicability to the research topic."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_1186_s12245-025-01000-4",
+          "criterion_id": "I2_drr_hazard_framing",
+          "document_page_count": 12,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "These databases were selected to ensure broad\ncoverage of multidisciplinary evidence relevant to hospital\nfunctionality in post-earthquake settings, with an\nemphasis on their applicability to the research topic."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "coppied from the second pass"
+        }
+      },
+      {
+        "document_id": "10_1186_s12245-025-01000-4",
+        "criterion_id": "I3_governance_dimension",
+        "primary": {
+          "document_id": "10_1186_s12245-025-01000-4",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 12,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            5
+          ],
+          "supporting_passages": [
+            "Hospitals in the Middle East exhibit varying levels of\npreparedness for seismic events. A study conducted in\nLebanon revealed that all hospitals evaluated had formal\nemergency and disaster preparedness plans."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": "focus on hospital preparedness is treated as part of capacity building, planning etc., therefore part of governance domain"
+        },
+        "second_pass": {
+          "document_id": "10_1186_s12245-025-01000-4",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 12,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "To be eligible for inclusion, studies had to report on hospitals\nimplementing comprehensive or partial seismic\nrisk reduction programs. In this review, \u201ccomprehensive\u201d\nseismic risk reduction programs were defined as those\nmeeting all three minimum criteria: (1) structural retrofitting\nmeasures to improve seismic safety (e.g., base\nisolation, reinforcement of load-bearing structures); (2)\nfunctional preparedness activities, including disaster\ndrills, surge capacity planning, and continuity of operations\nprotocols; and (3) governance and coordination\nmechanisms that integrate hospital disaster plans with\nnational or regional emergency management systems."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_1186_s12245-025-01000-4",
+          "criterion_id": "I3_governance_dimension",
+          "document_page_count": 12,
+          "gold_status": "satisfied",
+          "supporting_pages": [
+            3
+          ],
+          "supporting_passages": [
+            "To be eligible for inclusion, studies had to report on hospitals\nimplementing comprehensive or partial seismic\nrisk reduction programs. In this review, \u201ccomprehensive\u201d\nseismic risk reduction programs were defined as those\nmeeting all three minimum criteria: (1) structural retrofitting\nmeasures to improve seismic safety (e.g., base\nisolation, reinforcement of load-bearing structures); (2)\nfunctional preparedness activities, including disaster\ndrills, surge capacity planning, and continuity of operations\nprotocols; and (3) governance and coordination\nmechanisms that integrate hospital disaster plans with\nnational or regional emergency management systems."
+          ],
+          "contradicting_pages": [],
+          "contradicting_passages": [],
+          "evidence_absent": false,
+          "evidence_ambiguous": false,
+          "evidence_conflicting": false,
+          "human_review_required": false,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "coppied from the second pass"
+        }
+      }
+    ],
+    "document_dual_review_audit": [
+      {
+        "document_id": "10_1080_09640568_2019_1641474",
+        "primary": {
+          "document_id": "10_1080_09640568_2019_1641474",
+          "document_page_count": 27,
+          "gold_final_decision": "needs_human_review",
+          "gold_primary_exclusion_reason_code": null,
+          "aggregation_override_rationale": null,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": "Most likely, I3 (no_governance) case"
+        },
+        "second_pass": {
+          "document_id": "10_1080_09640568_2019_1641474",
+          "document_page_count": 27,
+          "gold_final_decision": "include",
+          "gold_primary_exclusion_reason_code": null,
+          "aggregation_override_rationale": null,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_1080_09640568_2019_1641474",
+          "document_page_count": 27,
+          "gold_final_decision": "include",
+          "gold_primary_exclusion_reason_code": null,
+          "aggregation_override_rationale": null,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": ""
+        }
+      },
+      {
+        "document_id": "10_1007_978-3-031-54118-6_8",
+        "primary": {
+          "document_id": "10_1007_978-3-031-54118-6_8",
+          "document_page_count": 10,
+          "gold_final_decision": "needs_human_review",
+          "gold_primary_exclusion_reason_code": null,
+          "aggregation_override_rationale": "exclude",
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": "no disaster focus therefore likely should be off_topic_hazard and exclude"
+        },
+        "second_pass": {
+          "document_id": "10_1007_978-3-031-54118-6_8",
+          "document_page_count": 10,
+          "gold_final_decision": "include",
+          "gold_primary_exclusion_reason_code": null,
+          "aggregation_override_rationale": "exclude",
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": "aims to create a methodology for engaging citizens"
+        },
+        "adjudicated": {
+          "document_id": "10_1007_978-3-031-54118-6_8",
+          "document_page_count": 10,
+          "gold_final_decision": "needs_human_review",
+          "gold_primary_exclusion_reason_code": null,
+          "aggregation_override_rationale": "exclude",
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": "no governance focus"
+        }
+      },
+      {
+        "document_id": "10_3389_fenvs_2024_1496813",
+        "primary": {
+          "document_id": "10_3389_fenvs_2024_1496813",
+          "document_page_count": 16,
+          "gold_final_decision": "include",
+          "gold_primary_exclusion_reason_code": null,
+          "aggregation_override_rationale": null,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": ""
+        },
+        "second_pass": {
+          "document_id": "10_3389_fenvs_2024_1496813",
+          "document_page_count": 16,
+          "gold_final_decision": "include",
+          "gold_primary_exclusion_reason_code": null,
+          "aggregation_override_rationale": null,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": null
+      },
+      {
+        "document_id": "10_3846_ijspm_2010_22",
+        "primary": {
+          "document_id": "10_3846_ijspm_2010_22",
+          "document_page_count": 17,
+          "gold_final_decision": "needs_human_review",
+          "gold_primary_exclusion_reason_code": null,
+          "aggregation_override_rationale": "exclude",
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": "if framework development and case study are treated as a type of literature synthesis, then one might loosen the criterion; however, the framework and case are based also on expert interviews, therefore less evidence it is a type of literature review; not_a_review, therefore likely exclude"
+        },
+        "second_pass": {
+          "document_id": "10_3846_ijspm_2010_22",
+          "document_page_count": 17,
+          "gold_final_decision": "exclude",
+          "gold_primary_exclusion_reason_code": "not_a_review",
+          "aggregation_override_rationale": null,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": {
+          "document_id": "10_3846_ijspm_2010_22",
+          "document_page_count": 17,
+          "gold_final_decision": "exclude",
+          "gold_primary_exclusion_reason_code": "not_a_review",
+          "aggregation_override_rationale": null,
+          "annotator_id": "RR",
+          "annotation_round": "adjudicated",
+          "notes": ""
+        }
+      },
+      {
+        "document_id": "10_1186_s12245-025-01000-4",
+        "primary": {
+          "document_id": "10_1186_s12245-025-01000-4",
+          "document_page_count": 12,
+          "gold_final_decision": "include",
+          "gold_primary_exclusion_reason_code": null,
+          "aggregation_override_rationale": null,
+          "annotator_id": "RR",
+          "annotation_round": "primary",
+          "notes": "Focus on data from totalitarian Iran regime, therefore the reporting cannot be trusted; however,excluding this publication should come from quality appraisal decision"
+        },
+        "second_pass": {
+          "document_id": "10_1186_s12245-025-01000-4",
+          "document_page_count": 12,
+          "gold_final_decision": "include",
+          "gold_primary_exclusion_reason_code": null,
+          "aggregation_override_rationale": null,
+          "annotator_id": "RR",
+          "annotation_round": "second_pass",
+          "notes": ""
+        },
+        "adjudicated": null
+      }
+    ],
+    "source_provenance": {
+      "protocol_version": "gold_set_protocol_v9",
+      "criteria_set_hash": "e4e15a6c0621a4ed5f15a41cb93f58e4eb309c4ab8aa57f61bcf6874a7e8bf05",
+      "blind_manifest_hash": "c1661ffa17d183427b623ea3bc0be4f3f77c1024ae0e27384f688ce1d8c51686",
+      "sample_manifest_hash": "b0f53e3f338a70e9a78d2cab87c26aa36a5a2cd97066296ac7db810e8cc7070a",
+      "primary": {
+        "role": "primary",
+        "seal_path": "C:\\projects\\FT_SCREENING\\gold_set\\_primary_seal\\primary_seal_v1.json",
+        "seal_content_hash": "cba8d7d9db83500f98ba771f0af255b5716842cfb39075a10dfd62b8d58614d0",
+        "criterion_csv_path": "C:\\projects\\FT_SCREENING\\gold_set\\_primary_seal\\primary_criteria_sealed.csv",
+        "criterion_csv_sha256": "06e66e8d828e5f96be194f926e84aadce24974e7069c24a24a13a77df61f6c50",
+        "document_csv_path": "C:\\projects\\FT_SCREENING\\gold_set\\_primary_seal\\primary_documents_sealed.csv",
+        "document_csv_sha256": "544f02bfb21446718eb8f6f66c9413c0c62fb49f3b03daef8fa8ef6fced62168"
+      },
+      "second_pass": {
+        "role": "second_pass",
+        "seal_path": "C:\\projects\\FT_SCREENING\\gold_set\\_primary_seal\\second_pass_seal_v1.json",
+        "seal_content_hash": "1e782b44c27c0077f6973f65ce5590129550178a7325c62144264841102fd6f8",
+        "criterion_csv_path": "C:\\projects\\FT_SCREENING\\gold_set\\_primary_seal\\second_pass_criteria_sealed.csv",
+        "criterion_csv_sha256": "2eb0012caf80bcdacb91f3d298daf51f8cbcbc8eb7204aaba6363a9a93288d9a",
+        "document_csv_path": "C:\\projects\\FT_SCREENING\\gold_set\\_primary_seal\\second_pass_documents_sealed.csv",
+        "document_csv_sha256": "96c500da766b30bf71c1bef9a1d45f1af0d780ff47f544cfb16a1453d5f1cf25"
+      },
+      "adjudication": {
+        "role": "adjudication",
+        "seal_path": null,
+        "seal_content_hash": null,
+        "criterion_csv_path": "C:\\projects\\FT_SCREENING\\gold_set\\worksheet_adjudication_criteria.csv",
+        "criterion_csv_sha256": "11da6b67f35e21b3acd8e26b1dd1c7e07f4338db1a17f5a9e6142682d09786b1",
+        "document_csv_path": "C:\\projects\\FT_SCREENING\\gold_set\\worksheet_adjudication_documents.csv",
+        "document_csv_sha256": "ce48b6d55d8365bdeaafe648d9ab636d88dbb26e9d37f8eb4440550a63541512"
+      },
+      "merged_criterion_csv_sha256": "48ce496928c02899927c1049cabf6f8fd37f6c2a9bc778491c612fbe0c7c9edf",
+      "merged_document_csv_sha256": "74977671e54b4c65160049dbada4767c2fc58ace641cca016890970bd93f08c1",
+      "merged_at": "2026-08-18T20:11:35.223499+00:00"
+    },
+    "frozen_at": "2026-08-18T20:12:46.887695+00:00"
+  }
+}

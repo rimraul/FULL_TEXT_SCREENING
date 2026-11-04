@@ -1,0 +1,37 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "a064727f317c759584bb065565d4b215817f79df5dfd82121ea2e964a4b238d3",
+  "full_payload_hash": "eceb1d4a4b3ef19efce2d69e7cd54727bfd8abd7036854362d3628cf857d89ca",
+  "envelope_header_hash": "ba877e055d9a384f340715fd3a3384323629caff5b0bc44dc84fcd553e71500d",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1007_978-3-031-54118-6_8",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "unclear",
+        "evidence": [],
+        "rationale": "The search protocol includes hazard, disaster, resilience, and related terms, but this only describes retrieval terms and does not establish that the document substantively addresses DRR or hazard/disaster resilience.",
+        "requires_human_review": true,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2446,
+        "output_tokens": 237,
+        "total_tokens": 2683,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 148,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:39.864471+00:00"
+  }
+}

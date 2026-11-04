@@ -1,0 +1,37 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "78e239ccdcf69c0bd6715af059c56d0937051db00f3895af9b7ceaca14a789b2",
+  "full_payload_hash": "9e302bed5b3a5a9a618274f4f5ebfa0ccb4f942aad33dc3088e0920a268f9ac3",
+  "envelope_header_hash": "1eaa881d142e12846b73ca2ae9db974cff84615b04acf04a879a21883db4f9ae",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_5194_nhess-21-1383-2021",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "not_reported",
+        "evidence": [],
+        "rationale": "The excerpt defines risk using a hazard/disturbance concept, but does not substantively address disaster risk reduction or resilience to hazards.",
+        "requires_human_review": true,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2081,
+        "output_tokens": 190,
+        "total_tokens": 2271,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 113,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:03.905493+00:00"
+  }
+}

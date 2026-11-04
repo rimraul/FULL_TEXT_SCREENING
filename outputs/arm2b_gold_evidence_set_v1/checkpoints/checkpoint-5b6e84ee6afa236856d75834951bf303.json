@@ -1,0 +1,37 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "24c1387f24e03b532912e6c43a8b17b8e8fda334a1779d2203ada13f3d8d7d10",
+  "full_payload_hash": "f7cb5db997fe952ad751b3342664469ae4aa843b7f568610ed9bd4eb3ed78ab2",
+  "envelope_header_hash": "b676c6b78644bd713b62b1254e8ad032d289af54adec462fd7c1a654e0cc4db3",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3390_w16111571",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "not_reported",
+        "evidence": [],
+        "rationale": "The excerpts discuss decentralization and urban water planning, but none places this analysis in a DRR or resilience context. They therefore do not directly establish the criterion, nor directly contradict it.",
+        "requires_human_review": true,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2269,
+        "output_tokens": 181,
+        "total_tokens": 2450,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 93,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:33.946552+00:00"
+  }
+}

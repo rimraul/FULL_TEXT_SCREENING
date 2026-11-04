@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "ee69f19d55016e125724bdce6486303170059f82e4d0ca024bfadbcdf52a17a2",
+  "full_payload_hash": "7d770f0c507448251f4f14e088b89dcedfb4150fd9fb2fc6223b3e40c2abed19",
+  "envelope_header_hash": "4c5d8ffdee9de0c1720a24d04ee3c3caa8ebc214b09f3ab3aa34d1a1503074c3",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3390_w16111571",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_3390_w16111571",
+            "document_sha256": "144a07e138a5169fbbf69cec8c601f72c598a94c2c8132799ed474739f243684",
+            "chunk_id": "arm2b-10_3390_w16111571-I2_drr_hazard_framing-1",
+            "section": null,
+            "page": 13,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "DWMUs for local source control are more effective options if the intention is to reduce water flooding before runoff enters the drainage systems; they help to minimize pluvial flooding, protect headwaters, and promote aquifer recharge, while larger WMUs, such as ponds or underground water tanks, are a much more effective option if the intention is to reduce flooding in downstream areas and mitigate fluvial flooding [70]. The consideration of those variables depends on the purpose of the WMU.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly discusses reducing and mitigating pluvial and fluvial flooding, providing a hazard-focused risk-reduction framing. The resilience discussion alone does not explicitly name a hazard, but does not contradict the criterion.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2232,
+        "output_tokens": 165,
+        "total_tokens": 2397,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 50,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:30.254539+00:00"
+  }
+}

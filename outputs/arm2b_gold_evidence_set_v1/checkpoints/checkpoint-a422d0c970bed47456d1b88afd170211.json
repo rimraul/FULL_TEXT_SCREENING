@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "d0ecc8a6e5974be6af6eae6f39382d350a1375b331f8ff88210424af2c6dc428",
+  "full_payload_hash": "792bacc296f56c50858dfee47e25a981305fdee6e97c6902cfdd31524669c05b",
+  "envelope_header_hash": "93a09d7fc3b6750098d26e61ca9b641f3e2a3b939a643e794752c82d9ea07b2a",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_19053_uptc_01233769_18772",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_19053_uptc_01233769_18772",
+            "document_sha256": "79014d57ac286f212e3b475fcb5d52a08c11d3b7b94a69b1dd6a96c25cb4a255",
+            "chunk_id": "arm2b-10_19053_uptc_01233769_18772-I2_drr_hazard_framing-1",
+            "section": null,
+            "page": 4,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Para reducir la vulnerabilidad y fortalecer las capacidades adaptativas de las comunidades, es fundamental impulsar la acci\u00f3n clim\u00e1tica mediante la gesti\u00f3n del riesgo de desastres (GRD). Esta se orienta a la identificaci\u00f3n, reducci\u00f3n, previsi\u00f3n y control de riesgos, y se basa en enfoques multinivel que articulan acciones desde lo local hasta lo nacional (Lavell, 2003).",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly discusses disaster risk management (gesti\u00f3n del riesgo de desastres) as a means to reduce vulnerability and strengthen community adaptive capacities, including identifying, reducing, forecasting, and controlling risks.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2193,
+        "output_tokens": 236,
+        "total_tokens": 2429,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 116,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:22.262070+00:00"
+  }
+}

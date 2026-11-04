@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "d4ccbd1f7505989a3c6026ae03467e7d118a2c8de385bb434e20fc0f20c77557",
+  "full_payload_hash": "770686145b43ca6f4f9fa99eff0a54c29cd090a604e42375b2e3cde59ae5e0b6",
+  "envelope_header_hash": "bc11a4469f8ac3f999e989840845279a6284196945ccbf5eee58899fe584af10",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1186_s12245-025-01000-4",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1186_s12245-025-01000-4",
+            "document_sha256": "8a4be582a1a0ebb8c5527fb14aa9dd5b8b93de30b49f3413d261e362ae29c8f9",
+            "chunk_id": "arm2b-10_1186_s12245-025-01000-4-I3_governance_dimension-1",
+            "section": null,
+            "page": 9,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "A critical comparison of these country-specific findings suggests that structural resilience tends to be prioritized in settings where governmental enforcement of building codes is strong (e.g., Tehran), whereas functional preparedness measures, such as surge capacity planning and communication protocols, are more consistent in politically stable, higher-income contexts (e.g., Lebanon). These patterns highlight that resilience outcomes are shaped not only by financial investment but also by governance structures, regulatory enforcement, and interagency collaboration.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document critically compares how regulatory enforcement, financial investment, governance structures, and interagency collaboration shape resilience outcomes, providing substantive governance-related analysis in a seismic-risk/resilience context.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2326,
+        "output_tokens": 167,
+        "total_tokens": 2493,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 55,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:33.319363+00:00"
+  }
+}

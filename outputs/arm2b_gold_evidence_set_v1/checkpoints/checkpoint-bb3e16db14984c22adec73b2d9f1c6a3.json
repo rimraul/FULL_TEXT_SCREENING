@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "1e53aac0ea65b9f29a816cb0e517ea151e2b77200e5b7a50ec492ccd1071dee1",
+  "full_payload_hash": "bba8529e2ef0613b2a89315e7a85188f94af190a82ae6d77783559682778af28",
+  "envelope_header_hash": "1463e89168af2871f8b847f836b53ee9fb70f8cf372222ebf7687d9794758955",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1080_17565529_2021_1906203",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1080_17565529_2021_1906203",
+            "document_sha256": "52ba6a1832146eacbe510002252a5d26deda466caca43a1f136cc0e0fad903a3",
+            "chunk_id": "arm2b-10_1080_17565529_2021_1906203-I2_drr_hazard_framing-0",
+            "section": null,
+            "page": 5,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Selected papers are relevant for urban planning, as\nselected cases link the built environment with the adverse\neffects of weather extremes that can be addressed through governance\nas planning concerns (i.e. flooding, landslides,\nextreme heat events, drought, heavy precipitation events, tropical\ncyclones, and sea level rise) (UN-Habitat, 2011).",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly frames urban-planning concerns around adverse weather extremes and names hazards including flooding, landslides, heat events, drought, cyclones, and sea-level rise.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2120,
+        "output_tokens": 110,
+        "total_tokens": 2230,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:14.145625+00:00"
+  }
+}

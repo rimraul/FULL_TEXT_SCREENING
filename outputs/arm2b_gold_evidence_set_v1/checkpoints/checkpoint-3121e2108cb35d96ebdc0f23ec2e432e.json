@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "b26109426043d0e663fccc7f55b2ae28361c91b3ed789e79b6c41dc6d75c371d",
+  "full_payload_hash": "5876ea761c381a1b04bdd9fc86aa79d229487fc340c5c1b119b5266b23196931",
+  "envelope_header_hash": "999e29e1052eefc10ff9d3d5d60d5c0b659afadf8249afb034e55d50036236c4",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1108_dpm-06-2023-0128",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1108_dpm-06-2023-0128",
+            "document_sha256": "2b62a0c20110fcd3b1b52c735fe848fb82bc22e3fb694c9d039b613af59a52b1",
+            "chunk_id": "arm2b-10_1108_dpm-06-2023-0128-I1_review_type-0",
+            "section": null,
+            "page": 4,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Thirdly, the retrieved literature was screened. Titles, abstracts and full texts of the\nselected papers were reviewed to understand their relevance to the research objective. Among\nthe reviewed studies, 52 irrelevant studies were excluded while the 102 relevant ones were\nretained.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document describes retrieving, screening, and retaining relevant published studies, which directly indicates a literature-review methodology rather than a single primary empirical study or purely conceptual paper.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2087,
+        "output_tokens": 202,
+        "total_tokens": 2289,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 95,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:45.065831+00:00"
+  }
+}

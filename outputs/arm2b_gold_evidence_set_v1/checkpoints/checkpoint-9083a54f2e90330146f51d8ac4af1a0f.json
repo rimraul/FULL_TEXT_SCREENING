@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "bdb9d6c3bd9cab84e01715407cc966057ad7c99918432640fa6bbec9dee75cf8",
+  "full_payload_hash": "dbb8f0fbe3ba6d599f323aa7521eacf6e1785e09a1195f2fbdc86b3bf2f23603",
+  "envelope_header_hash": "a7d3b413afb426bacadfa63c0f57710bce6846f770bed866da3569d4808b2e87",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_5194_nhess-12-2923-2012",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_5194_nhess-12-2923-2012",
+            "document_sha256": "5e6e1d505b37371af2f58d100cd380e597c1f360b4e966ac56a971f2d4fe7887",
+            "chunk_id": "arm2b-10_5194_nhess-12-2923-2012-I3_governance_dimension-1",
+            "section": null,
+            "page": 11,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "This sub-section presents the author analysis on the roles, interlinkages and collaborations between the MSPs, utilising Biermann et al. (2007) framework on partnership implementation. Figure 3 shows the relationships between the selected MSPs, horizontally (on the same geographical scale) and also vertically (across different scales). The arrows represent different activities and types of support between the MSPs: financial resources, technical capacity and assistance in DRR coordination. In general, there are more horizontal connections at the global level while the vertical relationships between the MSPs have mainly developed along the lines of the formation of the GPDRR, and the supporting regional, national and local MSPs, as part of the UNISDR system.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document substantively analyses partnerships and multilevel governance among multi-stakeholder platforms, including horizontal and vertical relationships, financial and technical support, and DRR coordination.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2288,
+        "output_tokens": 146,
+        "total_tokens": 2434,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 35,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:50.503436+00:00"
+  }
+}

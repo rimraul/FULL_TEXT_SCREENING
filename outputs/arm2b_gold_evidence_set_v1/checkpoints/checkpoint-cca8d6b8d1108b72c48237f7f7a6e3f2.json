@@ -1,0 +1,83 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "ac70b8744c088756844273e3c3bc7ee161873490df991ef5eb4f6dcd204cfe5c",
+  "full_payload_hash": "1a153b4b1c735f12fb8955df56f3e8e47b6fa6a0c829f53dbd3448ec80d86146",
+  "envelope_header_hash": "0e06f31b36bab3e2ec4cabd82a155348c5a229f51cf2d342994a3f83051eb00b",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1080_13669877_2017_1351466",
+    "criterion_id": "I2_drr_hazard_framing",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I2_drr_hazard_framing",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1080_13669877_2017_1351466",
+            "document_sha256": "672e5e913122734960417871de3b1615a8fcdf71d4c7361fbc117555c7bd5be7",
+            "chunk_id": "arm2b-10_1080_13669877_2017_1351466-I2_drr_hazard_framing-0",
+            "section": null,
+            "page": 8,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "3.3. Cluster 3: disaster risk management (13 authors, 12 publications)",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_1080_13669877_2017_1351466",
+            "document_sha256": "672e5e913122734960417871de3b1615a8fcdf71d4c7361fbc117555c7bd5be7",
+            "chunk_id": "arm2b-10_1080_13669877_2017_1351466-I2_drr_hazard_framing-1",
+            "section": null,
+            "page": 8,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "The disaster risk management (DRM) cluster as represented by the authors included through the\nmethodology is about the cooperative governance of natural hazards through preventing or limiting\nvulnerabilities to disaster. It differs from the other clusters in that it is about the governance of natural\nhazards such as flood risks, forest fires and landslides, including the disaster that follows. This differentiation\nof the subject area results in a certain distinctiveness in how the authors in this cluster look at\nrisk, governance and public engagement in relation to complex environmental issues. Nevertheless,\ncross-collaborative learning can be achieved by comparing and contrasting this body of literature with\nthe other clusters. It has therefore been decided to elaborate on this group separately even though\nthe publications could have been categorized within the public engagement (see: Challies et al. 2016;",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          },
+          {
+            "document_id": "10_1080_13669877_2017_1351466",
+            "document_sha256": "672e5e913122734960417871de3b1615a8fcdf71d4c7361fbc117555c7bd5be7",
+            "chunk_id": "arm2b-10_1080_13669877_2017_1351466-I2_drr_hazard_framing-2",
+            "section": null,
+            "page": 9,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Newig et al. 2016), environmental science, policy and governance (see: Oen et al. 2010; Sparrevik and\nBreedveld 2010) and risk governance (see: Fleischhauer et al. 2012; Greiving et al. 2012; Komendantova\net al. 2014; Kuhlicke, Callsen, and Begg 2016; Scolobig 2015; Scolobig et al. 2014; Scolobig, Thompson,\nand Linnerooth-Bayer 2015; Wachinger et al. 2013) clusters based on the theoretical approach taken.\nWithin DRM it is argued that economic losses and the number of people affected by natural hazards\nwill continue to grow even though the knowledge on geophysical, sociological, and economical aspects is\nincreasing (Komendantova et al. 2014). Hazards might happen more frequently but they also increasingly\ntrigger other disasters and cascading effects (Komendantova et al. 2014). Furthermore, the successful management\nof disasters is limited because of social, cultural, technical, and institutional barriers (Greiving et al.\n2012; Scolobig et al. 2014). Decisions for disaster management are usually based on an engineering approach\nwith probabilities and statistics from a specific time period in the past (Greiving et al. 2012). However, these\ndata are no longer representative for longer periods and future governance because of a wide variety of\nclimate-change related effects that have led to new uncertainties (Greiving et al. 2012). The role of science\nconcerning disasters is therefore problematic because it can neither guarantee safety nor give a proof of risk\n(Fleischhauer et al. 2012; Greiving et al. 2012). Therefore, it is widely acknowledged that the involvement of\nthe public in assessing, reviewing and updating the risk governance process could improve the quality of\nthe decision-making process by incorporating local knowledge and risk perceptions in addition to scientific\nknowledge (Fleischhauer et al. 2012; Kuhlicke, Callsen, and Begg 2016; Newig et al. 2016; Oen et al. 2010;\nWachinger et al. 2013). It is argued that this is especially important in natural hazards such as flood risks to\nget everyone involved from the start of the process onwards because people potentially affected by these\nhazards have to work together in managing them (Fleischhauer et al. 2012). It also increases legitimacy,\ntransparency and trust in authorities, experts and the process (Fleischhauer et al. 2012; Scolobig, Thompson,\nand Linnerooth-Bayer 2015; Wachinger et al. 2013). A limitation is that little research has been done on how\ndecision-makers design and conduct participatory environmental governance approaches (Newig et al.\n2016). This causes a lack of understanding in how policy-makers, consultants and scientists can collaborate\nand learn from governance approaches and thus improve it in both practice and theory through aspects\nsuch as existing networks, experimentation, evidence, and procedural aspects (Newig et al. 2016).\nIn summary, the inclusion of the public in disaster risk management is widely acknowledged as the\nright course of action to overcome current issues, raise awareness, avoid controversies, and distribute\npower more equally (Greiving et al. 2012; Scolobig, Thompson, and Linnerooth-Bayer 2015; Wachinger\net al. 2013). Ontologically and epistemologically the authors in the cluster largely share the same foundations\nas those in the risk governance cluster although there is a bit more emphasis on the inclusion\nof lay knowledge and the questioning of scientific knowledge, largely due to the different nature of\nnatural hazards and the disasters that could follow. The authors argue that public engagement is one\nof the key solutions to improve uncertainty and knowledge-making because local knowledge, risk\nperceptions, and collaborative management of disasters could improve the decision-making process\nif used in addition to scientific knowledge. Nevertheless, the structured search strategy and the literature\nselection process that have shaped this cluster show literature with an underdeveloped practiceoriented\ncomponent. It is however likely that this is addressed in other sources of literature that can be\nfound using different search criteria as well as in different publication channels such as government and\nthink tank reports. For the scope of the publications included for this cluster however, the relationship\nbetween risk governance and public engagement can be described as the inclusion of lay knowledge\nand risk perceptions in DRM to cooperatively limit or prevent disaster.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document explicitly discusses disaster risk management, natural hazards (including floods, fires, and landslides), disasters, and preventing or limiting vulnerability to disaster.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 3319,
+        "output_tokens": 168,
+        "total_tokens": 3487,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:37.446670+00:00"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "0d13948c909696ebae3ee690bbc5714e4b5bf585b3127a4d11c908f8f3684034",
+  "full_payload_hash": "3c4ed09bdcb4486e5a87f6cc69991cdfae7278fccda22b558e8a142899395f65",
+  "envelope_header_hash": "2e1a2e8acde7ec9dc2551670c01addb48d116111b274b45ade94d52aa9a12b5e",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3390_smartcities7060147",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_3390_smartcities7060147",
+            "document_sha256": "481c57718364bdea56dae6192e106eaf643d787df40d9443f6432c0faf767e45",
+            "chunk_id": "arm2b-10_3390_smartcities7060147-I1_review_type-0",
+            "section": null,
+            "page": 10,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "The study adheres to the approach outlined in the Preferred Reporting Items for\nSystematic Reviews and Meta-Analyses (PRISMA) [132] format, which was developed by a\nconsortium of medical researchers to enhance the transparency, reliability, and accuracy\nof systematic literature reviews.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document states that it follows the PRISMA format for systematic literature reviews, directly indicating a review-type literature synthesis.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2087,
+        "output_tokens": 89,
+        "total_tokens": 2176,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:34.788161+00:00"
+  }
+}

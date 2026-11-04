@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "843ea49facb475ebcb5ea5913e82294b1480fb5a08a679962a123d0f206dfcc4",
+  "full_payload_hash": "a9a3970841a695e7082d389f8b42570a201223f92a7ca3796bbbe8e4cd7476d8",
+  "envelope_header_hash": "d0ffa8f3c6df50a2f673cb2f19ba827217ab78a379899d6e30d56e47b103501a",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1080_17565529_2021_1906203",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1080_17565529_2021_1906203",
+            "document_sha256": "52ba6a1832146eacbe510002252a5d26deda466caca43a1f136cc0e0fad903a3",
+            "chunk_id": "arm2b-10_1080_17565529_2021_1906203-I1_review_type-0",
+            "section": null,
+            "page": 5,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Results of this study rely on the systematic review of 24 peerreviewed\nacademic articles which present 31 empirical cases of\ngovernance for urban resilience in popular settlements in\ndeveloping countries. All articles were identified using Scopus\nand Web of Knowledge databases.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document states that its results rely on a systematic review of 24 peer-reviewed articles identified through academic databases, indicating synthesis of existing published literature.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2089,
+        "output_tokens": 99,
+        "total_tokens": 2188,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:08.732481+00:00"
+  }
+}

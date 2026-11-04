@@ -1,0 +1,37 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "2c538e0f627b0b657c787b7ee873b84cf32047b393b98201e415e1cf65e42192",
+  "full_payload_hash": "0245c042cc12477a47de2accb2752d6b4d9abb21e370ce6f13d6ce8b87704630",
+  "envelope_header_hash": "71941fecc8e68de042d60bc67f93a377594eb281e1d88a56bbb8b1383ffc242d",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_5194_nhess-12-2923-2012",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "unclear",
+        "evidence": [],
+        "rationale": "The document includes a section titled \u201cConceptual review\u201d and refers to literature reviews, but the excerpts do not establish that it is a literature-synthesis review-type study. The mention of in-depth interviews is insufficient on its own to classify it as a primary empirical study rather than a review.",
+        "requires_human_review": true,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2121,
+        "output_tokens": 249,
+        "total_tokens": 2370,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 141,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:21:46.453935+00:00"
+  }
+}

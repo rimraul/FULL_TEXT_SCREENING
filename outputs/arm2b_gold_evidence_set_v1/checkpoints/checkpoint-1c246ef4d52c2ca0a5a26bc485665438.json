@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "b9ba101ff05a9bacd323b90a9e42dcb115e372a3f4d184a47f6de1e937497d17",
+  "full_payload_hash": "dd9d880d0d05573026eafedec5295a52996766b510b3b74ec8a46337d33e7a6f",
+  "envelope_header_hash": "79a23e55f530c5ca5cdae97214b475031095ae52d4a2cadbe53b6070af594030",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1080_17565529_2021_1906203",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_1080_17565529_2021_1906203",
+            "document_sha256": "52ba6a1832146eacbe510002252a5d26deda466caca43a1f136cc0e0fad903a3",
+            "chunk_id": "arm2b-10_1080_17565529_2021_1906203-I3_governance_dimension-1",
+            "section": null,
+            "page": 7,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "Placing the needs of vulnerable communities at the centre of decision-making processes is at the core of governance for the resilience of popular settlements. For this to occur, the reasons of the exclusion of vulnerable communities from effectively participating in governance must be addressed. The majority of analyzed cases support the idea that fruitful governance outcomes for resilience rest upon these two factors.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The document substantively discusses community participation in resilience governance, including exclusion of vulnerable communities from effective participation in decision-making.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2256,
+        "output_tokens": 154,
+        "total_tokens": 2410,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 53,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:16.883153+00:00"
+  }
+}

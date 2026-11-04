@@ -1,0 +1,53 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "7073f11d9ad45f1d8797f53e84057382875b0e8a34e44f536c5132cda40a6a0c",
+  "full_payload_hash": "295bcc5366e7800c795c1964708d914eaabd4278a4e39b0c2d8037eaffa9d911",
+  "envelope_header_hash": "e8ba3cea19655988dddd698b4f942eed48d104d93cd4aa28cad4a4139a960f52",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_3389_fenvs_2024_1496813",
+    "criterion_id": "I1_review_type",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I1_review_type",
+        "criterion_version": "1",
+        "status": "satisfied",
+        "evidence": [
+          {
+            "document_id": "10_3389_fenvs_2024_1496813",
+            "document_sha256": "ed26b4861587f32a72b4e2a9bc86928636adb6265c434a355c82ce9a91d42460",
+            "chunk_id": "arm2b-10_3389_fenvs_2024_1496813-I1_review_type-0",
+            "section": null,
+            "page": 2,
+            "start_char": null,
+            "end_char": null,
+            "excerpt": "The systematic review was executed using the\nprotocols established by the Cochrane Qualitative and\nImplementation Methods Group.",
+            "stance": "supports",
+            "retrieval_method": "gold_evidence_set_human_reviewed",
+            "retrieval_query_version": "arm2b-human-reviewed-evidence-v1",
+            "rank": null,
+            "score": null
+          }
+        ],
+        "rationale": "The excerpt explicitly identifies the work as a systematic review executed using established review protocols, directly meeting the review-type requirement.",
+        "requires_human_review": false,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2056,
+        "output_tokens": 92,
+        "total_tokens": 2148,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 0,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:20:41.907745+00:00"
+  }
+}

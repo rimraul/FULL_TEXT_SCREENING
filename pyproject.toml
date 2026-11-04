@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ft-screening"
+version = "0.1.0.dev0"
+description = "Full-text eligibility screening for systematic/scoping literature reviews"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.9",
+    # codex_code_review_1578af2.md finding 1: document.py imports this in
+    # production; it was undeclared, so a clean `pip install -e .` did not
+    # install what the shipped code actually requires. Pinned narrowly
+    # (patch-only flexibility) rather than a loose floor -- this is the
+    # exact version this project's document.py/tests were validated
+    # against (2026-08-13); Docling's API has moved fast historically, and
+    # widening this range is a deliberate future decision, not a default.
+    "docling>=2.61.2,<2.62",
+    # adjudication.py's OpenAIChatCompletionTransport imports this in
+    # production. Pinned narrowly to the exact version hands-on validated
+    # in this env (2026-08-14) -- same convention as docling above.
+    "openai>=2.7.2,<2.8",
+    # gold.py's freeze_gold_set() imports this in production (real
+    # PDF page-count verification, codex_code_review_772916e.md finding
+    # 3) -- moved from dev-only per the exact lesson already learned once
+    # with docling above: a module under src/ importing something in
+    # production makes it a runtime dependency, not a dev one, regardless
+    # of how many tests also happen to use it for fixture generation.
+    "pymupdf>=1.27.2,<1.28",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+# codex_code_review_afeba09.md finding 1: setuptools does NOT ship non-.py
+# files inside a package by default -- a real wheel build was inspected
+# directly and confirmed docling_artifacts.py was included but
+# docling_artifacts_manifest.json was NOT, so an installed (non-editable)
+# wheel would fail load_manifest()/validate() with FileNotFoundError, a
+# gap the editable/source checkout used for all prior testing masked
+# entirely. See test_wheel_contents.py for the regression test.
+ft_screening = ["docling_artifacts_manifest.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "slow: real-PDF/real-library tests (Docling conversion, etc.) that take seconds to minutes each -- excluded by default (see addopts); run explicitly with `pytest -m slow` or a specific path.",
+    "real_pdf: additionally requires FT_SCREENING_REAL_PDF_DIR to point at a local directory of real PDFs -- skipped even under `-m slow` unless that env var is set (no real papers are committed to this repo).",
+    "real_llm: makes one real, cost-bounded call to a real LLM provider -- requires OPENAI_API_KEY AND FT_SCREENING_RUN_REAL_LLM_TEST=1 to both be set (skipped even under `-m slow` otherwise, so no one accidentally spends money just by having an API key configured for something else).",
+]
+addopts = "-m 'not slow'"

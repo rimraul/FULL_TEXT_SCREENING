@@ -1,0 +1,37 @@
+{
+  "envelope_schema_version": "1",
+  "artifact_type": "GoldEvidenceCriterionCheckpoint",
+  "content_hash": "47720cf9ed41dda2a25e4445297e98d6022cf7a09e3d130c26c34c99ab94e6fa",
+  "full_payload_hash": "587f9d24db728451bf339bbb3e8339679cea54753d50b8f21eca7313fdb1d8c7",
+  "envelope_header_hash": "0756f4577f57b6d98b038510140cb8bf628cf71ab0e2edf5dca76df68638cb32",
+  "payload": {
+    "execution_identity_hash": "30d7510f4d9150490b1d24d3978cafc268f19d7ad699385ce6202192615875af",
+    "document_id": "10_1051_bioconf_202519300057",
+    "criterion_id": "I3_governance_dimension",
+    "outcome": {
+      "assessment": {
+        "criterion_id": "I3_governance_dimension",
+        "criterion_version": "1",
+        "status": "unclear",
+        "evidence": [],
+        "rationale": "The excerpt is only a section heading referring to DRR strategies and community involvement; it does not provide substantive analysis of a listed governance dimension.",
+        "requires_human_review": true,
+        "model": "gpt-5.6-terra",
+        "prompt_template_version": "adjudication-prompt-6",
+        "output_schema_version": "adjudication-schema-2"
+      },
+      "usage": {
+        "model": "gpt-5.6-terra",
+        "input_tokens": 2089,
+        "output_tokens": 133,
+        "total_tokens": 2222,
+        "provider_call_count": 1,
+        "retry_count": 0,
+        "usage_available": true,
+        "reasoning_tokens": 55,
+        "provider_returned_model": "gpt-5.6-terra"
+      }
+    },
+    "checkpointed_at": "2026-08-20T11:19:58.219138+00:00"
+  }
+}

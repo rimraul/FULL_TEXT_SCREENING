@@ -42,3 +42,9 @@ Nothing calls a paid API by default. Real calls need `OPENAI_API_KEY` **and**
 
 Code: MIT (`LICENSE`). Third-party dependencies keep their own licences; note
 in particular that **PyMuPDF is AGPL-3.0** (see `THIRD_PARTY.md`).
+
+## Maintenance
+
+Provided as-is for readers of the accompanying chapter. Issues and pull
+requests may go unanswered; forking is encouraged. See `CONTRIBUTING.md` and
+`SECURITY.md`. If you use this software, see `CITATION.cff`.

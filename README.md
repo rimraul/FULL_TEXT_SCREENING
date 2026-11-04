@@ -1,5 +1,7 @@
 # FULL_TEXT_SCREENING
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23942667.svg)](https://doi.org/10.5281/zenodo.23942667)
+
 Full-text eligibility screening for systematic and scoping literature reviews:
 PDF parsing (Docling), criterion-by-criterion LLM adjudication with page-level
 evidence spans, aggregation into an auditable eligibility decision, and an
